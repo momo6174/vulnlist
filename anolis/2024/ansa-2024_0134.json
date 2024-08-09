@@ -1,0 +1,756 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Low"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0134",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "openssl security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0134",
+    "tracking": {
+      "current_release_date": "2024-04-03 16:42:49",
+      "id": "ANSA-2024:0134",
+      "initial_release_date": "2024-04-03 16:42:49",
+      "revision_history": [
+        {
+          "date": "2024-04-03 16:42:49",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "openssl-1.1.1k-12.0.1.an8.aarch64",
+                "product": {
+                  "name": "openssl-1.1.1k-12.0.1.an8.aarch64",
+                  "product_id": "openssl-1.1.1k-12.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+                "product": {
+                  "name": "openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+                  "product_id": "openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+                "product": {
+                  "name": "openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+                  "product_id": "openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+                "product": {
+                  "name": "openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+                  "product_id": "openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "openssl-1.1.1k-12.0.1.an8.loongarch64",
+                "product": {
+                  "name": "openssl-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_id": "openssl-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+                "product": {
+                  "name": "openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_id": "openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+                "product": {
+                  "name": "openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_id": "openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+                "product": {
+                  "name": "openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_id": "openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "openssl-1.1.1k-12.0.1.an8.src",
+                "product": {
+                  "name": "openssl-1.1.1k-12.0.1.an8.src",
+                  "product_id": "openssl-1.1.1k-12.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "openssl-1.1.1k-12.0.1.an8.x86_64",
+                "product": {
+                  "name": "openssl-1.1.1k-12.0.1.an8.x86_64",
+                  "product_id": "openssl-1.1.1k-12.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+                "product": {
+                  "name": "openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+                  "product_id": "openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+                "product": {
+                  "name": "openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+                  "product_id": "openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "openssl-perl-1.1.1k-12.0.1.an8.x86_64",
+                "product": {
+                  "name": "openssl-perl-1.1.1k-12.0.1.an8.x86_64",
+                  "product_id": "openssl-perl-1.1.1k-12.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-1.1.1k-12.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64"
+        },
+        "product_reference": "openssl-1.1.1k-12.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-devel-1.1.1k-12.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64"
+        },
+        "product_reference": "openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-libs-1.1.1k-12.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64"
+        },
+        "product_reference": "openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-perl-1.1.1k-12.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64"
+        },
+        "product_reference": "openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-1.1.1k-12.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64"
+        },
+        "product_reference": "openssl-1.1.1k-12.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-devel-1.1.1k-12.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64"
+        },
+        "product_reference": "openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-libs-1.1.1k-12.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64"
+        },
+        "product_reference": "openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-perl-1.1.1k-12.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+        },
+        "product_reference": "openssl-perl-1.1.1k-12.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-1.1.1k-12.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src"
+        },
+        "product_reference": "openssl-1.1.1k-12.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-1.1.1k-12.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64"
+        },
+        "product_reference": "openssl-1.1.1k-12.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-devel-1.1.1k-12.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64"
+        },
+        "product_reference": "openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-libs-1.1.1k-12.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64"
+        },
+        "product_reference": "openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "openssl-perl-1.1.1k-12.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64"
+        },
+        "product_reference": "openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-3446",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-3446"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Issue summary: Checking excessively long DH keys or parameters may be very slow.\n\nImpact summary: Applications that use the functions DH_check(), DH_check_ex()\nor EVP_PKEY_param_check() to check a DH key or DH parameters may experience long\ndelays. Where the key or parameters that are being checked have been obtained\nfrom an untrusted source this may lead to a Denial of Service.\n\nThe function DH_check() performs various checks on DH parameters. One of those\nchecks confirms that the modulus ('p' parameter) is not too large. Trying to use\na very large modulus is slow and OpenSSL will not normally use a modulus which\nis over 10,000 bits in length.\n\nHowever the DH_check() function checks numerous aspects of the key or parameters\nthat have been supplied. Some of those checks use the supplied modulus value\neven if it has already been found to be too large.\n\nAn application that calls DH_check() and supplies a key or parameters obtained\nfrom an untrusted source could be vulernable to a Denial of Service attack.\n\nThe function DH_check() is itself called by a number of other OpenSSL functions.\nAn application calling any of those other functions may similarly be affected.\nThe other functions affected by this are DH_check_ex() and\nEVP_PKEY_param_check().\n\nAlso vulnerable are the OpenSSL dhparam and pkeyparam command line applications\nwhen using the '-check' option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\nThe OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-19 12:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-3446"
+    },
+    {
+      "cve": "CVE-2023-3817",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-3817"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Issue summary: Checking excessively long DH keys or parameters may be very slow.\n\nImpact summary: Applications that use the functions DH_check(), DH_check_ex()\nor EVP_PKEY_param_check() to check a DH key or DH parameters may experience long\ndelays. Where the key or parameters that are being checked have been obtained\nfrom an untrusted source this may lead to a Denial of Service.\n\nThe function DH_check() performs various checks on DH parameters. After fixing\nCVE-2023-3446 it was discovered that a large q parameter value can also trigger\nan overly long computation during some of these checks. A correct q value,\nif present, cannot be larger than the modulus p parameter, thus it is\nunnecessary to perform these checks if q is larger than p.\n\nAn application that calls DH_check() and supplies a key or parameters obtained\nfrom an untrusted source could be vulnerable to a Denial of Service attack.\n\nThe function DH_check() is itself called by a number of other OpenSSL functions.\nAn application calling any of those other functions may similarly be affected.\nThe other functions affected by this are DH_check_ex() and\nEVP_PKEY_param_check().\n\nAlso vulnerable are the OpenSSL dhparam and pkeyparam command line applications\nwhen using the \"-check\" option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\n\nThe OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-31 08:15:10",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-3817"
+    },
+    {
+      "cve": "CVE-2023-5678",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-5678"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Issue summary: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow. Impact summary: Applications that use the functions DH_generate_key() to generate an X9.42 DH key may experience long delays. Likewise, applications that use DH_check_pub_key(), DH_check_pub_key_ex() or EVP_PKEY_public_check() to check an X9.42 DH key or X9.42 DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service. While DH_check() performs all the necessary checks (as of CVE-2023-3817), DH_check_pub_key() doesn't make any of these checks, and is therefore vulnerable for excessively large P and Q parameters. Likewise, while DH_generate_key() performs a check for an excessively large P, it doesn't check for an excessively large Q. An application that calls DH_generate_key() or DH_check_pub_key() and supplies a key or parameters obtained from an untrusted source could be vulnerable to a Denial of Service attack. DH_generate_key() and DH_check_pub_key() are also called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_pub_key_ex(), EVP_PKEY_public_check(), and EVP_PKEY_generate(). Also vulnerable are the OpenSSL pkey command line application when using the \"-pubcheck\" option, as well as the OpenSSL genpkey command line application. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+          "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+          "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.src",
+            "Anolis OS 8:openssl-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-devel-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-libs-1.1.1k-12.0.1.an8.x86_64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.aarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.loongarch64",
+            "Anolis OS 8:openssl-perl-1.1.1k-12.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-24 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-5678"
+    }
+  ]
+}
