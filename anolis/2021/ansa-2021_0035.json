@@ -1,0 +1,395 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0035",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "polkit security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0035",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:51:05",
+      "id": "ANSA-2021:0035",
+      "initial_release_date": "2022-03-28 18:49:51",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:49:51",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:51:05",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "polkit-0.115-11.an8_4.1.aarch64",
+                "product": {
+                  "name": "polkit-0.115-11.an8_4.1.aarch64",
+                  "product_id": "polkit-0.115-11.an8_4.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "polkit-devel-0.115-11.an8_4.1.aarch64",
+                "product": {
+                  "name": "polkit-devel-0.115-11.an8_4.1.aarch64",
+                  "product_id": "polkit-devel-0.115-11.an8_4.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "polkit-libs-0.115-11.an8_4.1.aarch64",
+                "product": {
+                  "name": "polkit-libs-0.115-11.an8_4.1.aarch64",
+                  "product_id": "polkit-libs-0.115-11.an8_4.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "polkit-docs-0.115-11.an8_4.1.noarch",
+                "product": {
+                  "name": "polkit-docs-0.115-11.an8_4.1.noarch",
+                  "product_id": "polkit-docs-0.115-11.an8_4.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "polkit-0.115-11.an8_4.1.src",
+                "product": {
+                  "name": "polkit-0.115-11.an8_4.1.src",
+                  "product_id": "polkit-0.115-11.an8_4.1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "polkit-0.115-11.an8_4.1.x86_64",
+                "product": {
+                  "name": "polkit-0.115-11.an8_4.1.x86_64",
+                  "product_id": "polkit-0.115-11.an8_4.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "polkit-devel-0.115-11.an8_4.1.x86_64",
+                "product": {
+                  "name": "polkit-devel-0.115-11.an8_4.1.x86_64",
+                  "product_id": "polkit-devel-0.115-11.an8_4.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "polkit-libs-0.115-11.an8_4.1.x86_64",
+                "product": {
+                  "name": "polkit-libs-0.115-11.an8_4.1.x86_64",
+                  "product_id": "polkit-libs-0.115-11.an8_4.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-0.115-11.an8_4.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-0.115-11.an8_4.1.aarch64"
+        },
+        "product_reference": "polkit-0.115-11.an8_4.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-devel-0.115-11.an8_4.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.aarch64"
+        },
+        "product_reference": "polkit-devel-0.115-11.an8_4.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-libs-0.115-11.an8_4.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.aarch64"
+        },
+        "product_reference": "polkit-libs-0.115-11.an8_4.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-0.115-11.an8_4.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-0.115-11.an8_4.1.x86_64"
+        },
+        "product_reference": "polkit-0.115-11.an8_4.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-devel-0.115-11.an8_4.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.x86_64"
+        },
+        "product_reference": "polkit-devel-0.115-11.an8_4.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-libs-0.115-11.an8_4.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.x86_64"
+        },
+        "product_reference": "polkit-libs-0.115-11.an8_4.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-0.115-11.an8_4.1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-0.115-11.an8_4.1.src"
+        },
+        "product_reference": "polkit-0.115-11.an8_4.1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "polkit-docs-0.115-11.an8_4.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:polkit-docs-0.115-11.an8_4.1.noarch"
+        },
+        "product_reference": "polkit-docs-0.115-11.an8_4.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-3560",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-3560"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:polkit-0.115-11.an8_4.1.aarch64",
+          "Anolis OS 8:polkit-0.115-11.an8_4.1.src",
+          "Anolis OS 8:polkit-0.115-11.an8_4.1.x86_64",
+          "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.aarch64",
+          "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.x86_64",
+          "Anolis OS 8:polkit-docs-0.115-11.an8_4.1.noarch",
+          "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.aarch64",
+          "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:polkit-0.115-11.an8_4.1.aarch64",
+            "Anolis OS 8:polkit-0.115-11.an8_4.1.src",
+            "Anolis OS 8:polkit-0.115-11.an8_4.1.x86_64",
+            "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.aarch64",
+            "Anolis OS 8:polkit-devel-0.115-11.an8_4.1.x86_64",
+            "Anolis OS 8:polkit-docs-0.115-11.an8_4.1.noarch",
+            "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.aarch64",
+            "Anolis OS 8:polkit-libs-0.115-11.an8_4.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-07-05 10:09:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-3560"
+    }
+  ]
+}
