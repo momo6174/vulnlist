@@ -1,0 +1,916 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0325",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "systemd security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0325",
+    "tracking": {
+      "current_release_date": "2023-07-25 16:39:03",
+      "id": "ANSA-2023:0325",
+      "initial_release_date": "2023-07-01 23:02:55",
+      "revision_history": [
+        {
+          "date": "2023-07-01 23:02:55",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-07-25 16:39:03",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "systemd-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-container-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-container-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-container-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-devel-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-devel-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-devel-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-journal-remote-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-journal-remote-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-journal-remote-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-libs-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-libs-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-libs-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-pam-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-pam-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-pam-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-tests-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-tests-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-tests-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-udev-239-74.0.2.an8.aarch64",
+                "product": {
+                  "name": "systemd-udev-239-74.0.2.an8.aarch64",
+                  "product_id": "systemd-udev-239-74.0.2.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "systemd-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-container-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-container-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-container-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-devel-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-devel-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-devel-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-journal-remote-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-journal-remote-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-journal-remote-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-libs-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-libs-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-libs-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-pam-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-pam-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-pam-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-tests-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-tests-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-tests-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-udev-239-74.0.2.an8.loongarch64",
+                "product": {
+                  "name": "systemd-udev-239-74.0.2.an8.loongarch64",
+                  "product_id": "systemd-udev-239-74.0.2.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "systemd-239-74.0.2.an8.src",
+                "product": {
+                  "name": "systemd-239-74.0.2.an8.src",
+                  "product_id": "systemd-239-74.0.2.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "systemd-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-container-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-container-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-container-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-devel-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-devel-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-devel-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-journal-remote-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-journal-remote-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-journal-remote-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-libs-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-libs-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-libs-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-pam-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-pam-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-pam-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-tests-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-tests-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-tests-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "systemd-udev-239-74.0.2.an8.x86_64",
+                "product": {
+                  "name": "systemd-udev-239-74.0.2.an8.x86_64",
+                  "product_id": "systemd-udev-239-74.0.2.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-container-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-container-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-container-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-devel-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-devel-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-devel-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-journal-remote-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-journal-remote-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-libs-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-libs-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-libs-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-pam-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-pam-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-pam-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-tests-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-tests-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-tests-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-udev-239-74.0.2.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-udev-239-74.0.2.an8.aarch64"
+        },
+        "product_reference": "systemd-udev-239-74.0.2.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-container-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-container-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-container-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-devel-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-devel-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-devel-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-journal-remote-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-journal-remote-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-libs-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-libs-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-libs-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-pam-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-pam-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-pam-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-tests-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-tests-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-tests-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-udev-239-74.0.2.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-udev-239-74.0.2.an8.x86_64"
+        },
+        "product_reference": "systemd-udev-239-74.0.2.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-239-74.0.2.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-239-74.0.2.an8.src"
+        },
+        "product_reference": "systemd-239-74.0.2.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-container-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-container-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-container-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-devel-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-devel-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-devel-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-journal-remote-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-journal-remote-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-libs-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-libs-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-libs-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-pam-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-pam-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-pam-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-tests-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-tests-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-tests-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "systemd-udev-239-74.0.2.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:systemd-udev-239-74.0.2.an8.loongarch64"
+        },
+        "product_reference": "systemd-udev-239-74.0.2.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-26604",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-26604"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A vulnerability was found in the systemd package. The systemd package does not adequately block local privilege escalation for some Sudo configurations, for example, plausible sudoers files, in which the \"systemctl status\" command may be executed. Specifically, systemd does not set LESSSECURE to 1, and thus other programs may be launched from the less program. This issue presents a substantial security risk when running systemctl from Sudo because less executes as root when the terminal size is too small to show the complete systemctl output.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:systemd-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-239-74.0.2.an8.src",
+          "Anolis OS 8:systemd-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:systemd-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-239-74.0.2.an8.src",
+            "Anolis OS 8:systemd-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-03-04 00:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-26604"
+    },
+    {
+      "cve": "CVE-2022-3821",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-3821"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:systemd-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-239-74.0.2.an8.src",
+          "Anolis OS 8:systemd-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-container-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-devel-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-libs-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-pam-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-tests-239-74.0.2.an8.x86_64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.aarch64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.loongarch64",
+          "Anolis OS 8:systemd-udev-239-74.0.2.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:systemd-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-239-74.0.2.an8.src",
+            "Anolis OS 8:systemd-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-container-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-devel-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-journal-remote-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-libs-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-pam-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-tests-239-74.0.2.an8.x86_64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.aarch64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.loongarch64",
+            "Anolis OS 8:systemd-udev-239-74.0.2.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-11-08 22:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-3821"
+    }
+  ]
+}
