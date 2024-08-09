@@ -1,0 +1,1495 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0067",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "sssd security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0067",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:51:11",
+      "id": "ANSA-2021:0067",
+      "initial_release_date": "2022-03-28 18:50:00",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:50:00",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:51:11",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-sss-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "python3-sss-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "python3-sss-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ad-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-ad-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-ad-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-client-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-client-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-client-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-common-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-common-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-common-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-tools-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-tools-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-tools-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+                "product": {
+                  "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_id": "sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+                "product": {
+                  "name": "python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+                  "product_id": "python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "sssd-2.4.0-9.an8_4.2.src",
+                "product": {
+                  "name": "sssd-2.4.0-9.an8_4.2.src",
+                  "product_id": "sssd-2.4.0-9.an8_4.2.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-sss-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "python3-sss-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "python3-sss-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ad-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-ad-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-ad-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-client-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-client-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-client-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-common-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-common-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-common-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-tools-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-tools-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-tools-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64",
+                "product": {
+                  "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_id": "sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libipa_hbac-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_autofs-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_certmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_idmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_simpleifp-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_sudo-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-sss-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "python3-sss-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-sss-murmur-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ad-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-ad-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-client-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-client-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-common-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-common-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-common-pac-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-dbus-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ipa-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-kcm-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-krb5-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-krb5-common-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ldap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-libwbclient-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-proxy-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-tools-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-tools-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64"
+        },
+        "product_reference": "sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libipa_hbac-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_autofs-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_certmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_idmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_simpleifp-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libsss_sudo-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-sss-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "python3-sss-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-sss-murmur-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ad-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-ad-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-client-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-client-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-common-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-common-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-common-pac-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-dbus-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ipa-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-kcm-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-krb5-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-krb5-common-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-ldap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-libwbclient-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-proxy-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-tools-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-tools-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64"
+        },
+        "product_reference": "sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sssd-2.4.0-9.an8_4.2.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sssd-2.4.0-9.an8_4.2.src"
+        },
+        "product_reference": "sssd-2.4.0-9.an8_4.2.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-sssdconfig-2.4.0-9.an8_4.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-sssdconfig-2.4.0-9.an8_4.2.noarch"
+        },
+        "product_reference": "python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-3621",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-3621"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in SSSD, where the sssctl command was vulnerable to shell command injection via the logs-fetch and cache-expire subcommands. This flaw allows an attacker to trick the root user into running a specially crafted sssctl command, such as via sudo, to gain root access. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+          "Anolis OS 8:sssd-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-2.4.0-9.an8_4.2.src",
+          "Anolis OS 8:sssd-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.x86_64",
+          "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+          "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_autofs-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_certmap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_idmap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_simpleifp-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:libsss_sudo-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:python3-libipa_hbac-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:python3-libsss_nss_idmap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:python3-sss-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:python3-sss-murmur-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:python3-sssdconfig-2.4.0-9.an8_4.2.noarch",
+            "Anolis OS 8:sssd-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-2.4.0-9.an8_4.2.src",
+            "Anolis OS 8:sssd-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-ad-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-client-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-common-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-common-pac-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-dbus-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-ipa-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-kcm-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-krb5-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-krb5-common-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-ldap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-libwbclient-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-nfs-idmap-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-polkit-rules-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-proxy-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-tools-2.4.0-9.an8_4.2.x86_64",
+            "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.aarch64",
+            "Anolis OS 8:sssd-winbind-idmap-2.4.0-9.an8_4.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.7,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-09 11:41:05",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-3621"
+    }
+  ]
+}
