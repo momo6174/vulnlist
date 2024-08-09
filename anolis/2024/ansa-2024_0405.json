@@ -1,0 +1,1996 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0405",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "container-tools:4.0 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0405",
+    "tracking": {
+      "current_release_date": "2024-05-21 15:15:34",
+      "id": "ANSA-2024:0405",
+      "initial_release_date": "2024-05-21 15:15:34",
+      "revision_history": [
+        {
+          "date": "2024-05-21 15:15:34",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                "product": {
+                  "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                  "product_id": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                "product": {
+                  "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                  "product_id": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+                "product": {
+                  "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+                  "product_id": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                "product": {
+                  "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_id": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                "product": {
+                  "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_id": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+                "product": {
+                  "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+                  "product_id": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+                "product": {
+                  "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_id": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+                "product": {
+                  "name": "podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+                  "product_id": "podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+                "product": {
+                  "name": "python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_id": "python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+                "product": {
+                  "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_id": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+                "product": {
+                  "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+                  "product_id": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+                "product": {
+                  "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+                  "product_id": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+                "product": {
+                  "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_id": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                "product": {
+                  "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_id": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+                "product": {
+                  "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+                  "product_id": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+                "product": {
+                  "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_id": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                "product": {
+                  "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_id": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src",
+                "product": {
+                  "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src",
+                  "product_id": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                "product": {
+                  "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                  "product_id": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                "product": {
+                  "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                  "product_id": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+                "product": {
+                  "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+                  "product_id": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                "product": {
+                  "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_id": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                "product": {
+                  "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_id": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64"
+        },
+        "product_reference": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64"
+        },
+        "product_reference": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64"
+        },
+        "product_reference": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64"
+        },
+        "product_reference": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64"
+        },
+        "product_reference": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64"
+        },
+        "product_reference": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64"
+        },
+        "product_reference": "buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64"
+        },
+        "product_reference": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64"
+        },
+        "product_reference": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64"
+        },
+        "product_reference": "toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src"
+        },
+        "product_reference": "buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src"
+        },
+        "product_reference": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src"
+        },
+        "product_reference": "containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src"
+        },
+        "product_reference": "crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src"
+        },
+        "product_reference": "oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src"
+        },
+        "product_reference": "podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src"
+        },
+        "product_reference": "runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src"
+        },
+        "product_reference": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch"
+        },
+        "product_reference": "cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch"
+        },
+        "product_reference": "container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch"
+        },
+        "product_reference": "podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch"
+        },
+        "product_reference": "python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch"
+        },
+        "product_reference": "udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2024-1753",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2024-1753"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in Buildah (and subsequently Podman Build) which allows containers to mount arbitrary locations on the host filesystem into build containers. A malicious Containerfile can use a dummy image with a symbolic link to the root filesystem as a mount source and cause the mount operation to mount the host root filesystem inside the RUN step. The commands inside the RUN step will then have read-write access to the host filesystem, allowing for full container escape at build time.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+          "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+          "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+          "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+          "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+          "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+          "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+          "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+          "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+          "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+          "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+          "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+          "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+          "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+          "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+          "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+          "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+          "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+          "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+          "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+          "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+          "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+          "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+          "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:aardvark-dns-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+            "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.src",
+            "Anolis OS 8:buildah-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+            "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.aarch64",
+            "Anolis OS 8:buildah-tests-1.24.7-1.0.1.module+an8.9.0+11201+73e923fd.x86_64",
+            "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.noarch",
+            "Anolis OS 8:cockpit-podman-46-1.module+an8.6.0+11018+de2343fa.src",
+            "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:conmon-2.1.4-2.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.noarch",
+            "Anolis OS 8:container-selinux-2.205.0-3.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.src",
+            "Anolis OS 8:containernetworking-plugins-1.1.1-6.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:containers-common-1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:crit-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:criu-devel-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:criu-libs-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.src",
+            "Anolis OS 8:crun-1.8.7-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:fuse-overlayfs-1.9-2.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:libslirp-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:libslirp-devel-4.4.0-1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:netavark-1.0.1-38.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.aarch64",
+            "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.src",
+            "Anolis OS 8:oci-seccomp-bpf-hook-1.2.5-2.0.1.module+an8.8.0+11078+befb3ff3.x86_64",
+            "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.src",
+            "Anolis OS 8:podman-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-catatonit-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:podman-docker-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.noarch",
+            "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-gvproxy-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-plugins-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-remote-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:podman-tests-4.0.2-26.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:python-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:python3-criu-3.15-3.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:python3-podman-4.0.0-2.module+an8.9.0+11161+dcfd0867.noarch",
+            "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.aarch64",
+            "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.src",
+            "Anolis OS 8:runc-1.1.12-1.0.1.module+an8.9.0+11182+f2fff746.x86_64",
+            "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:skopeo-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:skopeo-tests-1.6.2-9.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:slirp4netns-1.1.8-3.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.src",
+            "Anolis OS 8:toolbox-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.aarch64",
+            "Anolis OS 8:toolbox-tests-0.0.99.4-5.0.1.module+an8.9.0+11161+dcfd0867.x86_64",
+            "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.noarch",
+            "Anolis OS 8:udica-0.2.6-4.module+an8.9.0+11161+dcfd0867.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.6,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-05-20 11:21:01",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2024-1753"
+    }
+  ]
+}
