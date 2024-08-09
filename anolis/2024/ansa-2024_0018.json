@@ -1,0 +1,325 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Low"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0018",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "opensc security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0018",
+    "tracking": {
+      "current_release_date": "2024-01-10 16:45:57",
+      "id": "ANSA-2024:0018",
+      "initial_release_date": "2024-01-10 16:45:57",
+      "revision_history": [
+        {
+          "date": "2024-01-10 16:45:57",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "opensc-0.20.0-5.0.1.an8.aarch64",
+                "product": {
+                  "name": "opensc-0.20.0-5.0.1.an8.aarch64",
+                  "product_id": "opensc-0.20.0-5.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "opensc-0.20.0-5.0.1.an8.loongarch64",
+                "product": {
+                  "name": "opensc-0.20.0-5.0.1.an8.loongarch64",
+                  "product_id": "opensc-0.20.0-5.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "opensc-doc-0.20.0-5.0.1.an8.noarch",
+                "product": {
+                  "name": "opensc-doc-0.20.0-5.0.1.an8.noarch",
+                  "product_id": "opensc-doc-0.20.0-5.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "opensc-0.20.0-5.0.1.an8.src",
+                "product": {
+                  "name": "opensc-0.20.0-5.0.1.an8.src",
+                  "product_id": "opensc-0.20.0-5.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "opensc-0.20.0-5.0.1.an8.x86_64",
+                "product": {
+                  "name": "opensc-0.20.0-5.0.1.an8.x86_64",
+                  "product_id": "opensc-0.20.0-5.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "opensc-0.20.0-5.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:opensc-0.20.0-5.0.1.an8.aarch64"
+        },
+        "product_reference": "opensc-0.20.0-5.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "opensc-0.20.0-5.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:opensc-0.20.0-5.0.1.an8.x86_64"
+        },
+        "product_reference": "opensc-0.20.0-5.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "opensc-0.20.0-5.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:opensc-0.20.0-5.0.1.an8.src"
+        },
+        "product_reference": "opensc-0.20.0-5.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "opensc-doc-0.20.0-5.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:opensc-doc-0.20.0-5.0.1.an8.noarch"
+        },
+        "product_reference": "opensc-doc-0.20.0-5.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "opensc-0.20.0-5.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:opensc-0.20.0-5.0.1.an8.loongarch64"
+        },
+        "product_reference": "opensc-0.20.0-5.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-2977",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-2977"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "OpenSC中发现一个漏洞。此安全缺陷导致pkcs15cardos_have_verifyrc_package中存在缓冲区溢出漏洞。攻击者可以提供带有格式错误的ASN1上下文的智能卡包。cardos_have_verifyrc_package函数扫描ASN1缓冲区中的2个标签，其中由于起始指针移动，剩余长度计算错误。这会导致可能的基于堆的缓冲区oob读取。如果在编译时启用ASAN，则会导致崩溃。进一步的信息泄露或更多的损害是可能的。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:opensc-0.20.0-5.0.1.an8.aarch64",
+          "Anolis OS 8:opensc-0.20.0-5.0.1.an8.loongarch64",
+          "Anolis OS 8:opensc-0.20.0-5.0.1.an8.src",
+          "Anolis OS 8:opensc-0.20.0-5.0.1.an8.x86_64",
+          "Anolis OS 8:opensc-doc-0.20.0-5.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:opensc-0.20.0-5.0.1.an8.aarch64",
+            "Anolis OS 8:opensc-0.20.0-5.0.1.an8.loongarch64",
+            "Anolis OS 8:opensc-0.20.0-5.0.1.an8.src",
+            "Anolis OS 8:opensc-0.20.0-5.0.1.an8.x86_64",
+            "Anolis OS 8:opensc-doc-0.20.0-5.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-30 16:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-2977"
+    }
+  ]
+}
