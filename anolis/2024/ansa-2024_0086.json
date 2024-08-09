@@ -1,0 +1,1462 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0086",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "postgresql:15 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0086",
+    "tracking": {
+      "current_release_date": "2024-03-06 10:33:50",
+      "id": "ANSA-2024:0086",
+      "initial_release_date": "2024-03-06 10:33:50",
+      "revision_history": [
+        {
+          "date": "2024-03-06 10:33:50",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+                "product": {
+                  "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_id": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+                "product": {
+                  "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_id": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+                "product": {
+                  "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_id": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                "product": {
+                  "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_id": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                "product": {
+                  "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_id": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                "product": {
+                  "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_id": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+                "product": {
+                  "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_id": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                "product": {
+                  "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_id": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+                "product": {
+                  "name": "postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+                  "product_id": "postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+                "product": {
+                  "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+                  "product_id": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+                "product": {
+                  "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+                  "product_id": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+                "product": {
+                  "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+                  "product_id": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+                "product": {
+                  "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+                  "product_id": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+                "product": {
+                  "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_id": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+                "product": {
+                  "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_id": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+                "product": {
+                  "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_id": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                "product": {
+                  "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_id": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64"
+        },
+        "product_reference": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64"
+        },
+        "product_reference": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64"
+        },
+        "product_reference": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64"
+        },
+        "product_reference": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64"
+        },
+        "product_reference": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64"
+        },
+        "product_reference": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64"
+        },
+        "product_reference": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        },
+        "product_reference": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src"
+        },
+        "product_reference": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src"
+        },
+        "product_reference": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src"
+        },
+        "product_reference": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src"
+        },
+        "product_reference": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch"
+        },
+        "product_reference": "postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64"
+        },
+        "product_reference": "pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64"
+        },
+        "product_reference": "pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64"
+        },
+        "product_reference": "postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64"
+        },
+        "product_reference": "postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2024-0985",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2024-0985"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Late privilege drop in REFRESH MATERIALIZED VIEW CONCURRENTLY in PostgreSQL allows an object creator to execute arbitrary SQL functions as the command issuer. The command intends to run SQL functions as the owner of the materialized view, enabling safe refresh of untrusted materialized views. The victim is a superuser or member of one of the attacker's roles. The attack requires luring the victim into running REFRESH MATERIALIZED VIEW CONCURRENTLY on the attacker's materialized view. As part of exploiting this vulnerability, the attacker creates functions that use CREATE RULE to convert the internally-built temporary table to a view. Versions before PostgreSQL 15.6, 14.11, 13.14, and 12.18 are affected. The only known exploit does not work in PostgreSQL 16 and later. For defense in depth, PostgreSQL 16.2 adds the protections that older branches are using to fix their vulnerability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+          "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+          "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+          "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+          "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+          "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+          "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+          "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+          "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+          "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+          "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+          "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+          "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+          "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+          "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+          "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+          "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+          "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.aarch64",
+            "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.loongarch64",
+            "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.src",
+            "Anolis OS 8:pg_repack-1.4.8-1.module+an8.7.0+11046+ddb02410.x86_64",
+            "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.aarch64",
+            "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.loongarch64",
+            "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.src",
+            "Anolis OS 8:pgaudit-1.7.0-1.module+an8.7.0+11046+ddb02410.x86_64",
+            "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.aarch64",
+            "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.loongarch64",
+            "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.src",
+            "Anolis OS 8:postgres-decoderbufs-1.9.7-1.Final.module+an8.7.0+11046+ddb02410.x86_64",
+            "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.src",
+            "Anolis OS 8:postgresql-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-contrib-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-docs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-plperl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-plpython3-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-pltcl-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-private-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-private-libs-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-server-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-server-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-static-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-test-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-test-rpm-macros-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.noarch",
+            "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-upgrade-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64",
+            "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.aarch64",
+            "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.loongarch64",
+            "Anolis OS 8:postgresql-upgrade-devel-15.6-1.0.1.module+an8.9.0+11181+ca0ad4dd.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-08 13:15:08",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2024-0985"
+    }
+  ]
+}
