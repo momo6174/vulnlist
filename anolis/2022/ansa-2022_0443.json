@@ -1,0 +1,1510 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0443",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Important: maven:3.6 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0443",
+    "tracking": {
+      "current_release_date": "2022-10-10 17:25:02",
+      "id": "ANSA-2022:0443",
+      "initial_release_date": "2022-06-23 10:18:56",
+      "revision_history": [
+        {
+          "date": "2022-06-23 10:18:56",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-10 17:25:02",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+                "product": {
+                  "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+                  "product_id": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                "product": {
+                  "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_id": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+                "product": {
+                  "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+                  "product_id": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src",
+                "product": {
+                  "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_id": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch"
+        },
+        "product_reference": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch"
+        },
+        "product_reference": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src"
+        },
+        "product_reference": "maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src"
+        },
+        "product_reference": "slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-29599",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-29599"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "No description is available for this CVE.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+          "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+          "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+          "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+          "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:aopalliance-1.0-20.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:apache-commons-cli-1.4-7.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:apache-commons-codec-1.13-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:apache-commons-io-2.6-6.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:apache-commons-lang3-3.9-4.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:atinject-1-31.20100611svn86.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:cdi-api-2.0.1-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:geronimo-annotation-1.0-26.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:google-guice-4.2.2-4.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:guava-28.1-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:httpcomponents-client-4.5.10-4.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:httpcomponents-core-4.4.12-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:jansi-1.18-4.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:jcl-over-slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:jsoup-1.12.1-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:jsr-305-0-0.25.20130910svn.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-3.6.2-7.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:maven-lib-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-openjdk11-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-openjdk17-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-openjdk8-3.6.2-7.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-resolver-1.4.1-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.noarch",
+            "Anolis OS 8:maven-shared-utils-3.2.1-0.5.module+an8.6.0+10788+3cf7b2ea.src",
+            "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:maven-wagon-3.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-cipher-1.7-17.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-classworlds-2.6.0-4.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-containers-2.1.0-2.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-containers-component-annotations-2.1.0-2.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-interpolation-1.26-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-sec-dispatcher-1.4-29.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:plexus-utils-3.3.0-3.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:sisu-0.3.4-2.module+an8.6.0+10716+f473d8d9.src",
+            "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.noarch",
+            "Anolis OS 8:slf4j-1.7.28-3.module+an8.6.0+10716+f473d8d9.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-04-30 11:02:37",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2022-29599"
+    }
+  ]
+}
