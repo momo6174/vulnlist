@@ -1,0 +1,777 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0249",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "net-snmp security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0249",
+    "tracking": {
+      "current_release_date": "2023-06-02 15:31:54",
+      "id": "ANSA-2023:0249",
+      "initial_release_date": "2023-06-02 15:31:54",
+      "revision_history": [
+        {
+          "date": "2023-06-02 15:31:54",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "net-snmp-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-devel-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-devel-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-devel-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-libs-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-libs-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-libs-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-perl-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-perl-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-perl-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-utils-5.8-27.0.1.an8.aarch64",
+                "product": {
+                  "name": "net-snmp-utils-5.8-27.0.1.an8.aarch64",
+                  "product_id": "net-snmp-utils-5.8-27.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "net-snmp-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+                "product": {
+                  "name": "net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+                  "product_id": "net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "net-snmp-doc-5.8-27.0.1.an8.noarch",
+                "product": {
+                  "name": "net-snmp-doc-5.8-27.0.1.an8.noarch",
+                  "product_id": "net-snmp-doc-5.8-27.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "net-snmp-5.8-27.0.1.an8.src",
+                "product": {
+                  "name": "net-snmp-5.8-27.0.1.an8.src",
+                  "product_id": "net-snmp-5.8-27.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "net-snmp-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-devel-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-devel-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-devel-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-libs-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-libs-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-libs-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-perl-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-perl-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-perl-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "net-snmp-utils-5.8-27.0.1.an8.x86_64",
+                "product": {
+                  "name": "net-snmp-utils-5.8-27.0.1.an8.x86_64",
+                  "product_id": "net-snmp-utils-5.8-27.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-agent-libs-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-devel-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-devel-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-libs-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-libs-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-perl-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-perl-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-utils-5.8-27.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.aarch64"
+        },
+        "product_reference": "net-snmp-utils-5.8-27.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-agent-libs-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-devel-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-devel-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-libs-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-libs-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-perl-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-perl-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-utils-5.8-27.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.x86_64"
+        },
+        "product_reference": "net-snmp-utils-5.8-27.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-5.8-27.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-5.8-27.0.1.an8.src"
+        },
+        "product_reference": "net-snmp-5.8-27.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-doc-5.8-27.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-doc-5.8-27.0.1.an8.noarch"
+        },
+        "product_reference": "net-snmp-doc-5.8-27.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-devel-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-libs-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-perl-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "net-snmp-utils-5.8-27.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.loongarch64"
+        },
+        "product_reference": "net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-44792",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-44792"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A vulnerability was found in Net-SNMP. This issue occurs because the handle_ipDefaultTTL function in agent/mibgroup/ip-mib/ip_scalars.c in Net-SNMP has a NULL Pointer Exception flaw that allows a remote attacker (who has to write access) to cause the instance to crash via a crafted UDP packet, resulting in a denial of service.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.src",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-doc-5.8-27.0.1.an8.noarch",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.src",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-doc-5.8-27.0.1.an8.noarch",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-11-07 11:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-44792"
+    },
+    {
+      "cve": "CVE-2022-44793",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-44793"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in Net-SNMP. This issue occurs because the handle_ipv6IpForwarding in agent/mibgroup/ip-mib/ip_scalars.c in Net-SNMP has a NULL Pointer Exception that could allow a remote attacker to cause the instance to crash via a crafted UDP packet, resulting in a denial of service.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.src",
+          "Anolis OS 8:net-snmp-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-doc-5.8-27.0.1.an8.noarch",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.x86_64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.aarch64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+          "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.src",
+            "Anolis OS 8:net-snmp-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-agent-libs-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-devel-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-doc-5.8-27.0.1.an8.noarch",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-libs-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-perl-5.8-27.0.1.an8.x86_64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.aarch64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.loongarch64",
+            "Anolis OS 8:net-snmp-utils-5.8-27.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-11-07 11:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-44793"
+    }
+  ]
+}
