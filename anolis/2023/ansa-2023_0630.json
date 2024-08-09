@@ -1,0 +1,475 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0630",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "tomcat security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0630",
+    "tracking": {
+      "current_release_date": "2023-10-30 14:03:48",
+      "id": "ANSA-2023:0630",
+      "initial_release_date": "2023-10-30 14:03:48",
+      "revision_history": [
+        {
+          "date": "2023-10-30 14:03:48",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "tomcat-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-lib-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-lib-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-lib-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcat-webapps-9.0.62-5.an8.2.noarch",
+                "product": {
+                  "name": "tomcat-webapps-9.0.62-5.an8.2.noarch",
+                  "product_id": "tomcat-webapps-9.0.62-5.an8.2.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "tomcat-9.0.62-5.an8.2.src",
+                "product": {
+                  "name": "tomcat-9.0.62-5.an8.2.src",
+                  "product_id": "tomcat-9.0.62-5.an8.2.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-9.0.62-5.an8.2.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-9.0.62-5.an8.2.src"
+        },
+        "product_reference": "tomcat-9.0.62-5.an8.2.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-admin-webapps-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-admin-webapps-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-docs-webapp-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-docs-webapp-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-el-3.0-api-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-el-3.0-api-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-lib-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-lib-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-lib-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcat-webapps-9.0.62-5.an8.2.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcat-webapps-9.0.62-5.an8.2.noarch"
+        },
+        "product_reference": "tomcat-webapps-9.0.62-5.an8.2.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-44487",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-44487"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:tomcat-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-9.0.62-5.an8.2.src",
+          "Anolis OS 8:tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-lib-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+          "Anolis OS 8:tomcat-webapps-9.0.62-5.an8.2.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:tomcat-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-9.0.62-5.an8.2.src",
+            "Anolis OS 8:tomcat-admin-webapps-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-docs-webapp-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-el-3.0-api-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-jsp-2.3-api-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-lib-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-servlet-4.0-api-9.0.62-5.an8.2.noarch",
+            "Anolis OS 8:tomcat-webapps-9.0.62-5.an8.2.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-10 06:15:10",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-44487"
+    }
+  ]
+}
