@@ -1,0 +1,1484 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0433",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "bind9.16 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0433",
+    "tracking": {
+      "current_release_date": "2024-06-05 15:44:08",
+      "id": "ANSA-2024:0433",
+      "initial_release_date": "2024-06-05 15:44:08",
+      "revision_history": [
+        {
+          "date": "2024-06-05 15:44:08",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind9.16-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+                "product": {
+                  "name": "bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+                  "product_id": "bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind9.16-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+                "product": {
+                  "name": "bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+                  "product_id": "bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+                "product": {
+                  "name": "bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+                  "product_id": "bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-license-9.16.23-0.14.an8.5.noarch",
+                "product": {
+                  "name": "bind9.16-license-9.16.23-0.14.an8.5.noarch",
+                  "product_id": "bind9.16-license-9.16.23-0.14.an8.5.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-bind9.16-9.16.23-0.14.an8.5.noarch",
+                "product": {
+                  "name": "python3-bind9.16-9.16.23-0.14.an8.5.noarch",
+                  "product_id": "python3-bind9.16-9.16.23-0.14.an8.5.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind9.16-9.16.23-0.14.an8.5.src",
+                "product": {
+                  "name": "bind9.16-9.16.23-0.14.an8.5.src",
+                  "product_id": "bind9.16-9.16.23-0.14.an8.5.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind9.16-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+                "product": {
+                  "name": "bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+                  "product_id": "bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-chroot-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-devel-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-libs-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-utils-9.16.23-0.14.an8.5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64"
+        },
+        "product_reference": "bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-chroot-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-devel-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-libs-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-utils-9.16.23-0.14.an8.5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64"
+        },
+        "product_reference": "bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-9.16.23-0.14.an8.5.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src"
+        },
+        "product_reference": "bind9.16-9.16.23-0.14.an8.5.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-doc-9.16.23-0.14.an8.5.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch"
+        },
+        "product_reference": "bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-license-9.16.23-0.14.an8.5.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch"
+        },
+        "product_reference": "bind9.16-license-9.16.23-0.14.an8.5.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-bind9.16-9.16.23-0.14.an8.5.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        },
+        "product_reference": "python3-bind9.16-9.16.23-0.14.an8.5.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-devel-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-libs-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind9.16-utils-9.16.23-0.14.an8.5.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64"
+        },
+        "product_reference": "bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-4408",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-4408"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The DNS message parsing code in `named` includes a section whose computational complexity is overly high. It does not cause problems for typical DNS traffic, but crafted queries and responses may cause excessive CPU load on the affected `named` instance by exploiting this flaw. This issue affects both authoritative servers and recursive resolvers.\nThis issue affects BIND 9 versions 9.0.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-13 14:15:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-4408"
+    },
+    {
+      "cve": "CVE-2023-50387",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-50387"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the \"KeyTrap\" issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-14 16:15:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-50387"
+    },
+    {
+      "cve": "CVE-2023-50868",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-50868"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the \"NSEC3\" issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-14 16:15:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-50868"
+    },
+    {
+      "cve": "CVE-2023-5517",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-5517"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw in query-handling code can cause `named` to exit prematurely with an assertion failure when:\n\n  - `nxdomain-redirect \u003cdomain\u003e;` is configured, and\n  - the resolver receives a PTR query for an RFC 1918 address that would normally result in an authoritative NXDOMAIN response.\nThis issue affects BIND 9 versions 9.12.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-13 14:15:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-5517"
+    },
+    {
+      "cve": "CVE-2023-5679",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-5679"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A bad interaction between DNS64 and serve-stale may cause `named` to crash with an assertion failure during recursive resolution, when both of these features are enabled.\nThis issue affects BIND 9 versions 9.16.12 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.12-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-13 14:15:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-5679"
+    },
+    {
+      "cve": "CVE-2023-6516",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-6516"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "To keep its cache database efficient, `named` running as a recursive resolver occasionally attempts to clean up the database. It uses several methods, including some that are asynchronous: a small chunk of memory pointing to the cache element that can be cleaned up is first allocated and then queued for later processing. It was discovered that if the resolver is continuously processing query patterns triggering this type of cache-database maintenance, `named` may not be able to handle the cleanup events in a timely manner. This in turn enables the list of queued cleanup events to grow infinitely large over time, allowing the configured `max-cache-size` limit to be significantly exceeded.\nThis issue affects BIND 9 versions 9.16.0 through 9.16.45 and 9.16.8-S1 through 9.16.45-S1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+          "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+          "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+          "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.src",
+            "Anolis OS 8:bind9.16-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-chroot-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-devel-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-dnssec-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-doc-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-libs-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:bind9.16-license-9.16.23-0.14.an8.5.noarch",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.aarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.loongarch64",
+            "Anolis OS 8:bind9.16-utils-9.16.23-0.14.an8.5.x86_64",
+            "Anolis OS 8:python3-bind9.16-9.16.23-0.14.an8.5.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-02-13 14:15:46",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-6516"
+    }
+  ]
+}
