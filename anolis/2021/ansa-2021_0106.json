@@ -1,0 +1,1491 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0106",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Moderate: grub2 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0106",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:32",
+      "id": "ANSA-2021:0106",
+      "initial_release_date": "2022-03-28 18:48:13",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:13",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:32",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+                "product": {
+                  "name": "grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+                  "product_id": "grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+                "product": {
+                  "name": "grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+                  "product_id": "grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-2.02-87.0.1.an8.3.aarch64",
+                "product": {
+                  "name": "grub2-tools-2.02-87.0.1.an8.3.aarch64",
+                  "product_id": "grub2-tools-2.02-87.0.1.an8.3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+                "product": {
+                  "name": "grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+                  "product_id": "grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+                "product": {
+                  "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+                  "product_id": "grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "grub2-common-2.02-87.0.1.an8.3.noarch",
+                "product": {
+                  "name": "grub2-common-2.02-87.0.1.an8.3.noarch",
+                  "product_id": "grub2-common-2.02-87.0.1.an8.3.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+                "product": {
+                  "name": "grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_id": "grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+                "product": {
+                  "name": "grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_id": "grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+                "product": {
+                  "name": "grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_id": "grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+                "product": {
+                  "name": "grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_id": "grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "grub2-2.02-87.0.1.an8.3.src",
+                "product": {
+                  "name": "grub2-2.02-87.0.1.an8.3.src",
+                  "product_id": "grub2-2.02-87.0.1.an8.3.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-pc-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-pc-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-pc-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-tools-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-tools-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64",
+                "product": {
+                  "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64",
+                  "product_id": "grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64"
+        },
+        "product_reference": "grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64"
+        },
+        "product_reference": "grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-2.02-87.0.1.an8.3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64"
+        },
+        "product_reference": "grub2-tools-2.02-87.0.1.an8.3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-extra-2.02-87.0.1.an8.3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64"
+        },
+        "product_reference": "grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64"
+        },
+        "product_reference": "grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-x64-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-pc-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-pc-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-tools-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-efi-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-extra-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        },
+        "product_reference": "grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-2.02-87.0.1.an8.3.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src"
+        },
+        "product_reference": "grub2-2.02-87.0.1.an8.3.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-common-2.02-87.0.1.an8.3.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch"
+        },
+        "product_reference": "grub2-common-2.02-87.0.1.an8.3.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch"
+        },
+        "product_reference": "grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch"
+        },
+        "product_reference": "grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch"
+        },
+        "product_reference": "grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "grub2-pc-modules-2.02-87.0.1.an8.3.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch"
+        },
+        "product_reference": "grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-25632",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-25632"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. The rmmod implementation allows the unloading of a module used as a dependency without checking if any other dependent module is still loaded leading to a use-after-free scenario. This could allow arbitrary code to be executed or a bypass of Secure Boot protections. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-25632"
+    },
+    {
+      "cve": "CVE-2020-25647",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-25647"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. During USB device initialization, descriptors are read with very little bounds checking and assumes the USB device is providing sane values. If properly exploited, an attacker could trigger memory corruption leading to arbitrary code execution allowing a bypass of the Secure Boot mechanism. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "PHYSICAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.6,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-25647"
+    },
+    {
+      "cve": "CVE-2020-27749",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-27749"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. Variable names present are expanded in the supplied command line into their corresponding variable contents, using a 1kB stack buffer for temporary storage, without sufficient bounds checking. If the function is called with a command line that references a variable with a sufficiently large payload, it is possible to overflow the stack buffer, corrupt the stack frame and control execution which could also circumvent Secure Boot protections. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-27749"
+    },
+    {
+      "cve": "CVE-2020-27779",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-27779"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. The cutmem command does not honor secure boot locking allowing an privileged attacker to remove address ranges from memory creating an opportunity to circumvent SecureBoot protections after proper triage about grub's memory layout. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-27779"
+    },
+    {
+      "cve": "CVE-2021-20225",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-20225"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. The option parser allows an attacker to write past the end of a heap-allocated buffer by calling certain commands with a large number of specific short forms of options. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-20225"
+    },
+    {
+      "cve": "CVE-2021-20233",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-20233"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the menu rendering code performs a length calculation on the assumption that expressing a quoted single quote will require 3 characters, while it actually requires 4 characters which allows an attacker to corrupt memory by one byte for each quote in the input. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-20233"
+    },
+    {
+      "cve": "CVE-2020-14372",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-14372"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in grub2 in versions prior to 2.06, where it incorrectly enables the usage of the ACPI command when Secure Boot is enabled. This flaw allows an attacker with privileged access to craft a Secondary System Description Table (SSDT) containing code to overwrite the Linux kernel lockdown variable content directly into memory. The table is further loaded and executed by the kernel, defeating its Secure Boot lockdown and allowing the attacker to load unsigned code. The highest threat from this vulnerability is to data confidentiality and integrity, as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+          "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+          "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:grub2-2.02-87.0.1.an8.3.src",
+            "Anolis OS 8:grub2-common-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-aa64-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-cdboot-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-efi-aa64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-ia32-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-ia32-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-efi-x64-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-cdboot-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-efi-x64-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-pc-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-pc-modules-2.02-87.0.1.an8.3.noarch",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-efi-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-extra-2.02-87.0.1.an8.3.x86_64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.aarch64",
+            "Anolis OS 8:grub2-tools-minimal-2.02-87.0.1.an8.3.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-05-07 21:35:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-14372"
+    }
+  ]
+}
