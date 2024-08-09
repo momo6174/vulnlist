@@ -1,0 +1,2536 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0115",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Important: pki-core:10.6 security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0115",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:35",
+      "id": "ANSA-2021:0115",
+      "initial_release_date": "2022-03-28 18:48:17",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:17",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:35",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                "product": {
+                  "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_id": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                "product": {
+                  "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_id": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                "product": {
+                  "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_id": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                "product": {
+                  "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_id": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                "product": {
+                  "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_id": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+                "product": {
+                  "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_id": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+                "product": {
+                  "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_id": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+                "product": {
+                  "name": "pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_id": "pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src",
+                "product": {
+                  "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_id": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                "product": {
+                  "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_id": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                "product": {
+                  "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_id": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                "product": {
+                  "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_id": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                "product": {
+                  "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_id": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64"
+        },
+        "product_reference": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64"
+        },
+        "product_reference": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64"
+        },
+        "product_reference": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64"
+        },
+        "product_reference": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64"
+        },
+        "product_reference": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64"
+        },
+        "product_reference": "jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64"
+        },
+        "product_reference": "pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64"
+        },
+        "product_reference": "pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src"
+        },
+        "product_reference": "jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src"
+        },
+        "product_reference": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src"
+        },
+        "product_reference": "pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        },
+        "product_reference": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch"
+        },
+        "product_reference": "tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-25715",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-25715"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in pki-core 10.9.0. A specially crafted POST request can be used to reflect a DOM-based cross-site scripting (XSS) attack to inject code into the search query form which can get automatically executed. The highest threat from this vulnerability is to data integrity.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-06-01 11:06:52",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-25715"
+    },
+    {
+      "cve": "CVE-2021-20179",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-20179"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in pki-core. An attacker who has successfully compromised a key could use this flaw to renew the corresponding certificate over and over again, as long as it is not explicitly revoked. The highest threat from this vulnerability is to data confidentiality and integrity.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-06-01 11:06:52",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-20179"
+    },
+    {
+      "cve": "CVE-2019-12086",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12086"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-05-17 17:29:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-12086"
+    },
+    {
+      "cve": "CVE-2019-12814",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12814"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x through 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has JDOM 1.x or 2.x jar in the classpath, an attacker can send a specifically crafted JSON message that allows them to read arbitrary local files on the server.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-06-19 14:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-12814"
+    },
+    {
+      "cve": "CVE-2019-14540",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-14540"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariConfig.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-09-15 22:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-14540"
+    },
+    {
+      "cve": "CVE-2019-16335",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16335"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2.9.10. It is related to com.zaxxer.hikari.HikariDataSource. This is a different vulnerability than CVE-2019-14540.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-09-15 22:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-16335"
+    },
+    {
+      "cve": "CVE-2019-16942",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16942"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-10-01 17:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-16942"
+    },
+    {
+      "cve": "CVE-2019-16943",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16943"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the p6spy (3.8.6) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of com.p6spy.engine.spy.P6DataSource mishandling.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-10-01 17:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-16943"
+    },
+    {
+      "cve": "CVE-2019-17531",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-17531"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the apache-log4j-extra (version 1.2.x) jar in the classpath, and an attacker can provide a JNDI service to access, it is possible to make the service execute a malicious payload.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-10-12 21:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-17531"
+    },
+    {
+      "cve": "CVE-2019-20330",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-20330"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.2 lacks certain net.sf.ehcache blocking.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-01-03 04:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-20330"
+    },
+    {
+      "cve": "CVE-2020-10672",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-10672"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.aries.transaction.jms.internal.XaPooledConnectionFactory (aka aries.transaction.jms).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-18 22:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-10672"
+    },
+    {
+      "cve": "CVE-2020-10673",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-10673"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-18 22:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-10673"
+    },
+    {
+      "cve": "CVE-2020-8840",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8840"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-02-10 21:56:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8840"
+    },
+    {
+      "cve": "CVE-2020-9546",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-9546"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig (aka shaded hikari-config).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-02 04:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-9546"
+    },
+    {
+      "cve": "CVE-2020-9547",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-9547"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig (aka ibatis-sqlmap).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-02 04:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-9547"
+    },
+    {
+      "cve": "CVE-2020-9548",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-9548"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPConfig (aka anteros-core).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+          "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+          "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+          "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+          "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:jss-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:jss-javadoc-4.6.2-12.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:ldapjdk-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.21.0-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-base-java-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-ca-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-core-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.src",
+            "Anolis OS 8:pki-kra-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-server-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-symkey-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.aarch64",
+            "Anolis OS 8:pki-tools-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.x86_64",
+            "Anolis OS 8:python3-pki-10.8.3-6.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.noarch",
+            "Anolis OS 8:tomcatjss-7.4.1-2.module+el8.2.0+10193+b5ce0ab1.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-02 04:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-9548"
+    }
+  ]
+}
