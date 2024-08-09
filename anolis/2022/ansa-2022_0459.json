@@ -1,0 +1,1104 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0459",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Moderate: httpd:2.4 security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0459",
+    "tracking": {
+      "current_release_date": "2022-10-10 17:24:52",
+      "id": "ANSA-2022:0459",
+      "initial_release_date": "2022-06-23 10:20:53",
+      "revision_history": [
+        {
+          "date": "2022-06-23 10:20:53",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-10 17:24:52",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+                "product": {
+                  "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+                  "product_id": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                "product": {
+                  "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_id": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                "product": {
+                  "name": "httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                  "product_id": "httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                "product": {
+                  "name": "httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                  "product_id": "httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+                "product": {
+                  "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+                  "product_id": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+                "product": {
+                  "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+                  "product_id": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+                "product": {
+                  "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+                  "product_id": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+                "product": {
+                  "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+                  "product_id": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                "product": {
+                  "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_id": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64"
+        },
+        "product_reference": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64"
+        },
+        "product_reference": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src"
+        },
+        "product_reference": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src"
+        },
+        "product_reference": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src"
+        },
+        "product_reference": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64"
+        },
+        "product_reference": "mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        },
+        "product_reference": "mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch"
+        },
+        "product_reference": "httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch"
+        },
+        "product_reference": "httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-36160",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-36160"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A carefully crafted request uri-path can cause mod_proxy_uwsgi to read above the allocated memory and crash (DoS). This issue affects Apache HTTP Server versions 2.4.30 to 2.4.48 (inclusive).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 16:20:48",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-36160"
+    },
+    {
+      "cve": "CVE-2021-44224",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-44224"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations, can allow for requests to be directed to a declared Unix Domain Socket endpoint (Server Side Request Forgery). This issue affects Apache HTTP Server 2.4.7 up to 2.4.51 (included).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 16:20:48",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-44224"
+    },
+    {
+      "cve": "CVE-2020-35452",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-35452"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Digest nonce can cause a stack overflow in mod_auth_digest. There is no report of this overflow being exploitable, nor the Apache HTTP Server team could create one, though some particular compiler and/or compilation option might make it possible, with limited consequences anyway due to the size (a single byte) and the value (zero byte) of the overflow",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 7.3,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 16:20:48",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-35452"
+    },
+    {
+      "cve": "CVE-2021-33193",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-33193"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A crafted method sent through HTTP/2 will bypass validation and be forwarded by mod_proxy, which can lead to request splitting or cache poisoning. This issue affects Apache HTTP Server 2.4.17 to 2.4.48.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+          "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+          "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+          "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:httpd-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-devel-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:httpd-filesystem-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-manual-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.noarch",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:httpd-tools-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.src",
+            "Anolis OS 8:mod_http2-1.15.7-5.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ldap-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.aarch64",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.src",
+            "Anolis OS 8:mod_md-2.0.8-8.module+an8.5.0+10672+801cbcd1.x86_64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_proxy_html-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_session-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.aarch64",
+            "Anolis OS 8:mod_ssl-2.4.37-47.0.1.module+an8.6.0+10694+14ea0921.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 16:20:48",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-33193"
+    }
+  ]
+}
