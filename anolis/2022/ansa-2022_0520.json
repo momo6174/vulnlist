@@ -1,0 +1,3430 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0520",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "python39:3.9 and python39-devel:3.9 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0520",
+    "tracking": {
+      "current_release_date": "2022-10-25 18:15:01",
+      "id": "ANSA-2022:0520",
+      "initial_release_date": "2022-06-23 10:22:25",
+      "revision_history": [
+        {
+          "date": "2022-06-23 10:22:25",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-25 18:15:01",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                "product": {
+                  "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                  "product_id": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                "product": {
+                  "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                  "product_id": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                "product": {
+                  "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                  "product_id": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                "product": {
+                  "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                  "product_id": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+                "product": {
+                  "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_id": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                "product": {
+                  "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_id": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                "product": {
+                  "name": "python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_id": "python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                "product": {
+                  "name": "python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_id": "python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+                "product": {
+                  "name": "python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_id": "python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+                "product": {
+                  "name": "python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_id": "python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                "product": {
+                  "name": "python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_id": "python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+                "product": {
+                  "name": "numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+                  "product_id": "numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+                "product": {
+                  "name": "pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+                  "product_id": "pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+                "product": {
+                  "name": "python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+                  "product_id": "python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+                "product": {
+                  "name": "python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+                  "product_id": "python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+                "product": {
+                  "name": "python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+                  "product_id": "python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+                "product": {
+                  "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+                  "product_id": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+                "product": {
+                  "name": "python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+                  "product_id": "python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+                "product": {
+                  "name": "python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+                  "product_id": "python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src",
+                "product": {
+                  "name": "scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_id": "scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                "product": {
+                  "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                  "product_id": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                "product": {
+                  "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                  "product_id": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                "product": {
+                  "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                  "product_id": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                "product": {
+                  "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                  "product_id": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+                "product": {
+                  "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_id": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                "product": {
+                  "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_id": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64"
+        },
+        "product_reference": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64"
+        },
+        "product_reference": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64"
+        },
+        "product_reference": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64"
+        },
+        "product_reference": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64"
+        },
+        "product_reference": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64"
+        },
+        "product_reference": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64"
+        },
+        "product_reference": "python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64"
+        },
+        "product_reference": "python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64"
+        },
+        "product_reference": "python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64"
+        },
+        "product_reference": "python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64"
+        },
+        "product_reference": "python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64"
+        },
+        "product_reference": "python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src"
+        },
+        "product_reference": "numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src"
+        },
+        "product_reference": "pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src"
+        },
+        "product_reference": "python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src"
+        },
+        "product_reference": "python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src"
+        },
+        "product_reference": "python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src"
+        },
+        "product_reference": "python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src"
+        },
+        "product_reference": "python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src"
+        },
+        "product_reference": "python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+        },
+        "product_reference": "scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch"
+        },
+        "product_reference": "python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch"
+        },
+        "product_reference": "python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch"
+        },
+        "product_reference": "python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch"
+        },
+        "product_reference": "python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch"
+        },
+        "product_reference": "python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-43818",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43818"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "lxml is a library for processing XML and HTML in the Python language. Prior to version 4.6.5, the HTML Cleaner in lxml.html lets certain crafted script content pass through, as well as script content in SVG files embedded using data URIs. Users that employ the HTML cleaner in a security relevant context should upgrade to lxml 4.6.5 to receive a patch. There are no known workarounds available.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+          "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+            "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:23:24",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-43818"
+    },
+    {
+      "cve": "CVE-2021-29921",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-29921"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In Python before 3,9,5, the ipaddress library mishandles leading zero characters in the octets of an IP address string. This (in some situations) allows attackers to bypass access control that is based on IP addresses.\nA flaw was found in python-ipaddress. Improper input validation of octal strings in stdlib ipaddress allows unauthenticated remote attackers to perform indeterminate SSRF, RFI, and LFI attacks on many programs that rely on Python stdlib ipaddress. The highest threat from this vulnerability is to data integrity and system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+          "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+            "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 9.1,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-30 00:00:00",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2021-29921"
+    },
+    {
+      "cve": "CVE-2021-33503",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-33503"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in urllib3 before 1.26.5. When provided with a URL containing many @ characters in the authority component, the authority regular expression exhibits catastrophic backtracking, causing a denial of service if a URL were passed as a parameter or redirected to via an HTTP redirect.\nA flaw was found in python-urllib3. When provided with a URL containing many @ characters in the authority component, the authority's regular expression exhibits catastrophic backtracking. This flaw causes a denial of service if a URL is passed as a parameter or redirected via an HTTP redirect. The highest threat from this vulnerability is to system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+          "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+            "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-06-01 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-33503"
+    },
+    {
+      "cve": "CVE-2021-3426",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-3426"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "There's a flaw in Python 3's pydoc. A local or adjacent attacker who discovers or is able to convince another local or adjacent user to start a pydoc server could access the server and use it to disclose sensitive information belonging to the other user that they would not normally be able to access. The highest risk of this flaw is to data confidentiality. This flaw affects Python versions before 3.8.9, Python versions before 3.9.3 and Python versions before 3.10.0a7.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+          "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+          "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+          "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+          "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+          "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+          "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+          "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+          "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+          "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+          "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+          "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+          "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+          "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+          "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:PyYAML-5.4.1-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:numpy-1.19.4-3.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.src",
+            "Anolis OS 8:pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-idna-2.10-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-ply-3.11-10.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python39-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-Cython-0.29.21-5.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-PyMySQL-0.10.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-attrs-20.3.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cffi-1.14.3-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-chardet-3.0.4-19.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-cryptography-3.3.1-2.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-debug-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-devel-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-idle-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-idna-2.10-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-iniconfig-1.1.1-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-libs-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-lxml-4.6.5-1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-mod_wsgi-4.7.1-4.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-more-itertools-8.5.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-numpy-doc-1.19.4-3.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.aarch64",
+            "Anolis OS 8:python39-numpy-f2py-1.19.4-3.module+an8.5.0+10617+24be048e.x86_64",
+            "Anolis OS 8:python39-packaging-20.4-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pip-wheel-20.2.4-7.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-pluggy-0.13.1-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-ply-3.11-10.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psutil-5.8.0-4.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-doc-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-psycopg2-tests-2.8.6-2.0.1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-py-1.10.0-1.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.aarch64",
+            "Anolis OS 8:python39-pybind11-devel-2.7.1-1.module+an8.6.0+10799+49c08c31.x86_64",
+            "Anolis OS 8:python39-pycparser-2.20-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pysocks-1.7.1-4.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pytest-6.0.2-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-pyyaml-5.4.1-1.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-requests-2.25.0-2.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-rpm-macros-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.noarch",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.aarch64",
+            "Anolis OS 8:python39-scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.x86_64",
+            "Anolis OS 8:python39-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-setuptools-wheel-50.3.2-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-test-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.aarch64",
+            "Anolis OS 8:python39-tkinter-3.9.7-1.0.1.module+an8.6.0+10713+6c5b715f.x86_64",
+            "Anolis OS 8:python39-toml-0.10.1-5.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-urllib3-1.25.10-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wcwidth-0.2.5-3.module+an8.4.0+10272+eb48ef92.noarch",
+            "Anolis OS 8:python39-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python39-wheel-wheel-0.35.1-4.module+an8.5.0+10617+24be048e.noarch",
+            "Anolis OS 8:python3x-pip-20.2.4-7.module+an8.6.0+10713+6c5b715f.src",
+            "Anolis OS 8:python3x-pyparsing-2.4.7-5.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:python3x-setuptools-50.3.2-4.module+an8.5.0+10617+24be048e.src",
+            "Anolis OS 8:python3x-six-1.15.0-3.module+an8.4.0+10272+eb48ef92.src",
+            "Anolis OS 8:scipy-1.5.4-3.module+an8.4.0+10272+eb48ef92.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.7,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-09-21 10:44:40",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-3426"
+    }
+  ]
+}
