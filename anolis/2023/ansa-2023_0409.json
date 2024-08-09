@@ -1,0 +1,363 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Low"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0409",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "libarchive security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0409",
+    "tracking": {
+      "current_release_date": "2023-07-01 23:44:10",
+      "id": "ANSA-2023:0409",
+      "initial_release_date": "2023-07-01 23:44:10",
+      "revision_history": [
+        {
+          "date": "2023-07-01 23:44:10",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bsdtar-3.5.3-4.an8.aarch64",
+                "product": {
+                  "name": "bsdtar-3.5.3-4.an8.aarch64",
+                  "product_id": "bsdtar-3.5.3-4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libarchive-3.5.3-4.an8.aarch64",
+                "product": {
+                  "name": "libarchive-3.5.3-4.an8.aarch64",
+                  "product_id": "libarchive-3.5.3-4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bsdtar-3.5.3-4.an8.loongarch64",
+                "product": {
+                  "name": "bsdtar-3.5.3-4.an8.loongarch64",
+                  "product_id": "bsdtar-3.5.3-4.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libarchive-3.5.3-4.an8.loongarch64",
+                "product": {
+                  "name": "libarchive-3.5.3-4.an8.loongarch64",
+                  "product_id": "libarchive-3.5.3-4.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libarchive-3.5.3-4.an8.src",
+                "product": {
+                  "name": "libarchive-3.5.3-4.an8.src",
+                  "product_id": "libarchive-3.5.3-4.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bsdtar-3.5.3-4.an8.x86_64",
+                "product": {
+                  "name": "bsdtar-3.5.3-4.an8.x86_64",
+                  "product_id": "bsdtar-3.5.3-4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libarchive-3.5.3-4.an8.x86_64",
+                "product": {
+                  "name": "libarchive-3.5.3-4.an8.x86_64",
+                  "product_id": "libarchive-3.5.3-4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bsdtar-3.5.3-4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bsdtar-3.5.3-4.an8.aarch64"
+        },
+        "product_reference": "bsdtar-3.5.3-4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libarchive-3.5.3-4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libarchive-3.5.3-4.an8.aarch64"
+        },
+        "product_reference": "libarchive-3.5.3-4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bsdtar-3.5.3-4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bsdtar-3.5.3-4.an8.x86_64"
+        },
+        "product_reference": "bsdtar-3.5.3-4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libarchive-3.5.3-4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libarchive-3.5.3-4.an8.x86_64"
+        },
+        "product_reference": "libarchive-3.5.3-4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libarchive-3.5.3-4.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libarchive-3.5.3-4.an8.src"
+        },
+        "product_reference": "libarchive-3.5.3-4.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bsdtar-3.5.3-4.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bsdtar-3.5.3-4.an8.loongarch64"
+        },
+        "product_reference": "bsdtar-3.5.3-4.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libarchive-3.5.3-4.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libarchive-3.5.3-4.an8.loongarch64"
+        },
+        "product_reference": "libarchive-3.5.3-4.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-36227",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-36227"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In libarchive before 3.6.2, the software does not check for an error after calling calloc function that can return with a NULL pointer if the function fails, which leads to a resultant NULL pointer dereference. NOTE: the discoverer cites this CWE-476 remark but third parties dispute the code-execution impact: \"In rare circumstances, when NULL is equivalent to the 0x0 memory address and privileged code can access it, then writing or reading memory is possible, which may lead to code execution.\"",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bsdtar-3.5.3-4.an8.aarch64",
+          "Anolis OS 8:bsdtar-3.5.3-4.an8.loongarch64",
+          "Anolis OS 8:bsdtar-3.5.3-4.an8.x86_64",
+          "Anolis OS 8:libarchive-3.5.3-4.an8.aarch64",
+          "Anolis OS 8:libarchive-3.5.3-4.an8.loongarch64",
+          "Anolis OS 8:libarchive-3.5.3-4.an8.src",
+          "Anolis OS 8:libarchive-3.5.3-4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bsdtar-3.5.3-4.an8.aarch64",
+            "Anolis OS 8:bsdtar-3.5.3-4.an8.loongarch64",
+            "Anolis OS 8:bsdtar-3.5.3-4.an8.x86_64",
+            "Anolis OS 8:libarchive-3.5.3-4.an8.aarch64",
+            "Anolis OS 8:libarchive-3.5.3-4.an8.loongarch64",
+            "Anolis OS 8:libarchive-3.5.3-4.an8.src",
+            "Anolis OS 8:libarchive-3.5.3-4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-01 21:04:37",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-36227"
+    }
+  ]
+}
