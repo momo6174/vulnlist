@@ -1,0 +1,1023 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0210",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Important: firefox security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0210",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:55",
+      "id": "ANSA-2021:0210",
+      "initial_release_date": "2022-03-28 18:48:30",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:30",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:55",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "firefox-91.4.0-1.0.1.an8_2.aarch64",
+                "product": {
+                  "name": "firefox-91.4.0-1.0.1.an8_2.aarch64",
+                  "product_id": "firefox-91.4.0-1.0.1.an8_2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "firefox-91.4.0-1.0.1.an8_2.src",
+                "product": {
+                  "name": "firefox-91.4.0-1.0.1.an8_2.src",
+                  "product_id": "firefox-91.4.0-1.0.1.an8_2.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "firefox-91.4.0-1.0.1.an8_2.x86_64",
+                "product": {
+                  "name": "firefox-91.4.0-1.0.1.an8_2.x86_64",
+                  "product_id": "firefox-91.4.0-1.0.1.an8_2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "firefox-91.4.0-1.0.1.an8_2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64"
+        },
+        "product_reference": "firefox-91.4.0-1.0.1.an8_2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "firefox-91.4.0-1.0.1.an8_2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        },
+        "product_reference": "firefox-91.4.0-1.0.1.an8_2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "firefox-91.4.0-1.0.1.an8_2.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src"
+        },
+        "product_reference": "firefox-91.4.0-1.0.1.an8_2.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-43541",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43541"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "When invoking protocol handlers for external protocols, a supplied parameter URL containing spaces was not properly escaped. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-43541"
+    },
+    {
+      "cve": "CVE-2021-43542",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43542"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Using XMLHttpRequest, an attacker could have identified installed applications by probing error messages for loading external protocols. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-43542"
+    },
+    {
+      "cve": "CVE-2021-43543",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43543"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Documents loaded with the CSP sandbox directive could have escaped the sandbox's script restriction by embedding additional content. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-43543"
+    },
+    {
+      "cve": "CVE-2021-43545",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43545"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Using the Location API in a loop could have caused severe application hangs and crashes. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 4.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-43545"
+    },
+    {
+      "cve": "CVE-2021-43546",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43546"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "It was possible to recreate previous cursor spoofing attacks against users with a zoomed native cursor. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.4,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-43546"
+    },
+    {
+      "cve": "CVE-2021-43536",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43536"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Under certain circumstances, asynchronous functions could have caused a navigation to fail but expose the target URL. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-43536"
+    },
+    {
+      "cve": "CVE-2021-43537",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43537"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An incorrect type conversion of sizes from 64bit to 32bit integers allowed an attacker to corrupt memory leading to a potentially exploitable crash. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-43537"
+    },
+    {
+      "cve": "CVE-2021-43538",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43538"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "By misusing a race in our notification code, an attacker could have forcefully hidden the notification for pages that had received full screen and pointer lock access, which could have been used for spoofing attacks. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-43538"
+    },
+    {
+      "cve": "CVE-2021-43539",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-43539"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Failure to correctly record the location of live pointers across wasm instance calls resulted in a GC occurring within the call not tracing those live pointers. This could have led to a use-after-free causing a potentially exploitable crash. This vulnerability affects Thunderbird \u0026lt; 91.4.0, Firefox ESR \u0026lt; 91.4.0, and Firefox \u0026lt; 95.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+          "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.aarch64",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.src",
+            "Anolis OS 8:firefox-91.4.0-1.0.1.an8_2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-17 15:59:54",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-43539"
+    }
+  ]
+}
