@@ -1,0 +1,1214 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0204",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "gcc security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0204",
+    "tracking": {
+      "current_release_date": "2022-03-28 18:50:14",
+      "id": "ANSA-2021:0204",
+      "initial_release_date": "2022-03-28 18:50:14",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:50:14",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cpp-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "cpp-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "cpp-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "gcc-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "gcc-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libasan-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libasan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libasan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libatomic-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libatomic-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libatomic-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgcc-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libgcc-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libgcc-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgomp-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libgomp-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libgomp-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libitm-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libitm-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libitm-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "liblsan-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "liblsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "liblsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libtsan-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libtsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libtsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libubsan-8.5.0-4.0.1.an8_5.aarch64",
+                "product": {
+                  "name": "libubsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_id": "libubsan-8.5.0-4.0.1.an8_5.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "gcc-8.5.0-4.0.1.an8_5.src",
+                "product": {
+                  "name": "gcc-8.5.0-4.0.1.an8_5.src",
+                  "product_id": "gcc-8.5.0-4.0.1.an8_5.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cpp-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "cpp-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "cpp-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "gcc-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "gcc-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libasan-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libasan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libasan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libatomic-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libatomic-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libatomic-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgcc-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libgcc-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libgcc-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgomp-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libgomp-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libgomp-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libitm-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libitm-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libitm-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "liblsan-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "liblsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "liblsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libtsan-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libtsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libtsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libubsan-8.5.0-4.0.1.an8_5.x86_64",
+                "product": {
+                  "name": "libubsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_id": "libubsan-8.5.0-4.0.1.an8_5.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cpp-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "cpp-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "gcc-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-c++-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libasan-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libasan-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libatomic-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libatomic-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libatomic-static-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgcc-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libgcc-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgfortran-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgomp-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libgomp-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libitm-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libitm-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libitm-devel-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "liblsan-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "liblsan-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libtsan-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libtsan-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libubsan-8.5.0-4.0.1.an8_5.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.aarch64"
+        },
+        "product_reference": "libubsan-8.5.0-4.0.1.an8_5.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cpp-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "cpp-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "gcc-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-c++-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libasan-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libasan-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libatomic-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libatomic-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libatomic-static-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgcc-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libgcc-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgfortran-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgomp-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libgomp-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libitm-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libitm-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libitm-devel-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "liblsan-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "liblsan-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libquadmath-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libquadmath-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libtsan-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libtsan-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libubsan-8.5.0-4.0.1.an8_5.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.x86_64"
+        },
+        "product_reference": "libubsan-8.5.0-4.0.1.an8_5.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gcc-8.5.0-4.0.1.an8_5.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.src"
+        },
+        "product_reference": "gcc-8.5.0-4.0.1.an8_5.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-42574",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-42574"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.src",
+          "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.x86_64",
+          "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.aarch64",
+          "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:cpp-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.src",
+            "Anolis OS 8:gcc-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:gcc-c++-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:gcc-gdb-plugin-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:gcc-gfortran-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:gcc-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libasan-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libatomic-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libatomic-static-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libgcc-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libgfortran-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libgomp-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libgomp-offload-nvptx-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libitm-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libitm-devel-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:liblsan-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libquadmath-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libquadmath-devel-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libstdc++-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libstdc++-devel-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libstdc++-docs-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libtsan-8.5.0-4.0.1.an8_5.x86_64",
+            "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.aarch64",
+            "Anolis OS 8:libubsan-8.5.0-4.0.1.an8_5.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-11-29 20:09:15",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-42574"
+    }
+  ]
+}
