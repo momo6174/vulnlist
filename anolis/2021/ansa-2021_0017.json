@@ -1,0 +1,904 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0017",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "squid:4 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0017",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:21",
+      "id": "ANSA-2021:0017",
+      "initial_release_date": "2022-03-28 18:48:08",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:08",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:21",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                "product": {
+                  "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                  "product_id": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                "product": {
+                  "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                  "product_id": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+                "product": {
+                  "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+                  "product_id": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+                "product": {
+                  "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+                  "product_id": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+                "product": {
+                  "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+                  "product_id": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                "product": {
+                  "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                  "product_id": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                "product": {
+                  "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                  "product_id": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64",
+                "product": {
+                  "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64",
+                  "product_id": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64"
+        },
+        "product_reference": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64"
+        },
+        "product_reference": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64"
+        },
+        "product_reference": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64"
+        },
+        "product_reference": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64"
+        },
+        "product_reference": "libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        },
+        "product_reference": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src"
+        },
+        "product_reference": "libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src"
+        },
+        "product_reference": "squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-15811",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-15811"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in Squid before 4.13 and 5.x before 5.0.4. Due to incorrect data validation, HTTP Request Splitting attacks may succeed against HTTP and HTTPS traffic. This leads to cache poisoning. This allows any client, including browser scripts, to bypass local security and poison the browser cache and any downstream caches with content from an arbitrary source. Squid uses a string search instead of parsing the Transfer-Encoding header to find chunked encoding. This allows an attacker to hide a second request inside Transfer-Encoding: it is interpreted by Squid as chunked and split out into a second request delivered upstream. Squid will then deliver two distinct responses to the client, corrupting any downstream caches.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 9.6,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-26 11:09:24",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2020-15811"
+    },
+    {
+      "cve": "CVE-2020-15810",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-15810"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in Squid before 4.13 and 5.x before 5.0.4. Due to incorrect data validation, HTTP Request Smuggling attacks may succeed against HTTP and HTTPS traffic. This leads to cache poisoning. This allows any client, including browser scripts, to bypass local security and poison the proxy cache and any downstream caches with content from an arbitrary source. When configured for relaxed header parsing (the default), Squid relays headers containing whitespace characters to upstream servers. When this occurs as a prefix to a Content-Length header, the frame length specified will be ignored by Squid (allowing for a conflicting length to be used from another Content-Length header) but relayed upstream.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 9.6,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-26 11:09:24",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2020-15810"
+    },
+    {
+      "cve": "CVE-2019-12519",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12519"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in Squid through 4.7. When handling the tag esi:when when ESI is enabled, Squid calls ESIExpression::Evaluate. This function uses a fixed stack buffer to hold the expression while it's being evaluated. When processing the expression, it could either evaluate the top of the stack, or add a new member to the stack. When adding a new member, there is no check to ensure that the stack won't overflow.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-04-15 20:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2019-12519"
+    },
+    {
+      "cve": "CVE-2019-12525",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12525"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in Squid 3.3.9 through 3.5.28 and 4.x through 4.7. When Squid is configured to use Digest authentication, it parses the header Proxy-Authorization. It searches for certain tokens such as domain, uri, and qop. Squid checks if this token's value starts with a quote and ends with one. If so, it performs a memcpy of its length minus 2. Squid never checks whether the value is just a single quote (which would satisfy its requirements), leading to a memcpy of its length minus 1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 4.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-07-11 19:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-12525"
+    },
+    {
+      "cve": "CVE-2019-13345",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-13345"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The cachemgr.cgi web module of Squid through 4.7 has XSS via the user_name or auth parameter.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-07-05 16:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-13345"
+    },
+    {
+      "cve": "CVE-2020-11945",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-11945"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in Squid before 5.0.2. A remote attacker can replay a sniffed Digest Authentication nonce to gain access to resources that are otherwise forbidden. This occurs because the attacker can overflow the nonce reference counter (a short integer). Remote code execution may occur if the pooled token credentials are freed (instead of replayed as valid credentials).",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+          "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+          "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+          "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.src",
+            "Anolis OS 8:libecap-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.aarch64",
+            "Anolis OS 8:libecap-devel-1.0.1-2.module+el8.2.0+10173+efc8c15c.x86_64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.aarch64",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.src",
+            "Anolis OS 8:squid-4.4-8.module+el8.2.0+10173+efc8c15c.2.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-04-23 15:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-11945"
+    }
+  ]
+}
