@@ -1,0 +1,1255 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0430",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "edk2 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0430",
+    "tracking": {
+      "current_release_date": "2024-06-05 15:43:48",
+      "id": "ANSA-2024:0430",
+      "initial_release_date": "2024-06-05 15:43:48",
+      "revision_history": [
+        {
+          "date": "2024-06-05 15:43:48",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                "product": {
+                  "name": "edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_id": "edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                "product": {
+                  "name": "edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_id": "edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                "product": {
+                  "name": "edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_id": "edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+                "product": {
+                  "name": "edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+                  "product_id": "edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "edk2-20220126gitbb1bba3d77-13.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src"
+        },
+        "product_reference": "edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        },
+        "product_reference": "edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        },
+        "product_reference": "edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        },
+        "product_reference": "edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-36763",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-36763"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2 is susceptible to a vulnerability in the Tcg2MeasureGptTable() function, allowing a user to trigger a heap buffer overflow via a local network. Successful exploitation of this vulnerability may result in a compromise of confidentiality, integrity, and/or availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-36763"
+    },
+    {
+      "cve": "CVE-2022-36764",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-36764"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2 is susceptible to a vulnerability in the Tcg2MeasurePeImage() function, allowing a user to trigger a heap buffer overflow via a local network. Successful exploitation of this vulnerability may result in a compromise of confidentiality, integrity, and/or availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-36764"
+    },
+    {
+      "cve": "CVE-2022-36765",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-36765"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2 is susceptible to a vulnerability in the CreateHob() function, allowing a user to trigger a integer overflow to buffer overflow via a local network. Successful exploitation of this vulnerability may result in a compromise of confidentiality, integrity, and/or availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-36765"
+    },
+    {
+      "cve": "CVE-2023-3446",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-3446"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Issue summary: Checking excessively long DH keys or parameters may be very slow.\n\nImpact summary: Applications that use the functions DH_check(), DH_check_ex()\nor EVP_PKEY_param_check() to check a DH key or DH parameters may experience long\ndelays. Where the key or parameters that are being checked have been obtained\nfrom an untrusted source this may lead to a Denial of Service.\n\nThe function DH_check() performs various checks on DH parameters. One of those\nchecks confirms that the modulus ('p' parameter) is not too large. Trying to use\na very large modulus is slow and OpenSSL will not normally use a modulus which\nis over 10,000 bits in length.\n\nHowever the DH_check() function checks numerous aspects of the key or parameters\nthat have been supplied. Some of those checks use the supplied modulus value\neven if it has already been found to be too large.\n\nAn application that calls DH_check() and supplies a key or parameters obtained\nfrom an untrusted source could be vulernable to a Denial of Service attack.\n\nThe function DH_check() is itself called by a number of other OpenSSL functions.\nAn application calling any of those other functions may similarly be affected.\nThe other functions affected by this are DH_check_ex() and\nEVP_PKEY_param_check().\n\nAlso vulnerable are the OpenSSL dhparam and pkeyparam command line applications\nwhen using the '-check' option.\n\nThe OpenSSL SSL/TLS implementation is not affected by this issue.\nThe OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-19 12:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-3446"
+    },
+    {
+      "cve": "CVE-2023-45229",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45229"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to an out-of-bounds read\nvulnerability when processing the IA_NA or IA_TA option in a DHCPv6 Advertise message. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-45229"
+    },
+    {
+      "cve": "CVE-2023-45230",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45230"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to a buffer overflow vulnerability via a long server ID option in DHCPv6 client. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality, Integrity and/or Availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-45230"
+    },
+    {
+      "cve": "CVE-2023-45231",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45231"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to an out-of-bounds read\nvulnerability when processing  Neighbor Discovery Redirect message. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-45231"
+    },
+    {
+      "cve": "CVE-2023-45232",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45232"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to an infinite loop vulnerability when parsing unknown options in the Destination Options header of IPv6. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-45232"
+    },
+    {
+      "cve": "CVE-2023-45233",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45233"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to an infinite lop vulnerability when parsing a PadN option in the Destination Options header of IPv6. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-45233"
+    },
+    {
+      "cve": "CVE-2023-45234",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45234"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to a buffer overflow vulnerability when processing DNS Servers option from a DHCPv6 Advertise message. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality, Integrity and/or Availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-45234"
+    },
+    {
+      "cve": "CVE-2023-45235",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-45235"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "EDK2's Network Package is susceptible to a buffer overflow vulnerability when\nhandling Server ID option \nfrom a DHCPv6 proxy Advertise message. This\nvulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality, Integrity and/or Availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+          "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+          "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:edk2-20220126gitbb1bba3d77-13.0.1.an8.src",
+            "Anolis OS 8:edk2-aarch64-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-ovmf-20220126gitbb1bba3d77-13.0.1.an8.noarch",
+            "Anolis OS 8:edk2-tools-doc-20220126gitbb1bba3d77-13.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-06-05 14:05:05",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-45235"
+    }
+  ]
+}
