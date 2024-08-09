@@ -1,0 +1,2035 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0693",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "mariadb:10.3 security, bug fix, and enhancement update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0693",
+    "tracking": {
+      "current_release_date": "2023-11-21 18:32:04",
+      "id": "ANSA-2023:0693",
+      "initial_release_date": "2023-11-21 18:32:04",
+      "revision_history": [
+        {
+          "date": "2023-11-21 18:32:04",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                "product": {
+                  "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_id": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                "product": {
+                  "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_id": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+                "product": {
+                  "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+                  "product_id": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+                "product": {
+                  "name": "asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+                  "product_id": "asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+                "product": {
+                  "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+                  "product_id": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+                "product": {
+                  "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+                  "product_id": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                "product": {
+                  "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_id": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64"
+        },
+        "product_reference": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        },
+        "product_reference": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src"
+        },
+        "product_reference": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src"
+        },
+        "product_reference": "asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src"
+        },
+        "product_reference": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src"
+        },
+        "product_reference": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64"
+        },
+        "product_reference": "mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-32084",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-32084"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "MariaDB v10.2 to v10.7 was discovered to contain a segmentation fault via the component sub_select.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-16 15:46:27",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-32084"
+    },
+    {
+      "cve": "CVE-2022-32091",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-32091"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "MariaDB v10.7 was discovered to contain an use-after-poison in in __interceptor_memset at /libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-16 15:46:27",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-32091"
+    },
+    {
+      "cve": "CVE-2022-38791",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-38791"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In MariaDB before 10.9.2, compress_write in extra/mariabackup/ds_compress.cc does not release data_mutex upon a stream write failure, which allows local users to trigger a deadlock.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-08-27 12:15:08",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-38791"
+    },
+    {
+      "cve": "CVE-2022-47015",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-47015"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "MariaDB Server before 10.3.34 thru 10.9.3 is vulnerable to Denial of Service. It is possible for function spider_db_mbase::print_warnings to dereference a null pointer.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+          "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+          "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:Judy-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:Judy-devel-1.0.5-18.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:asio-1.10.8-7.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:asio-devel-1.10.8-7.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:galera-25.3.37-1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.src",
+            "Anolis OS 8:mariadb-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-backup-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-common-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-embedded-devel-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-errmsg-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-gssapi-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-oqgraph-engine-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-galera-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-server-utils-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.aarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.loongarch64",
+            "Anolis OS 8:mariadb-test-10.3.39-1.0.1.module+an8.8.0+11133+62929fd4.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-01-20 19:15:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-47015"
+    }
+  ]
+}
