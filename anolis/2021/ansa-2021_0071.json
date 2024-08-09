@@ -1,0 +1,1445 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0071",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "go-toolset:an8 security, bug fix, and enhancement update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0071",
+    "tracking": {
+      "current_release_date": "2022-10-25 17:36:27",
+      "id": "ANSA-2021:0071",
+      "initial_release_date": "2022-03-28 18:50:00",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:50:00",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-25 17:36:27",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                "product": {
+                  "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_id": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                "product": {
+                  "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_id": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                "product": {
+                  "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_id": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                "product": {
+                  "name": "golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_id": "golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                "product": {
+                  "name": "golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_id": "golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                "product": {
+                  "name": "golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_id": "golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                "product": {
+                  "name": "golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_id": "golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+                "product": {
+                  "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+                  "product_id": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                "product": {
+                  "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                  "product_id": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                "product": {
+                  "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                  "product_id": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+                "product": {
+                  "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_id": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                "product": {
+                  "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_id": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                "product": {
+                  "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_id": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                "product": {
+                  "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_id": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                "product": {
+                  "name": "golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_id": "golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64"
+        },
+        "product_reference": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64"
+        },
+        "product_reference": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64"
+        },
+        "product_reference": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64"
+        },
+        "product_reference": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64"
+        },
+        "product_reference": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64"
+        },
+        "product_reference": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64"
+        },
+        "product_reference": "golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64"
+        },
+        "product_reference": "golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src"
+        },
+        "product_reference": "delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src"
+        },
+        "product_reference": "go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src"
+        },
+        "product_reference": "golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        },
+        "product_reference": "golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        },
+        "product_reference": "golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        },
+        "product_reference": "golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        },
+        "product_reference": "golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-27918",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-27918"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "encoding/xml in Go before 1.15.9 and 1.16.x before 1.16.1 has an infinite loop if a custom TokenReader (for xml.NewTokenDecoder) returns EOF in the middle of an element. This can occur in the Decode, DecodeElement, or Skip method.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-08-30 15:09:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-27918"
+    },
+    {
+      "cve": "CVE-2021-31525",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-31525"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "net/http in Go before 1.15.12 and 1.16.x before 1.16.4 allows remote attackers to cause a denial of service (panic) via a large header to ReadRequest or ReadResponse. Server, Transport, and Client can each be affected in some configurations.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-08-30 15:09:44",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-31525"
+    },
+    {
+      "cve": "CVE-2021-33196",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-33196"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In archive/zip in Go before 1.15.13 and 1.16.x before 1.16.5, a crafted file count (in an archive's header) can cause a NewReader or OpenReader panic.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-08-30 15:09:44",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-33196"
+    },
+    {
+      "cve": "CVE-2021-34558",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-34558"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-08-30 15:09:44",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-34558"
+    },
+    {
+      "cve": "CVE-2020-24553",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-24553"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.14.8 and 1.15.x before 1.15.1 allows XSS because text/html is the default for CGI/FCGI handlers that lack a Content-Type header.\nA flaw was found in the Go standard library packages before upstream versions 1.15 and 1.14.8. Both the net/http/cgi and net/http/fcgi packages use a default Content-Type response header value of \"text/html\", rather than \"text/plain\". This flaw allows an attacker to exploit this issue in applications using these packages by uploading crafted files, allowing a Cross-site Scripting attack (XSS). The highest threat from this vulnerability is to confidentiality and integrity.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-08-01 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-24553"
+    },
+    {
+      "cve": "CVE-2020-28362",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-28362"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.14.12 and 1.15.x before 1.15.4 allows Denial of Service.\nA flaw was found in the math/big package of Go's standard library that causes a denial of service. Applications written in Go that use math/big via cryptographic packages, including crypto/rsa and crypto/x509, are vulnerable and can potentially cause panic via a crafted certificate chain. The highest threat from this vulnerability is to system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-11-12 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-28362"
+    },
+    {
+      "cve": "CVE-2020-28366",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-28366"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.14.12 and 1.15.x before 1.15.5 allows Code Injection.\nAn input validation vulnerability was found in Go. From a generated go file (from the cgo tool), it is possible to modify symbols within that object file and specify code. This flaw allows an attacker to create a repository that includes malicious pre-built object files that could execute arbitrary code when downloaded and run via `go get` or `go build` while building a Go project. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-11-12 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-28366"
+    },
+    {
+      "cve": "CVE-2020-28367",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-28367"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.14.12 and 1.15.x before 1.15.5 allows Argument Injection.\nAn input validation vulnerability was found in Go. If cgo is specified in a Go file, it is possible to bypass the validation of arguments to the gcc compiler. This flaw allows an attacker to create a malicious repository that can execute arbitrary code when downloaded and run via `go get` or `go build` while building a Go project. The highest threat from this vulnerability is to confidentiality and integrity as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-11-12 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-28367"
+    },
+    {
+      "cve": "CVE-2021-3114",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-3114"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In Go before 1.14.14 and 1.15.x before 1.15.7, crypto/elliptic/p224.go can generate incorrect outputs, related to an underflow of the lowest limb during the final complete reduction in the P-224 field.\nA flaw detected in golang: crypto/elliptic, in which P-224 keys as generated can return incorrect inputs, reducing the strength of the cryptography. The highest threat from this vulnerability is confidentiality and integrity.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+          "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+          "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+          "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+          "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:delve-1.5.0-2.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:go-toolset-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.src",
+            "Anolis OS 8:golang-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.aarch64",
+            "Anolis OS 8:golang-bin-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-docs-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-misc-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-race-1.15.14-1.module+an8.4.0+10369+5953d857.x86_64",
+            "Anolis OS 8:golang-src-1.15.14-1.module+an8.4.0+10369+5953d857.noarch",
+            "Anolis OS 8:golang-tests-1.15.14-1.module+an8.4.0+10369+5953d857.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-01-20 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-3114"
+    }
+  ]
+}
