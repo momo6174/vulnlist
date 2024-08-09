@@ -1,0 +1,3966 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0213",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "kernel security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0213",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:56",
+      "id": "ANSA-2021:0213",
+      "initial_release_date": "2022-07-08 11:32:48",
+      "revision_history": [
+        {
+          "date": "2022-07-08 11:32:48",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:56",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bpftool-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "bpftool-4.19.91-23.4.an8.aarch64",
+                  "product_id": "bpftool-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-core-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-core-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-core-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-debug-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-debug-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-core-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-debug-core-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-debug-core-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-devel-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-devel-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-devel-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-headers-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-headers-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-headers-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-modules-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-modules-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-modules-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-tools-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-tools-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+                  "product_id": "kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perf-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "perf-4.19.91-23.4.an8.aarch64",
+                  "product_id": "perf-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-perf-4.19.91-23.4.an8.aarch64",
+                "product": {
+                  "name": "python3-perf-4.19.91-23.4.an8.aarch64",
+                  "product_id": "python3-perf-4.19.91-23.4.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "kernel-4.19.91-23.4.an8.src",
+                "product": {
+                  "name": "kernel-4.19.91-23.4.an8.src",
+                  "product_id": "kernel-4.19.91-23.4.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bpftool-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "bpftool-4.19.91-23.4.an8.x86_64",
+                  "product_id": "bpftool-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-core-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-core-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-core-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-debug-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-debug-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-core-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-debug-core-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-debug-core-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-devel-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-devel-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-devel-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-headers-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-headers-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-headers-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-modules-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-modules-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-modules-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-tools-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-tools-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+                  "product_id": "kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perf-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "perf-4.19.91-23.4.an8.x86_64",
+                  "product_id": "perf-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-perf-4.19.91-23.4.an8.x86_64",
+                "product": {
+                  "name": "python3-perf-4.19.91-23.4.an8.x86_64",
+                  "product_id": "python3-perf-4.19.91-23.4.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bpftool-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "bpftool-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-core-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-core-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-debug-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-core-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-debug-core-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-devel-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-modules-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-devel-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-devel-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-headers-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-headers-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-modules-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-modules-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-modules-extra-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-tools-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-libs-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perf-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "perf-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-perf-4.19.91-23.4.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64"
+        },
+        "product_reference": "python3-perf-4.19.91-23.4.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bpftool-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "bpftool-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-core-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-core-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-debug-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-core-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-debug-core-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-devel-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-modules-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-devel-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-devel-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-headers-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-headers-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-modules-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-modules-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-modules-extra-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-tools-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-libs-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perf-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "perf-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-perf-4.19.91-23.4.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        },
+        "product_reference": "python3-perf-4.19.91-23.4.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "kernel-4.19.91-23.4.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:kernel-4.19.91-23.4.an8.src"
+        },
+        "product_reference": "kernel-4.19.91-23.4.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2019-12378",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12378"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** An issue was discovered in ip6_ra_control in net/ipv6/ipv6_sockglue.c in the Linux kernel through 5.1.5. There is an unchecked kmalloc of new_ra, which might allow an attacker to cause a denial of service (NULL pointer dereference and system crash). NOTE: This has been disputed as not an issue.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "ADJACENT_NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.7,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-12378"
+    },
+    {
+      "cve": "CVE-2019-12380",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12380"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "**DISPUTED** An issue was discovered in the efi subsystem in the Linux kernel through 5.1.5. phys_efi_set_virtual_address_map in arch/x86/platform/efi/efi.c and efi_call_phys_prolog in arch/x86/platform/efi/efi_64.c mishandle memory allocation failures. NOTE: This id is disputed as not being an issue because “All the code touched by the referenced commit runs only at boot, before any user processes are started. Therefore, there is no possibility for an unprivileged user to control it.”.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.2,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-12380"
+    },
+    {
+      "cve": "CVE-2019-12381",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12381"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** An issue was discovered in ip_ra_control in net/ipv4/ip_sockglue.c in the Linux kernel through 5.1.5. There is an unchecked kmalloc of new_ra, which might allow an attacker to cause a denial of service (NULL pointer dereference and system crash). NOTE: this is disputed because new_ra is never used if it is NULL.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-12381"
+    },
+    {
+      "cve": "CVE-2019-18808",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-18808"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A memory leak in the ccp_run_sha_cmd() function in drivers/crypto/ccp/ccp-ops.c in the Linux kernel through 5.3.9 allows attackers to cause a denial of service (memory consumption), aka CID-128c66429247.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-18808"
+    },
+    {
+      "cve": "CVE-2019-19046",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19046"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** A memory leak in the __ipmi_bmc_register() function in drivers/char/ipmi/ipmi_msghandler.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering ida_simple_get() failure, aka CID-4aa7afb0ee20. NOTE: third parties dispute the relevance of this because an attacker cannot realistically control this failure at probe time.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19046"
+    },
+    {
+      "cve": "CVE-2019-19077",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19077"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A memory leak in the bnxt_re_create_srq() function in drivers/infiniband/hw/bnxt_re/ib_verbs.c in the Linux kernel through 5.3.11 allows attackers to cause a denial of service (memory consumption) by triggering copy to udata failures, aka CID-4a9d46a9fe14.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19077"
+    },
+    {
+      "cve": "CVE-2019-19462",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19462"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "relay_open in kernel/relay.c in the Linux kernel through 5.4.1 allows local users to cause a denial of service (such as relay blockage) by triggering a NULL alloc_percpu result.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19462"
+    },
+    {
+      "cve": "CVE-2019-19770",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19770"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** In the Linux kernel 4.19.83, there is a use-after-free (read) in the debugfs_remove function in fs/debugfs/inode.c (which is used to remove a file or directory in debugfs that was previously created with a call to another debugfs function such as debugfs_create_file). NOTE: Linux kernel developers dispute this issue as not being an issue with debugfs, instead this is an issue with misuse of debugfs within blktrace.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "HIGH",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-12-30 15:08:43",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19770"
+    },
+    {
+      "cve": "CVE-2019-19947",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19947"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In the Linux kernel through 5.4.6, there are information leaks of uninitialized memory to a USB device in the drivers/net/can/usb/kvaser_usb/kvaser_usb_leaf.c driver, aka CID-da2311a6385c.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "PHYSICAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19947"
+    },
+    {
+      "cve": "CVE-2020-10732",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-10732"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in the Linux kernel's implementation of Userspace core dumps. This flaw allows an attacker with a local account to crash a trivial program and exfiltrate private kernel data.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 3.3,
+            "baseSeverity": "LOW",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Low"
+        }
+      ],
+      "title": "CVE-2020-10732"
+    },
+    {
+      "cve": "CVE-2020-11565",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-11565"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** An issue was discovered in the Linux kernel through 5.6.2. mpol_parse_str in mm/mempolicy.c has a stack-based out-of-bounds write because an empty nodelist is mishandled during mount option parsing, aka CID-aa9f7d5172fa. NOTE: Someone in the security community disagrees that this is a vulnerability because the issue “is a bug in parsing mount options which can only be specified by a privileged user, so triggering the bug does not grant any powers not already held.”.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "HIGH",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-11565"
+    },
+    {
+      "cve": "CVE-2020-12888",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-12888"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The VFIO PCI driver in the Linux kernel through 5.6.13 mishandles attempts to access disabled memory space.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-12888"
+    },
+    {
+      "cve": "CVE-2020-16166",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-16166"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The Linux kernel through 5.7.11 allows remote attackers to make observations that help to obtain sensitive information about the internal state of the network RNG, aka CID-f227e3ec3b5c. This is related to drivers/char/random.c and kernel/time/timer.c.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 3.7,
+            "baseSeverity": "LOW",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Low"
+        }
+      ],
+      "title": "CVE-2020-16166"
+    },
+    {
+      "cve": "CVE-2020-8647",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8647"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "There is a use-after-free vulnerability in the Linux kernel through 5.5.2 in the vc_do_resize function in drivers/tty/vt/vt.c.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-8647"
+    },
+    {
+      "cve": "CVE-2020-8648",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8648"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "There is a use-after-free vulnerability in the Linux kernel through 5.5.2 in the n_tty_receive_buf_common function in drivers/tty/n_tty.c.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8648"
+    },
+    {
+      "cve": "CVE-2020-13974",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-13974"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in the Linux kernel 4.4 through 5.7.1. drivers/tty/vt/keyboard.c has an integer overflow if k_ascii is called several times in a row, aka CID-b86dab054059. NOTE: Members in the community argue that the integer overflow does not lead to a security issue in this case.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-13974"
+    },
+    {
+      "cve": "CVE-2020-8649",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8649"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "There is a use-after-free vulnerability in the Linux kernel through 5.5.2 in the vgacon_invert_region function in drivers/video/console/vgacon.c.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "PHYSICAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-8649"
+    },
+    {
+      "cve": "CVE-2019-19965",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-19965"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In the Linux kernel through 5.4.6, there is a NULL pointer dereference in drivers/scsi/libsas/sas_discover.c because of mishandling of port disconnection during discovery, related to a PHY down race condition, aka CID-f70267f379b5.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 4.7,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-19965"
+    },
+    {
+      "cve": "CVE-2019-20096",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-20096"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In the Linux kernel before 5.1, there is a memory leak in __feat_register_sp() in net/dccp/feat.c, which may cause denial of service, aka CID-1d3ff0950e2b.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-20096"
+    },
+    {
+      "cve": "CVE-2019-12455",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-12455"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "** DISPUTED ** An issue was discovered in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c in the Linux kernel through 5.1.5. There is an unchecked kstrndup of derived_name, which might allow an attacker to cause a denial of service (NULL pointer dereference and system crash). NOTE: This id is disputed as not being an issue because “The memory allocation that was not checked is part of a code that only runs at boot time, before user processes are started. Therefore, there is no possibility for an unprivileged user to control it, and no denial of service.”.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+          "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+          "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:bpftool-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.src",
+            "Anolis OS 8:kernel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-core-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-debug-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-headers-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-modules-extra-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:kernel-tools-libs-devel-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:perf-4.19.91-23.4.an8.x86_64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.aarch64",
+            "Anolis OS 8:python3-perf-4.19.91-23.4.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 4.1,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "HIGH",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-24 10:22:59",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-12455"
+    }
+  ]
+}
