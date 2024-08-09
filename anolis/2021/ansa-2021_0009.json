@@ -1,0 +1,609 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0009",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "spice and spice-gtk security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0009",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:18",
+      "id": "ANSA-2021:0009",
+      "initial_release_date": "2022-03-28 18:48:09",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:09",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:18",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "spice-glib-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-glib-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-glib-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-glib-devel-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-glib-devel-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-glib-devel-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-gtk-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-gtk-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk-tools-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-gtk-tools-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-gtk-tools-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-gtk3-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-gtk3-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-devel-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-gtk3-devel-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-gtk3-devel-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-vala-0.37-1.el8.2.aarch64",
+                "product": {
+                  "name": "spice-gtk3-vala-0.37-1.el8.2.aarch64",
+                  "product_id": "spice-gtk3-vala-0.37-1.el8.2.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-server-0.14.2-1.el8.1.aarch64",
+                "product": {
+                  "name": "spice-server-0.14.2-1.el8.1.aarch64",
+                  "product_id": "spice-server-0.14.2-1.el8.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "spice-0.14.2-1.el8.1.src",
+                "product": {
+                  "name": "spice-0.14.2-1.el8.1.src",
+                  "product_id": "spice-0.14.2-1.el8.1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk-0.37-1.el8.2.src",
+                "product": {
+                  "name": "spice-gtk-0.37-1.el8.2.src",
+                  "product_id": "spice-gtk-0.37-1.el8.2.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "spice-glib-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-glib-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-glib-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-glib-devel-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-glib-devel-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-glib-devel-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-gtk-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-gtk-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk-tools-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-gtk-tools-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-gtk-tools-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-gtk3-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-gtk3-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-devel-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-gtk3-devel-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-gtk3-devel-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-gtk3-vala-0.37-1.el8.2.x86_64",
+                "product": {
+                  "name": "spice-gtk3-vala-0.37-1.el8.2.x86_64",
+                  "product_id": "spice-gtk3-vala-0.37-1.el8.2.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "spice-server-0.14.2-1.el8.1.x86_64",
+                "product": {
+                  "name": "spice-server-0.14.2-1.el8.1.x86_64",
+                  "product_id": "spice-server-0.14.2-1.el8.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-glib-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-glib-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-glib-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-glib-devel-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-glib-devel-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-gtk-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk-tools-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-gtk-tools-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-gtk3-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-devel-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-gtk3-devel-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-vala-0.37-1.el8.2.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.aarch64"
+        },
+        "product_reference": "spice-gtk3-vala-0.37-1.el8.2.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-server-0.14.2-1.el8.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-server-0.14.2-1.el8.1.aarch64"
+        },
+        "product_reference": "spice-server-0.14.2-1.el8.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-glib-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-glib-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-glib-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-glib-devel-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-glib-devel-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-gtk-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk-tools-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-gtk-tools-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-gtk3-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-devel-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-gtk3-devel-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk3-vala-0.37-1.el8.2.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.x86_64"
+        },
+        "product_reference": "spice-gtk3-vala-0.37-1.el8.2.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-server-0.14.2-1.el8.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-server-0.14.2-1.el8.1.x86_64"
+        },
+        "product_reference": "spice-server-0.14.2-1.el8.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-0.14.2-1.el8.1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-0.14.2-1.el8.1.src"
+        },
+        "product_reference": "spice-0.14.2-1.el8.1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "spice-gtk-0.37-1.el8.2.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:spice-gtk-0.37-1.el8.2.src"
+        },
+        "product_reference": "spice-gtk-0.37-1.el8.2.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-14355",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-14355"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Multiple buffer overflow vulnerabilities were found in the QUIC image decoding process of the SPICE remote display system, before spice-0.14.2-1. Both the SPICE client (spice-gtk) and server are affected by these flaws. These flaws allow a malicious client or server to send specially crafted messages that, when processed by the QUIC image compression algorithm, result in a process crash or potential code execution.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:spice-0.14.2-1.el8.1.src",
+          "Anolis OS 8:spice-glib-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-glib-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-gtk-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-gtk-0.37-1.el8.2.src",
+          "Anolis OS 8:spice-gtk-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-gtk3-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-gtk3-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.aarch64",
+          "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.x86_64",
+          "Anolis OS 8:spice-server-0.14.2-1.el8.1.aarch64",
+          "Anolis OS 8:spice-server-0.14.2-1.el8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:spice-0.14.2-1.el8.1.src",
+            "Anolis OS 8:spice-glib-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-glib-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-glib-devel-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-gtk-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-gtk-0.37-1.el8.2.src",
+            "Anolis OS 8:spice-gtk-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-gtk-tools-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-gtk3-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-gtk3-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-gtk3-devel-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.aarch64",
+            "Anolis OS 8:spice-gtk3-vala-0.37-1.el8.2.x86_64",
+            "Anolis OS 8:spice-server-0.14.2-1.el8.1.aarch64",
+            "Anolis OS 8:spice-server-0.14.2-1.el8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 6.6,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "HIGH",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-20 17:57:02",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-14355"
+    }
+  ]
+}
