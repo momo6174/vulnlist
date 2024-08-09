@@ -1,0 +1,1216 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0405",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Moderate: go-toolset:an8 security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0405",
+    "tracking": {
+      "current_release_date": "2022-10-10 17:25:07",
+      "id": "ANSA-2022:0405",
+      "initial_release_date": "2022-06-23 10:11:49",
+      "revision_history": [
+        {
+          "date": "2022-06-23 10:11:49",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-10 17:25:07",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                "product": {
+                  "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_id": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                "product": {
+                  "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_id": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                "product": {
+                  "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_id": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                "product": {
+                  "name": "golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_id": "golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                "product": {
+                  "name": "golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_id": "golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                "product": {
+                  "name": "golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_id": "golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                "product": {
+                  "name": "golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_id": "golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+                "product": {
+                  "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_id": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                "product": {
+                  "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_id": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                "product": {
+                  "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_id": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+                "product": {
+                  "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_id": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                "product": {
+                  "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_id": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                "product": {
+                  "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_id": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                "product": {
+                  "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_id": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                "product": {
+                  "name": "golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_id": "golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src"
+        },
+        "product_reference": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src"
+        },
+        "product_reference": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src"
+        },
+        "product_reference": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64"
+        },
+        "product_reference": "delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64"
+        },
+        "product_reference": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64"
+        },
+        "product_reference": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64"
+        },
+        "product_reference": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64"
+        },
+        "product_reference": "golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64"
+        },
+        "product_reference": "go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64"
+        },
+        "product_reference": "golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64"
+        },
+        "product_reference": "golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        },
+        "product_reference": "golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        },
+        "product_reference": "golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        },
+        "product_reference": "golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        },
+        "product_reference": "golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-38297",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-38297"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.16.9 and 1.17.x before 1.17.2 has a Buffer Overflow via large arguments in a function invocation from a WASM module, when GOARCH=wasm GOOS=js is used.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2021-38297"
+    },
+    {
+      "cve": "CVE-2021-39293",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-39293"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In archive/zip in Go before 1.16.8 and 1.17.x before 1.17.1, a crafted archive header (falsely designating that many files are present) can cause a NewReader or OpenReader panic. NOTE: this issue exists because of an incomplete fix for CVE-2021-33196.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-39293"
+    },
+    {
+      "cve": "CVE-2021-41771",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-41771"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "ImportedSymbols in debug/macho (for Open or OpenFat) in Go before 1.16.10 and 1.17.x before 1.17.3 Accesses a Memory Location After the End of a Buffer, aka an out-of-bounds slice situation.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-41771"
+    },
+    {
+      "cve": "CVE-2021-41772",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-41772"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Go before 1.16.10 and 1.17.x before 1.17.3 allows an archive/zip Reader.Open panic via a crafted ZIP archive containing an invalid name or an empty filename field.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-41772"
+    },
+    {
+      "cve": "CVE-2022-23772",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-23772"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Rat.SetString in math/big in Go before 1.16.14 and 1.17.x before 1.17.7 has an overflow that can lead to Uncontrolled Memory Consumption.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-23772"
+    },
+    {
+      "cve": "CVE-2022-23773",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-23773"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "cmd/go in Go before 1.16.14 and 1.17.x before 1.17.7 can misinterpret branch names that falsely appear to be version tags. This can lead to incorrect access control if an actor is supposed to be able to create branches but not tags.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-23773"
+    },
+    {
+      "cve": "CVE-2022-23806",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-23806"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Curve.IsOnCurve in crypto/elliptic in Go before 1.16.14 and 1.17.x before 1.17.7 can incorrectly return true in situations with a big.Int value that is not a valid field element.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+          "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+          "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+          "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+          "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:delve-1.7.2-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:go-toolset-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.src",
+            "Anolis OS 8:golang-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.aarch64",
+            "Anolis OS 8:golang-bin-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-docs-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-misc-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-race-1.17.7-1.module+an8.6.0+10681+32366f9f.x86_64",
+            "Anolis OS 8:golang-src-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch",
+            "Anolis OS 8:golang-tests-1.17.7-1.module+an8.6.0+10681+32366f9f.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 10:47:36",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-23806"
+    }
+  ]
+}
