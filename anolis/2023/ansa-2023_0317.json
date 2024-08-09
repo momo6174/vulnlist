@@ -1,0 +1,3614 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0317",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "python27:2.7 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0317",
+    "tracking": {
+      "current_release_date": "2023-06-26 20:40:36",
+      "id": "ANSA-2023:0317",
+      "initial_release_date": "2023-06-26 20:40:36",
+      "revision_history": [
+        {
+          "date": "2023-06-26 20:40:36",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+                "product": {
+                  "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_id": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                "product": {
+                  "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_id": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+                "product": {
+                  "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_id": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                "product": {
+                  "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_id": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+                "product": {
+                  "name": "python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+                  "product_id": "python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                "product": {
+                  "name": "python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_id": "python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+                "product": {
+                  "name": "python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+                  "product_id": "python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+                "product": {
+                  "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+                  "product_id": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src",
+                "product": {
+                  "name": "scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src",
+                  "product_id": "scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+                "product": {
+                  "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_id": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                "product": {
+                  "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_id": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64"
+        },
+        "product_reference": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64"
+        },
+        "product_reference": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64"
+        },
+        "product_reference": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64"
+        },
+        "product_reference": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-backports-1.0-16.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-backports-1.0-16.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-idna-2.5-7.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-idna-2.5-7.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src"
+        },
+        "product_reference": "python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.src"
+        },
+        "product_reference": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pytz-2017.2-12.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pytz-2017.2-12.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src"
+        },
+        "product_reference": "scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch"
+        },
+        "product_reference": "python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch"
+        },
+        "product_reference": "python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64"
+        },
+        "product_reference": "python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64"
+        },
+        "product_reference": "python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-24329",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-24329"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in the Python package. An issue in the urllib.parse component could allow attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.This may lead to compromised Integrity.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+          "Anolis OS 8:python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+          "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+          "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+          "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+          "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+          "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+          "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+          "Anolis OS 8:python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+          "Anolis OS 8:python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+          "Anolis OS 8:pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+          "Anolis OS 8:scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:Cython-0.28.1-7.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:PyYAML-3.12-16.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:babel-2.5.1-10.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:pytest-3.4.2-13.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-backports-1.0-16.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-dns-1.15.0-10.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-docs-2.7.16-2.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-docutils-0.14-12.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-idna-2.5-7.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-jinja2-2.10-9.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-mock-2.0.0-13.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-nose-1.3.7-31.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-nose-docs-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python-psycopg2-doc-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python-py-1.5.3-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-requests-2.20.0-3.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-sqlalchemy-doc-1.3.2-2.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.src",
+            "Anolis OS 8:python-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.src",
+            "Anolis OS 8:python2-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-Cython-0.28.1-7.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-PyMySQL-0.8.0-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-attrs-17.4.0-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-babel-2.5.1-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-backports-1.0-16.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-backports-ssl_match_hostname-3.5.0.1-12.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-bson-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-chardet-3.0.4-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-coverage-4.5.1-4.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-debug-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-devel-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-dns-1.15.0-10.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-docs-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-docs-info-2.7.16-2.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-docutils-0.14-12.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-funcsigs-1.0.2-13.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-idna-2.5-7.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-ipaddress-1.0.18-6.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-jinja2-2.10-9.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-libs-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-lxml-4.2.3-6.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-markupsafe-0.23-19.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-mock-2.0.0-13.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-nose-1.3.7-31.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-numpy-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-numpy-doc-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-numpy-f2py-1.14.2-16.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pip-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python2-pip-wheel-9.0.3-19.0.1.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pluggy-0.6.0-8.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-psycopg2-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-psycopg2-debug-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-psycopg2-tests-2.7.5-7.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-py-1.5.3-6.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pygments-2.2.0-22.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-pymongo-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-pymongo-gridfs-3.7.0-1.0.1.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-pysocks-1.6.8-6.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pytest-3.4.2-13.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pytest-mock-1.9.0-4.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pytz-2017.2-12.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-pyyaml-3.12-16.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-requests-2.20.0-3.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-rpm-macros-3-38.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-scipy-1.0.0-21.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-setuptools-39.0.1-13.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python2-setuptools-wheel-39.0.1-13.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-setuptools_scm-1.15.7-6.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-six-1.11.0-6.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.aarch64",
+            "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.loongarch64",
+            "Anolis OS 8:python2-sqlalchemy-1.3.2-2.module+an8.7.0+10860+d772453f.x86_64",
+            "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-test-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-tkinter-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.aarch64",
+            "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.loongarch64",
+            "Anolis OS 8:python2-tools-2.7.18-13.module+an8.8.0+11057+0674a702.x86_64",
+            "Anolis OS 8:python2-urllib3-1.24.2-3.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-virtualenv-15.1.0-22.module+an8.8.0+11057+0674a702.noarch",
+            "Anolis OS 8:python2-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:python2-wheel-wheel-0.31.1-3.module+an8.7.0+10860+d772453f.noarch",
+            "Anolis OS 8:pytz-2017.2-12.module+an8.7.0+10860+d772453f.src",
+            "Anolis OS 8:scipy-1.0.0-21.module+an8.7.0+10860+d772453f.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-02-17 23:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-24329"
+    }
+  ]
+}
