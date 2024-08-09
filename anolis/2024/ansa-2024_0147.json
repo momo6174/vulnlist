@@ -1,0 +1,2381 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0147",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "webkit2gtk3 security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0147",
+    "tracking": {
+      "current_release_date": "2024-04-08 15:41:42",
+      "id": "ANSA-2024:0147",
+      "initial_release_date": "2024-04-08 15:41:42",
+      "revision_history": [
+        {
+          "date": "2024-04-08 15:41:42",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+                "product": {
+                  "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_id": "webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+                "product": {
+                  "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_id": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+                "product": {
+                  "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_id": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+                "product": {
+                  "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_id": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+                "product": {
+                  "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+                  "product_id": "webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+                "product": {
+                  "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_id": "webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+                "product": {
+                  "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_id": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+                "product": {
+                  "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_id": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64",
+                "product": {
+                  "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_id": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64"
+        },
+        "product_reference": "webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64"
+        },
+        "product_reference": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64"
+        },
+        "product_reference": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64"
+        },
+        "product_reference": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64"
+        },
+        "product_reference": "webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64"
+        },
+        "product_reference": "webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64"
+        },
+        "product_reference": "webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        },
+        "product_reference": "webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "webkit2gtk3-2.40.5-1.0.1.an8.1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src"
+        },
+        "product_reference": "webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-32885",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-32885"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Monterey 12.5, Safari 15.6. Processing maliciously crafted web content may lead to arbitrary code execution",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-08 12:15:15",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-32885"
+    },
+    {
+      "cve": "CVE-2023-27932",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-27932"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This issue was addressed with improved state management. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, tvOS 16.4, watchOS 9.4. Processing maliciously crafted web content may bypass Same Origin Policy.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-08 12:15:17",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-27932"
+    },
+    {
+      "cve": "CVE-2023-27954",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-27954"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The issue was addressed by removing origin information. This issue is fixed in macOS Ventura 13.3, Safari 16.4, iOS 16.4 and iPadOS 16.4, iOS 15.7.4 and iPadOS 15.7.4, tvOS 16.4, watchOS 9.4. A website may be able to track sensitive user information.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-08 12:15:18",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-27954"
+    },
+    {
+      "cve": "CVE-2023-28198",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-28198"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A use-after-free issue was addressed with improved memory management. This issue is fixed in iOS 16.4 and iPadOS 16.4, macOS Ventura 13.3. Processing web content may lead to arbitrary code execution.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-14 15:15:10",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-28198"
+    },
+    {
+      "cve": "CVE-2023-32370",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-32370"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A logic issue was addressed with improved validation. This issue is fixed in macOS Ventura 13.3. Content Security Policy to block domains with wildcards may fail.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-09-05 18:15:09",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-32370"
+    },
+    {
+      "cve": "CVE-2023-32393",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-32393"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The issue was addressed with improved memory handling. This issue is fixed in watchOS 9.3, tvOS 16.3, macOS Ventura 13.2, iOS 16.3 and iPadOS 16.3. Processing web content may lead to arbitrary code execution.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-26 17:15:23",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-32393"
+    },
+    {
+      "cve": "CVE-2023-38133",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38133"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS15.7.8和iPadOS15.7.8、iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。处理网页内容可能会泄露敏感信息。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-38133"
+    },
+    {
+      "cve": "CVE-2023-38572",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38572"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS15.7.8和iPadOS15.7.8、iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。网站可能能够绕过同源策略。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-38572"
+    },
+    {
+      "cve": "CVE-2023-38592",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38592"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "通过改进限制解决了逻辑问题。此问题已在iOS16.6和iPadOS16.6、watchOS9.6、tvOS16.6、macOSVentura13.5中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38592"
+    },
+    {
+      "cve": "CVE-2023-38594",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38594"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS15.7.8和iPadOS15.7.8、iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38594"
+    },
+    {
+      "cve": "CVE-2023-38595",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38595"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38595"
+    },
+    {
+      "cve": "CVE-2023-38597",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38597"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS15.7.8和iPadOS15.7.8、iOS16.6和iPadOS16.6、macOSVentura13.5、Safari16.6中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38597"
+    },
+    {
+      "cve": "CVE-2023-38599",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38599"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "通过改进状态管理解决了逻辑问题。此问题已在Safari16.6、watchOS9.6、iOS15.7.8和iPadOS15.7.8、tvOS16.6、iOS16.6和iPadOS16.6、macOSVentura13.5中修复。网站可能能够跟踪敏感的用户信息。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-38599"
+    },
+    {
+      "cve": "CVE-2023-38600",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38600"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进检查得到解决。此问题已在iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38600"
+    },
+    {
+      "cve": "CVE-2023-38611",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-38611"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "该问题已通过改进内存处理得到解决。此问题已在iOS16.6和iPadOS16.6、tvOS16.6、macOSVentura13.5、Safari16.6、watchOS9.6中修复。处理网页内容可能会导致任意代码执行。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-08-06 16:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-38611"
+    },
+    {
+      "cve": "CVE-2023-39434",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-39434"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A use-after-free issue was addressed with improved memory management. This issue is fixed in iOS 17 and iPadOS 17, watchOS 10, macOS Sonoma 14. Processing web content may lead to arbitrary code execution.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-09-27 07:18:56",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-39434"
+    },
+    {
+      "cve": "CVE-2023-40397",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-40397"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.5. A remote attacker may be able to cause arbitrary javascript code execution.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-09-06 13:15:13",
+          "details": "Critical"
+        }
+      ],
+      "title": "CVE-2023-40397"
+    },
+    {
+      "cve": "CVE-2023-40451",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-40451"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This issue was addressed with improved iframe sandbox enforcement. This issue is fixed in Safari 17. An attacker with JavaScript execution may be able to execute arbitrary code.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-09-27 07:19:17",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-40451"
+    },
+    {
+      "cve": "CVE-2023-42917",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-42917"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A memory corruption vulnerability was addressed with improved locking. This issue is fixed in iOS 17.1.2 and iPadOS 17.1.2, macOS Sonoma 14.1.2, Safari 17.1.2. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+          "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+          "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.src",
+            "Anolis OS 8:webkit2gtk3-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-devel-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-2.40.5-1.0.1.an8.1.x86_64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.aarch64",
+            "Anolis OS 8:webkit2gtk3-jsc-devel-2.40.5-1.0.1.an8.1.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2024-04-07 18:03:48",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-42917"
+    }
+  ]
+}
