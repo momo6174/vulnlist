@@ -1,0 +1,1482 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0183",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "git security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0183",
+    "tracking": {
+      "current_release_date": "2023-07-23 10:33:56",
+      "id": "ANSA-2023:0183",
+      "initial_release_date": "2023-05-25 16:28:36",
+      "revision_history": [
+        {
+          "date": "2023-05-25 16:28:36",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-07-23 10:33:56",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "git-2.39.3-1.0.1.an8.aarch64",
+                "product": {
+                  "name": "git-2.39.3-1.0.1.an8.aarch64",
+                  "product_id": "git-2.39.3-1.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-core-2.39.3-1.0.1.an8.aarch64",
+                "product": {
+                  "name": "git-core-2.39.3-1.0.1.an8.aarch64",
+                  "product_id": "git-core-2.39.3-1.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+                "product": {
+                  "name": "git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+                  "product_id": "git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-daemon-2.39.3-1.0.1.an8.aarch64",
+                "product": {
+                  "name": "git-daemon-2.39.3-1.0.1.an8.aarch64",
+                  "product_id": "git-daemon-2.39.3-1.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-subtree-2.39.3-1.0.1.an8.aarch64",
+                "product": {
+                  "name": "git-subtree-2.39.3-1.0.1.an8.aarch64",
+                  "product_id": "git-subtree-2.39.3-1.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "git-2.39.3-1.0.1.an8.loongarch64",
+                "product": {
+                  "name": "git-2.39.3-1.0.1.an8.loongarch64",
+                  "product_id": "git-2.39.3-1.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-core-2.39.3-1.0.1.an8.loongarch64",
+                "product": {
+                  "name": "git-core-2.39.3-1.0.1.an8.loongarch64",
+                  "product_id": "git-core-2.39.3-1.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+                "product": {
+                  "name": "git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+                  "product_id": "git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-daemon-2.39.3-1.0.1.an8.loongarch64",
+                "product": {
+                  "name": "git-daemon-2.39.3-1.0.1.an8.loongarch64",
+                  "product_id": "git-daemon-2.39.3-1.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-subtree-2.39.3-1.0.1.an8.loongarch64",
+                "product": {
+                  "name": "git-subtree-2.39.3-1.0.1.an8.loongarch64",
+                  "product_id": "git-subtree-2.39.3-1.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "git-all-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-all-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-all-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-core-doc-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-core-doc-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-core-doc-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-email-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-email-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-email-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-gui-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-gui-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-gui-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-instaweb-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-instaweb-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-instaweb-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-svn-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "git-svn-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "git-svn-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gitk-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "gitk-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "gitk-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gitweb-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "gitweb-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "gitweb-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Git-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "perl-Git-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "perl-Git-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Git-SVN-2.39.3-1.0.1.an8.noarch",
+                "product": {
+                  "name": "perl-Git-SVN-2.39.3-1.0.1.an8.noarch",
+                  "product_id": "perl-Git-SVN-2.39.3-1.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "git-2.39.3-1.0.1.an8.src",
+                "product": {
+                  "name": "git-2.39.3-1.0.1.an8.src",
+                  "product_id": "git-2.39.3-1.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "git-2.39.3-1.0.1.an8.x86_64",
+                "product": {
+                  "name": "git-2.39.3-1.0.1.an8.x86_64",
+                  "product_id": "git-2.39.3-1.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-core-2.39.3-1.0.1.an8.x86_64",
+                "product": {
+                  "name": "git-core-2.39.3-1.0.1.an8.x86_64",
+                  "product_id": "git-core-2.39.3-1.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+                "product": {
+                  "name": "git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+                  "product_id": "git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-daemon-2.39.3-1.0.1.an8.x86_64",
+                "product": {
+                  "name": "git-daemon-2.39.3-1.0.1.an8.x86_64",
+                  "product_id": "git-daemon-2.39.3-1.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "git-subtree-2.39.3-1.0.1.an8.x86_64",
+                "product": {
+                  "name": "git-subtree-2.39.3-1.0.1.an8.x86_64",
+                  "product_id": "git-subtree-2.39.3-1.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-2.39.3-1.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64"
+        },
+        "product_reference": "git-2.39.3-1.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-core-2.39.3-1.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64"
+        },
+        "product_reference": "git-core-2.39.3-1.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-credential-libsecret-2.39.3-1.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64"
+        },
+        "product_reference": "git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-daemon-2.39.3-1.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64"
+        },
+        "product_reference": "git-daemon-2.39.3-1.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-subtree-2.39.3-1.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64"
+        },
+        "product_reference": "git-subtree-2.39.3-1.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-2.39.3-1.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64"
+        },
+        "product_reference": "git-2.39.3-1.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-core-2.39.3-1.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64"
+        },
+        "product_reference": "git-core-2.39.3-1.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-credential-libsecret-2.39.3-1.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64"
+        },
+        "product_reference": "git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-daemon-2.39.3-1.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64"
+        },
+        "product_reference": "git-daemon-2.39.3-1.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-subtree-2.39.3-1.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64"
+        },
+        "product_reference": "git-subtree-2.39.3-1.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-2.39.3-1.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-2.39.3-1.0.1.an8.src"
+        },
+        "product_reference": "git-2.39.3-1.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-all-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-all-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-core-doc-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-core-doc-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-email-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-email-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-gui-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-gui-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-instaweb-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-instaweb-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-svn-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "git-svn-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gitk-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "gitk-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gitweb-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "gitweb-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Git-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "perl-Git-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Git-SVN-2.39.3-1.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        },
+        "product_reference": "perl-Git-SVN-2.39.3-1.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-2.39.3-1.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64"
+        },
+        "product_reference": "git-2.39.3-1.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-core-2.39.3-1.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64"
+        },
+        "product_reference": "git-core-2.39.3-1.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64"
+        },
+        "product_reference": "git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-daemon-2.39.3-1.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64"
+        },
+        "product_reference": "git-daemon-2.39.3-1.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "git-subtree-2.39.3-1.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64"
+        },
+        "product_reference": "git-subtree-2.39.3-1.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-22490",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-22490"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A vulnerability was found in Git. Using a specially-crafted repository, Git can be tricked into using its local clone optimization even when using a non-local transport. Though Git will abort local clones whose source $GIT_DIR/objects directory contains symbolic links (CVE-2022-39253), the objects directory may still be a symbolic link.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-02-15 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-22490"
+    },
+    {
+      "cve": "CVE-2023-23946",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-23946"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A vulnerability was found in Git. This security issue occurs when feeding a crafted input to \"git apply.\" A path outside the working tree can be overwritten by the user running \"git apply.\"",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-02-15 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-23946"
+    },
+    {
+      "cve": "CVE-2023-25652",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-25652"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, by feeding specially crafted input to `git apply --reject`, a path outside the working tree can be overwritten with partially controlled contents (corresponding to the rejected hunk(s) from the given patch). A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid using `git apply` with `--reject` when applying patches from an untrusted source. Use `git apply --stat` to inspect a patch before applying; avoid applying one that create a conflict where a link corresponding to the `*.rej` file exists.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-04-26 04:15:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-25652"
+    },
+    {
+      "cve": "CVE-2023-25815",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-25815"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In Git for Windows, the Windows port of Git, no localized messages are shipped with the installer. As a consequence, Git is expected not to localize messages at all, and skips the gettext initialization. However, due to a change in MINGW-packages, the `gettext()` function's implicit initialization no longer uses the runtime prefix but uses the hard-coded path `C:\\mingw64\\share\\locale` to look for localized messages. And since any authenticated user has the permission to create folders in `C:\\` (and since `C:\\mingw64` does not typically exist), it is possible for low-privilege users to place fake messages in that location where `git.exe` will pick them up in version 2.40.1. This vulnerability is relatively hard to exploit and requires social engineering. For example, a legitimate message at the end of a clone could be maliciously modified to ask the user to direct their web browser to a malicious website, and the user might think that the message comes from Git and is legitimate. It does require local write access by the attacker, though, which makes this attack vector less likely. Version 2.40.1 contains a patch for this issue. Some workarounds are available. Do not work on a Windows machine with shared accounts, or alternatively create a `C:\\mingw64` folder and leave it empty. Users who have administrative rights may remove the permission to create folders in `C:\\`.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 2.2,
+            "baseSeverity": "LOW",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-24 16:51:45",
+          "details": "Low"
+        }
+      ],
+      "title": "CVE-2023-25815"
+    },
+    {
+      "cve": "CVE-2023-29007",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-29007"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1, a specially crafted `.gitmodules` file with submodule URLs that are longer than 1024 characters can used to exploit a bug in `config.c::git_config_copy_or_rename_section_in_file()`. This bug can be used to inject arbitrary configuration into a user's `$GIT_DIR/config` when attempting to remove the configuration section associated with that submodule. When the attacker injects configuration values which specify executables to run (such as `core.pager`, `core.editor`, `core.sshCommand`, etc.) this can lead to a remote code execution. A fix A fix is available in versions 2.30.9, 2.31.8, 2.32.7, 2.33.8, 2.34.8, 2.35.8, 2.36.6, 2.37.7, 2.38.5, 2.39.3, and 2.40.1. As a workaround, avoid running `git submodule deinit` on untrusted repositories or without prior inspection of any submodule sections in `$GIT_DIR/config`.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-05-24 16:51:45",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-29007"
+    },
+    {
+      "cve": "CVE-2022-24765",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-24765"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Git for Windows is a fork of Git containing Windows-specific patches. This vulnerability affects users working on multi-user machines, where untrusted parties have write access to the same hard disk. Those untrusted parties could create the folder `C:\\.git`, which would be picked up by Git operations run supposedly outside a repository while searching for a Git directory. Git would then respect any config in said Git directory. Git Bash users who set `GIT_PS1_SHOWDIRTYSTATE` are vulnerable as well. Users who installed posh-gitare vulnerable simply by starting a PowerShell. Users of IDEs such as Visual Studio are vulnerable: simply creating a new project would already read and respect the config specified in `C:\\.git\\config`. Users of the Microsoft fork of Git are vulnerable simply by starting a Git Bash. The problem has been patched in Git for Windows v2.35.2. Users unable to upgrade may create the folder `.git` on all drives where Git commands are run, and remove read/write access from those folders as a workaround. Alternatively, define or extend `GIT_CEILING_DIRECTORIES` to cover the _parent_ directory of the user profile, e.g. `C:\\Users` if the user profile is located in `C:\\Users\\my-user-name`.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+          "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+          "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+          "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+          "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.src",
+            "Anolis OS 8:git-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-all-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-core-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-core-doc-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-credential-libsecret-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-daemon-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-email-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-gui-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-instaweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.aarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.loongarch64",
+            "Anolis OS 8:git-subtree-2.39.3-1.0.1.an8.x86_64",
+            "Anolis OS 8:git-svn-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitk-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:gitweb-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-2.39.3-1.0.1.an8.noarch",
+            "Anolis OS 8:perl-Git-SVN-2.39.3-1.0.1.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-04-12 10:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-24765"
+    }
+  ]
+}
