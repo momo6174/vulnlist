@@ -1,0 +1,422 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0733",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": ".NET Core 3.1 security and bugfix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0733",
+    "tracking": {
+      "current_release_date": "2022-10-14 13:31:41",
+      "id": "ANSA-2022:0733",
+      "initial_release_date": "2022-10-14 13:31:41",
+      "revision_history": [
+        {
+          "date": "2022-10-14 13:31:41",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dotnet3.1-3.1.424-1.0.1.an8_6.src",
+                "product": {
+                  "name": "dotnet3.1-3.1.424-1.0.1.an8_6.src",
+                  "product_id": "dotnet3.1-3.1.424-1.0.1.an8_6.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                "product": {
+                  "name": "dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_id": "dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64"
+        },
+        "product_reference": "dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dotnet3.1-3.1.424-1.0.1.an8_6.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dotnet3.1-3.1.424-1.0.1.an8_6.src"
+        },
+        "product_reference": "dotnet3.1-3.1.424-1.0.1.an8_6.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-41032",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-41032"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "NuGet Client Elevation of Privilege Vulnerability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+          "Anolis OS 8:dotnet3.1-3.1.424-1.0.1.an8_6.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:aspnetcore-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:aspnetcore-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-apphost-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-hostfxr-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-runtime-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-sdk-3.1-3.1.424-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-sdk-3.1-source-built-artifacts-3.1.424-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-targeting-pack-3.1-3.1.30-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet-templates-3.1-3.1.424-1.0.1.an8_6.x86_64",
+            "Anolis OS 8:dotnet3.1-3.1.424-1.0.1.an8_6.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-10-14 10:41:56",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-41032"
+    }
+  ]
+}
