@@ -1,0 +1,839 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0609",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "go-toolset:an8 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0609",
+    "tracking": {
+      "current_release_date": "2023-10-20 14:29:02",
+      "id": "ANSA-2023:0609",
+      "initial_release_date": "2023-10-20 14:29:02",
+      "revision_history": [
+        {
+          "date": "2023-10-20 14:29:02",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                "product": {
+                  "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_id": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                "product": {
+                  "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_id": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                "product": {
+                  "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_id": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                "product": {
+                  "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_id": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                "product": {
+                  "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_id": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                "product": {
+                  "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_id": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                "product": {
+                  "name": "golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_id": "golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                "product": {
+                  "name": "golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_id": "golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                "product": {
+                  "name": "golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_id": "golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                "product": {
+                  "name": "golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_id": "golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+                "product": {
+                  "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+                  "product_id": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+                "product": {
+                  "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+                  "product_id": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+                "product": {
+                  "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+                  "product_id": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+                "product": {
+                  "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+                  "product_id": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                "product": {
+                  "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_id": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                "product": {
+                  "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_id": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                "product": {
+                  "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_id": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                "product": {
+                  "name": "golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_id": "golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64"
+        },
+        "product_reference": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64"
+        },
+        "product_reference": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64"
+        },
+        "product_reference": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64"
+        },
+        "product_reference": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64"
+        },
+        "product_reference": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64"
+        },
+        "product_reference": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64"
+        },
+        "product_reference": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64"
+        },
+        "product_reference": "golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src"
+        },
+        "product_reference": "delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src"
+        },
+        "product_reference": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src"
+        },
+        "product_reference": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        },
+        "product_reference": "golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        },
+        "product_reference": "golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        },
+        "product_reference": "golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        },
+        "product_reference": "golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64"
+        },
+        "product_reference": "go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64"
+        },
+        "product_reference": "golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64"
+        },
+        "product_reference": "golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-39325",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-39325"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+          "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+            "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-11 14:15:09",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-39325"
+    },
+    {
+      "cve": "CVE-2023-44487",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-44487"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+          "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+          "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+          "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+          "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+          "Anolis OS 8:golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+          "Anolis OS 8:golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.src",
+            "Anolis OS 8:delve-1.9.1-1.0.1.module+an8.8.0+11088+43a98d8f.x86_64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.src",
+            "Anolis OS 8:go-toolset-1.19.13-1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.src",
+            "Anolis OS 8:golang-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.aarch64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.loongarch64",
+            "Anolis OS 8:golang-bin-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-docs-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-misc-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-race-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.x86_64",
+            "Anolis OS 8:golang-src-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch",
+            "Anolis OS 8:golang-tests-1.19.13-1.0.1.module+an8.8.0+11120+77e2ef4d.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-10-10 06:15:10",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-44487"
+    }
+  ]
+}
