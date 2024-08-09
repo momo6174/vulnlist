@@ -1,0 +1,2221 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0806",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Important: pki-core:10.6 and pki-deps:10.6 security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0806",
+    "tracking": {
+      "current_release_date": "2022-11-11 13:12:47",
+      "id": "ANSA-2022:0806",
+      "initial_release_date": "2022-11-11 13:12:47",
+      "revision_history": [
+        {
+          "date": "2022-11-11 13:12:47",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                "product": {
+                  "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_id": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                "product": {
+                  "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_id": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                "product": {
+                  "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_id": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                "product": {
+                  "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_id": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                "product": {
+                  "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                  "product_id": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                "product": {
+                  "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                  "product_id": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                "product": {
+                  "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_id": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                "product": {
+                  "name": "ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_id": "ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                "product": {
+                  "name": "pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                  "product_id": "pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                "product": {
+                  "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                  "product_id": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                "product": {
+                  "name": "python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_id": "python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+                "product": {
+                  "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_id": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+                "product": {
+                  "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_id": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+                "product": {
+                  "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+                  "product_id": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+                "product": {
+                  "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+                  "product_id": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+                "product": {
+                  "name": "pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+                  "product_id": "pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+                "product": {
+                  "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+                  "product_id": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+                "product": {
+                  "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+                  "product_id": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src",
+                "product": {
+                  "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src",
+                  "product_id": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                "product": {
+                  "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_id": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                "product": {
+                  "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_id": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                "product": {
+                  "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_id": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                "product": {
+                  "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_id": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                "product": {
+                  "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                  "product_id": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                "product": {
+                  "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                  "product_id": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch"
+        },
+        "product_reference": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch"
+        },
+        "product_reference": "ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch"
+        },
+        "product_reference": "pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch"
+        },
+        "product_reference": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch"
+        },
+        "product_reference": "python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch"
+        },
+        "product_reference": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch"
+        },
+        "product_reference": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src"
+        },
+        "product_reference": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src"
+        },
+        "product_reference": "ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src"
+        },
+        "product_reference": "pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src"
+        },
+        "product_reference": "pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src"
+        },
+        "product_reference": "tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src"
+        },
+        "product_reference": "xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64"
+        },
+        "product_reference": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64"
+        },
+        "product_reference": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64"
+        },
+        "product_reference": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64"
+        },
+        "product_reference": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64"
+        },
+        "product_reference": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64"
+        },
+        "product_reference": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64"
+        },
+        "product_reference": "idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64"
+        },
+        "product_reference": "idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64"
+        },
+        "product_reference": "jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64"
+        },
+        "product_reference": "jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64"
+        },
+        "product_reference": "python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64"
+        },
+        "product_reference": "python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-2414",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-2414"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Access to external entities when parsing XML documents can lead to XML external entity (XXE) attacks. This flaw allows a remote attacker to potentially retrieve the content of arbitrary files by sending specially crafted HTTP requests.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+          "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+          "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+          "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+          "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+          "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+          "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+          "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+          "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+          "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+          "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+          "Anolis OS 8:ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+          "Anolis OS 8:msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+          "Anolis OS 8:pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+          "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+          "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+          "Anolis OS 8:python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+          "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+          "Anolis OS 8:python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+          "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+          "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+          "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+          "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+          "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+          "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+          "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:apache-commons-collections-3.2.2-10.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:apache-commons-lang-2.6-21.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:apache-commons-net-3.6-3.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:bea-stax-1.2.0-16.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:bea-stax-api-1.2.0-16.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:fasterxml-oss-parent-26-6.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:glassfish-fastinfoset-1.2.13-9.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:glassfish-jax-rs-api-2.0.1-6.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:glassfish-jaxb-api-2.2.12-8.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:glassfish-jaxb-core-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:glassfish-jaxb-runtime-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:glassfish-jaxb-txw2-2.2.11-11.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:idm-pki-acme-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-base-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-base-java-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-ca-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-kra-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-server-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+            "Anolis OS 8:idm-pki-symkey-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+            "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.aarch64",
+            "Anolis OS 8:idm-pki-tools-10.12.0-4.module+an8.7.0+10993+d9a5c907.x86_64",
+            "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-annotations-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-bom-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-core-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-databind-2.10.0-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-jaxrs-json-provider-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-jaxrs-providers-2.9.9-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jackson-module-jaxb-annotations-2.7.6-4.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jackson-parent-2.10-1.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jakarta-commons-httpclient-3.1-28.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:javassist-3.18.1-8.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:javassist-javadoc-3.18.1-8.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+            "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.src",
+            "Anolis OS 8:jss-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+            "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.aarch64",
+            "Anolis OS 8:jss-javadoc-4.9.4-1.module+an8.7.0+10993+d9a5c907.x86_64",
+            "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+            "Anolis OS 8:ldapjdk-4.23.0-1.module+an8.7.0+10954+75fb6048.src",
+            "Anolis OS 8:ldapjdk-javadoc-4.23.0-1.module+an8.7.0+10954+75fb6048.noarch",
+            "Anolis OS 8:msv-2013.6.1-10.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:pki-core-10.12.0-4.module+an8.7.0+10993+d9a5c907.src",
+            "Anolis OS 8:pki-servlet-4.0-api-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+            "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.noarch",
+            "Anolis OS 8:pki-servlet-engine-9.0.50-1.module+an8.7.0+10990+952705f7.src",
+            "Anolis OS 8:python-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+            "Anolis OS 8:python-nss-doc-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+            "Anolis OS 8:python3-idm-pki-10.12.0-4.module+an8.7.0+10993+d9a5c907.noarch",
+            "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.aarch64",
+            "Anolis OS 8:python3-nss-1.0.1-10.module+an8.7.0+10955+1d65c34e.x86_64",
+            "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:relaxngDatatype-2011.1-7.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:relaxngcc-1.12-14.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:resteasy-3.0.26-6.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:slf4j-1.7.25-4.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:slf4j-jdk14-1.7.25-4.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:stax-ex-1.7.7-8.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.noarch",
+            "Anolis OS 8:tomcatjss-7.7.1-1.module+an8.7.0+10954+75fb6048.src",
+            "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:velocity-1.7-24.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xalan-j2-2.7.1-38.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xerces-j2-2.11.0-34.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xml-commons-apis-1.4.01-25.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xml-commons-resolver-1.2-26.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xml-stylebook-1.0-0.25.b3_xalan2.svn313293.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xmlstreambuffer-1.5.4-8.module+an8.7.0+10955+1d65c34e.src",
+            "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.noarch",
+            "Anolis OS 8:xsom-0-19.20110809svn.module+an8.7.0+10955+1d65c34e.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-11-10 14:55:46",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-2414"
+    }
+  ]
+}
