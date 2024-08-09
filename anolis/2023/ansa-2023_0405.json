@@ -1,0 +1,1374 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0405",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "fence-agents security and bug fix update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0405",
+    "tracking": {
+      "current_release_date": "2023-07-01 23:43:53",
+      "id": "ANSA-2023:0405",
+      "initial_release_date": "2023-07-01 23:43:53",
+      "revision_history": [
+        {
+          "date": "2023-07-01 23:43:53",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+                "product": {
+                  "name": "fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+                  "product_id": "fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+                "product": {
+                  "name": "fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+                  "product_id": "fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+                "product": {
+                  "name": "fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+                  "product_id": "fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+                "product": {
+                  "name": "fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+                  "product_id": "fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+                "product": {
+                  "name": "fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+                  "product_id": "fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+                "product": {
+                  "name": "fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+                  "product_id": "fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-common-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-common-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-common-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+                "product": {
+                  "name": "fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+                  "product_id": "fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "fence-agents-4.10.0-43.0.1.an8.src",
+                "product": {
+                  "name": "fence-agents-4.10.0-43.0.1.an8.src",
+                  "product_id": "fence-agents-4.10.0-43.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virt-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virt-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virt-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64",
+                "product": {
+                  "name": "fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64",
+                  "product_id": "fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-all-4.10.0-43.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.aarch64"
+        },
+        "product_reference": "fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-kdump-4.10.0-43.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.aarch64"
+        },
+        "product_reference": "fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-redfish-4.10.0-43.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.aarch64"
+        },
+        "product_reference": "fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-all-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-compute-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-compute-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-kdump-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-redfish-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virt-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virt-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virt-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-serial-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-serial-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64"
+        },
+        "product_reference": "fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-4.10.0-43.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-4.10.0-43.0.1.an8.src"
+        },
+        "product_reference": "fence-agents-4.10.0-43.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-apc-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-apc-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-brocade-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-brocade-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-common-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-common-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-common-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-drac5-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-drac5-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-emerson-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-emerson-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-eps-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-eps-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-hpblade-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-hpblade-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ifmib-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ifmib-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ilo2-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ilo2-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ipdu-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ipdu-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-lpar-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-lpar-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-mpath-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-mpath-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-rhevm-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-rhevm-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-rsa-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-rsa-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-rsb-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-rsb-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-sbd-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-sbd-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-scsi-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-scsi-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-virsh-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-virsh-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-wti-4.10.0-43.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-wti-4.10.0-43.0.1.an8.noarch"
+        },
+        "product_reference": "fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-all-4.10.0-43.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.loongarch64"
+        },
+        "product_reference": "fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64"
+        },
+        "product_reference": "fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64"
+        },
+        "product_reference": "fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-36087",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-36087"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "OAuthLib is an implementation of the OAuth request-signing logic for Python 3.6+. In OAuthLib versions 3.1.1 until 3.2.1, an attacker providing malicious redirect uri can cause denial of service. An attacker can also leverage usage of `uri_validate` functions depending where it is used. OAuthLib applications using OAuth2.0 provider support or use directly `uri_validate` are affected by this issue. Version 3.2.1 contains a patch. There are no known workarounds.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:fence-agents-4.10.0-43.0.1.an8.src",
+          "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+          "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+          "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-common-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+          "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+          "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+          "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+          "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+          "Anolis OS 8:fence-virt-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+          "Anolis OS 8:fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:fence-agents-4.10.0-43.0.1.an8.src",
+            "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.aarch64",
+            "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.loongarch64",
+            "Anolis OS 8:fence-agents-all-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-agents-amt-ws-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-apc-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-apc-snmp-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-bladecenter-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-brocade-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-cisco-mds-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-cisco-ucs-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-common-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-compute-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-agents-drac5-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-eaton-snmp-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-emerson-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-eps-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-heuristics-ping-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-hpblade-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ibmblade-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ifmib-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ilo-moonshot-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ilo-mp-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ilo-ssh-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ilo2-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-intelmodular-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ipdu-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-ipmilan-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.aarch64",
+            "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.loongarch64",
+            "Anolis OS 8:fence-agents-kdump-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-agents-lpar-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-mpath-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.aarch64",
+            "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.loongarch64",
+            "Anolis OS 8:fence-agents-redfish-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-agents-rhevm-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-rsa-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-rsb-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-sbd-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-scsi-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-virsh-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-vmware-rest-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-vmware-soap-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-agents-wti-4.10.0-43.0.1.an8.noarch",
+            "Anolis OS 8:fence-virt-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-cpg-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-libvirt-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-multicast-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-serial-4.10.0-43.0.1.an8.x86_64",
+            "Anolis OS 8:fence-virtd-tcp-4.10.0-43.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-01 21:04:15",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-36087"
+    }
+  ]
+}
