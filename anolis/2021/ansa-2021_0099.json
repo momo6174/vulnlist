@@ -1,0 +1,1412 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0099",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Important: nodejs:12 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0099",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:30",
+      "id": "ANSA-2021:0099",
+      "initial_release_date": "2022-03-28 18:48:14",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:14",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:30",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                "product": {
+                  "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_id": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                "product": {
+                  "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_id": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                "product": {
+                  "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_id": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+                "product": {
+                  "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_id": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+                "product": {
+                  "name": "nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+                  "product_id": "nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+                "product": {
+                  "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+                  "product_id": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+                "product": {
+                  "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+                  "product_id": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+                "product": {
+                  "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+                  "product_id": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+                "product": {
+                  "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+                  "product_id": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+                "product": {
+                  "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+                  "product_id": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                "product": {
+                  "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_id": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                "product": {
+                  "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_id": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                "product": {
+                  "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_id": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64",
+                "product": {
+                  "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_id": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64"
+        },
+        "product_reference": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64"
+        },
+        "product_reference": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64"
+        },
+        "product_reference": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64"
+        },
+        "product_reference": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64"
+        },
+        "product_reference": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64"
+        },
+        "product_reference": "nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64"
+        },
+        "product_reference": "nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        },
+        "product_reference": "npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src"
+        },
+        "product_reference": "nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src"
+        },
+        "product_reference": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src"
+        },
+        "product_reference": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch"
+        },
+        "product_reference": "nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch"
+        },
+        "product_reference": "nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch"
+        },
+        "product_reference": "nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-22884",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-22884"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Node.js before 10.24.0, 12.21.0, 14.16.0, and 15.10.0 is vulnerable to DNS rebinding attacks as the whitelist includes “localhost6”. When “localhost6” is not present in /etc/hosts, it is just an ordinary domain that is resolved via DNS, i.e., over network. If the attacker controls the victim's DNS server or can spoof its responses, the DNS rebinding protection can be bypassed by using the “localhost6” domain. As long as the attacker uses the “localhost6” domain, they can still apply the attack described in CVE-2018-7160.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-26 10:56:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-22884"
+    },
+    {
+      "cve": "CVE-2021-22883",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-22883"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Node.js before 10.24.0, 12.21.0, 14.16.0, and 15.10.0 is vulnerable to a denial of service attack when too many connection attempts with an 'unknownProtocol' are established. This leads to a leak of file descriptors. If a file descriptor limit is configured on the system, then the server is unable to accept new connections and prevent the process also from opening, e.g. a file. If no file descriptor limit is configured, then this lead to an excessive memory usage and cause the system to run out of memory.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-04-26 10:56:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-22883"
+    },
+    {
+      "cve": "CVE-2019-16775",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16775"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Versions of the npm CLI prior to 6.13.3 are vulnerable to an Arbitrary File Write. It is possible for packages to create symlinks to files outside of thenode_modules folder through the bin field upon installation. A properly constructed entry in the package.json bin field would allow a package publisher to create a symlink pointing to arbitrary files on a user's system when the package is installed. This behavior is still possible through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.8,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-12-12 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-16775"
+    },
+    {
+      "cve": "CVE-2019-16776",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16776"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Versions of the npm CLI prior to 6.13.3 are vulnerable to an Arbitrary File Write. It fails to prevent access to folders outside of the intended node_modules folder through the bin field. A properly constructed entry in the package.json bin field would allow a package publisher to modify and/or gain access to arbitrary files on a user's system when the package is installed. This behavior is still possible through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.8,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-12-12 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-16776"
+    },
+    {
+      "cve": "CVE-2019-16777",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-16777"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Versions of the npm CLI prior to 6.13.4 are vulnerable to an Arbitrary File Overwrite. It fails to prevent existing globally-installed binaries to be overwritten by other package installations. For example, if a package was installed globally and created a serve binary, any subsequent installs of packages that also create a serve binary would overwrite the previous serve binary. This behavior is still allowed in local installations and also through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.8,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2019-12-12 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-16777"
+    },
+    {
+      "cve": "CVE-2020-15366",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-15366"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue was discovered in ajv.validate() in Ajv (aka Another JSON Schema Validator) 6.12.2. A carefully crafted JSON schema could be provided that allows execution of other code by prototype pollution. (While untrusted schemas are recommended against, the worst case of an untrusted schema should be a denial of service, not execution of code.)\nA flaw was found in nodejs-ajv. A carefully crafted JSON schema could be provided that allows execution of other code by prototype pollution. While untrusted schemas are recommended against, the worst case of an untrusted schema should be a denial of service, not execution of code.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.6,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-07-04 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-15366"
+    },
+    {
+      "cve": "CVE-2020-7608",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-7608"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "yargs-parser could be tricked into adding or modifying properties of Object.prototype using a \"__proto__\" payload.\nA vulnerability was found in nodesjs-yargs-parser, where it can be tricked into adding or modifying properties of the Object.prototype using a \"__proto__\" payload. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-03-16 00:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-7608"
+    },
+    {
+      "cve": "CVE-2020-7774",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-7774"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "This affects the package y18n before 3.2.2, 4.0.1 and 5.0.5. PoC by po6ix: const y18n = require('y18n')(); y18n.setLocale('__proto__'); y18n.updateLocale({polluted: true}); console.log(polluted); // true\nA flaw was found in nodejs-y18n. There is a prototype pollution vulnerability in y18n's locale functionality. If an attacker is able to provide untrusted input via locale, they may be able to cause denial of service or in rare circumstances, impact to data integrity or confidentiality.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 7.3,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-10-25 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-7774"
+    },
+    {
+      "cve": "CVE-2020-8172",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8172"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "TLS session reuse can lead to host certificate verification bypass in node version \u003c 12.18.0 and \u003c 14.4.0.\nA TLS Hostname verification bypass vulnerability exists in NodeJS. This flaw allows an attacker to bypass TLS Hostname verification when a TLS client reuses HTTPS sessions.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+          "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+          "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+          "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-devel-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-docs-12.21.0-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:nodejs-full-i18n-12.21.0-1.module+el8.2.0+10167+756d871c.x86_64",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.noarch",
+            "Anolis OS 8:nodejs-nodemon-1.18.3-1.module+el8.2.0+10167+756d871c.src",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.noarch",
+            "Anolis OS 8:nodejs-packaging-17-3.module+el8.2.0+10035+97d310d9.src",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.aarch64",
+            "Anolis OS 8:npm-6.14.11-1.12.21.0.1.module+el8.2.0+10167+756d871c.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.4,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-06-02 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8172"
+    }
+  ]
+}
