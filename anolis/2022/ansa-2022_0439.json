@@ -1,0 +1,2317 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0439",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Moderate: bind security, bug fix, and enhancement update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0439",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:51:03",
+      "id": "ANSA-2022:0439",
+      "initial_release_date": "2022-06-23 10:12:41",
+      "revision_history": [
+        {
+          "date": "2022-06-23 10:12:41",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:51:03",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-chroot-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-chroot-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-chroot-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-devel-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-devel-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-devel-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-export-devel-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-export-devel-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-export-devel-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-export-libs-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-export-libs-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-export-libs-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-libs-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-libs-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-libs-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-libs-lite-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-libs-lite-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-libs-lite-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-lite-devel-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-lite-devel-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-lite-devel-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-pkcs11-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-pkcs11-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-sdb-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-sdb-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-sdb-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-sdb-chroot-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-sdb-chroot-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-sdb-chroot-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-utils-9.11.36-3.an8.aarch64",
+                "product": {
+                  "name": "bind-utils-9.11.36-3.an8.aarch64",
+                  "product_id": "bind-utils-9.11.36-3.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind-license-9.11.36-3.an8.noarch",
+                "product": {
+                  "name": "bind-license-9.11.36-3.an8.noarch",
+                  "product_id": "bind-license-9.11.36-3.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-bind-9.11.36-3.an8.noarch",
+                "product": {
+                  "name": "python3-bind-9.11.36-3.an8.noarch",
+                  "product_id": "python3-bind-9.11.36-3.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind-9.11.36-3.an8.src",
+                "product": {
+                  "name": "bind-9.11.36-3.an8.src",
+                  "product_id": "bind-9.11.36-3.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "bind-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-chroot-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-chroot-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-chroot-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-devel-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-devel-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-devel-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-export-devel-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-export-devel-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-export-devel-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-export-libs-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-export-libs-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-export-libs-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-libs-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-libs-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-libs-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-libs-lite-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-libs-lite-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-libs-lite-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-lite-devel-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-lite-devel-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-lite-devel-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-pkcs11-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-pkcs11-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-sdb-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-sdb-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-sdb-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-sdb-chroot-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-sdb-chroot-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-sdb-chroot-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "bind-utils-9.11.36-3.an8.x86_64",
+                "product": {
+                  "name": "bind-utils-9.11.36-3.an8.x86_64",
+                  "product_id": "bind-utils-9.11.36-3.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-chroot-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-chroot-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-devel-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-devel-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-export-devel-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-export-devel-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-export-libs-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-export-libs-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-libs-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-libs-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-libs-lite-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-libs-lite-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-lite-devel-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-lite-devel-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-pkcs11-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-devel-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-libs-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-utils-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-sdb-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-sdb-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-sdb-chroot-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-sdb-chroot-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-utils-9.11.36-3.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64"
+        },
+        "product_reference": "bind-utils-9.11.36-3.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-chroot-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-chroot-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-devel-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-devel-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-export-devel-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-export-devel-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-export-libs-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-export-libs-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-libs-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-libs-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-libs-lite-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-libs-lite-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-lite-devel-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-lite-devel-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-pkcs11-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-devel-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-libs-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-pkcs11-utils-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-sdb-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-sdb-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-sdb-chroot-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-sdb-chroot-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-utils-9.11.36-3.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64"
+        },
+        "product_reference": "bind-utils-9.11.36-3.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-9.11.36-3.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-9.11.36-3.an8.src"
+        },
+        "product_reference": "bind-9.11.36-3.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "bind-license-9.11.36-3.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:bind-license-9.11.36-3.an8.noarch"
+        },
+        "product_reference": "bind-license-9.11.36-3.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-bind-9.11.36-3.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        },
+        "product_reference": "python3-bind-9.11.36-3.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2018-5743",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2018-5743"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "By design, BIND is intended to limit the number of TCP clients that can be connected at any given time. The number of allowed connections is a tunable parameter which, if unset, defaults to a conservative value for most servers. Unfortunately, the code which was intended to limit the number of simultaneous connections contained an error which could be exploited to grow the number of simultaneous connections beyond this limit. Versions affected: BIND 9.9.0 -\u003e 9.10.8-P1, 9.11.0 -\u003e 9.11.6, 9.12.0 -\u003e 9.12.4, 9.14.0. BIND 9 Supported Preview Edition versions 9.9.3-S1 -\u003e 9.11.5-S3, and 9.11.5-S5. Versions 9.13.0 -\u003e 9.13.7 of the 9.13 development branch are also affected. Versions prior to BIND 9.9.0 have not been evaluated for vulnerability to CVE-2018-5743.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.6,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2018-5743"
+    },
+    {
+      "cve": "CVE-2019-6465",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-6465"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Controls for zone transfers may not be properly applied to Dynamically Loadable Zones (DLZs) if the zones are writable Versions affected: BIND 9.9.0 -\u003e 9.10.8-P1, 9.11.0 -\u003e 9.11.5-P2, 9.12.0 -\u003e 9.12.3-P2, and versions 9.9.3-S1 -\u003e 9.11.5-S3 of BIND 9 Supported Preview Edition. Versions 9.13.0 -\u003e 9.13.6 of the 9.13 development branch are also affected. Versions prior to BIND 9.9.0 have not been evaluated for vulnerability to CVE-2019-6465.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 3.7,
+            "baseSeverity": "LOW",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Low"
+        }
+      ],
+      "title": "CVE-2019-6465"
+    },
+    {
+      "cve": "CVE-2019-6471",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2019-6471"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A race condition which may occur when discarding malformed packets can result in BIND exiting due to a REQUIRE assertion failure in dispatch.c. Versions affected: BIND 9.11.0 -\u003e 9.11.7, 9.12.0 -\u003e 9.12.4-P1, 9.14.0 -\u003e 9.14.2. Also all releases of the BIND 9.13 development branch and version 9.15.0 of the BIND 9.15 development branch and BIND Supported Preview Edition versions 9.11.3-S1 -\u003e 9.11.7-S1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.0",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2019-6471"
+    },
+    {
+      "cve": "CVE-2020-8616",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8616"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A malicious actor who intentionally exploits this lack of effective limitation on the number of fetches performed when processing referrals can, through the use of specially crafted referrals, cause a recursing server to issue a very large number of fetches in an attempt to process the referral. This has at least two potential effects: The performance of the recursing server can potentially be degraded by the additional work required to perform these fetches, and The attacker can exploit this behavior to use the recursing server as a reflector in a reflection attack with a high amplification factor.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.6,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8616"
+    },
+    {
+      "cve": "CVE-2020-8617",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8617"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Using a specially-crafted message, an attacker may potentially cause a BIND server to reach an inconsistent state if the attacker knows (or successfully guesses) the name of a TSIG key used by the server. Since BIND, by default, configures a local session key even on servers whose configuration does not otherwise make use of it, almost all current BIND servers are vulnerable. In releases of BIND dating from March 2018 and after, an assertion check in tsig.c detects this inconsistent state and deliberately exits. Prior to the introduction of the check the server would continue operating in an inconsistent state, with potentially harmful results.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8617"
+    },
+    {
+      "cve": "CVE-2020-8622",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8622"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In BIND 9.0.0 -\u003e 9.11.21, 9.12.0 -\u003e 9.16.5, 9.17.0 -\u003e 9.17.3, also affects 9.9.3-S1 -\u003e 9.11.21-S1 of the BIND 9 Supported Preview Edition, An attacker on the network path for a TSIG-signed request, or operating the server receiving the TSIG-signed request, could send a truncated response to that request, triggering an assertion failure, causing the server to exit. Alternately, an off-path attacker would have to correctly guess when a TSIG-signed request was sent, along with other characteristics of the packet and message, and spoof a truncated response to trigger an assertion failure, causing the server to exit.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-8622"
+    },
+    {
+      "cve": "CVE-2020-8623",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8623"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In BIND 9.10.0 -\u003e 9.11.21, 9.12.0 -\u003e 9.16.5, 9.17.0 -\u003e 9.17.3, also affects 9.10.5-S1 -\u003e 9.11.21-S1 of the BIND 9 Supported Preview Edition, An attacker that can reach a vulnerable system with a specially crafted query packet can trigger a crash. To be vulnerable, the system must: * be running BIND that was built with \"--enable-native-pkcs11\" * be signing one or more zones with an RSA key * be able to receive queries from a possible attacker",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8623"
+    },
+    {
+      "cve": "CVE-2020-8624",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8624"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In BIND 9.9.12 -\u003e 9.9.13, 9.10.7 -\u003e 9.10.8, 9.11.3 -\u003e 9.11.21, 9.12.1 -\u003e 9.16.5, 9.17.0 -\u003e 9.17.3, also affects 9.9.12-S1 -\u003e 9.9.13-S1, 9.11.3-S1 -\u003e 9.11.21-S1 of the BIND 9 Supported Preview Edition, An attacker who has been granted privileges to change a specific subset of the zone's content could abuse these unintended additional privileges to update other contents of the zone.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 4.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "LOW",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2020-8624"
+    },
+    {
+      "cve": "CVE-2020-8625",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-8625"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "BIND servers are vulnerable if they are running an affected version and are configured to use GSS-TSIG features. In a configuration which uses BIND's default settings the vulnerable code path is not exposed, but a server can be rendered vulnerable by explicitly setting valid values for the tkey-gssapi-keytab or tkey-gssapi-credentialconfiguration options. Although the default configuration is not vulnerable, GSS-TSIG is frequently used in networks where BIND is integrated with Samba, as well as in mixed-server environments that combine BIND servers with Active Directory domain controllers. The most likely outcome of a successful exploitation of the vulnerability is a crash of the named process. However, remote code execution, while unproven, is theoretically possible. Affects: BIND 9.5.0 -\u003e 9.11.27, 9.12.0 -\u003e 9.16.11, and versions BIND 9.11.3-S1 -\u003e 9.11.27-S1 and 9.16.8-S1 -\u003e 9.16.11-S1 of BIND Supported Preview Edition. Also release versions 9.17.0 -\u003e 9.17.1 of the BIND 9.17 development branch",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-8625"
+    },
+    {
+      "cve": "CVE-2021-25219",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-25219"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In BIND 9.3.0 -\u003e 9.11.35, 9.12.0 -\u003e 9.16.21, and versions 9.9.3-S1 -\u003e 9.11.35-S1 and 9.16.8-S1 -\u003e 9.16.21-S1 of BIND Supported Preview Edition, as well as release versions 9.17.0 -\u003e 9.17.18 of the BIND 9.17 development branch, exploitation of broken authoritative servers using a flaw in response processing can cause degradation in BIND resolver performance. The way the lame cache is currently designed makes it possible for its internal data structures to grow almost infinitely, which may cause significant delays in client query processing.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-9.11.36-3.an8.src",
+          "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+          "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+          "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:bind-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-9.11.36-3.an8.src",
+            "Anolis OS 8:bind-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-export-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-libs-lite-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-license-9.11.36-3.an8.noarch",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-lite-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-devel-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-libs-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-pkcs11-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-sdb-chroot-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.aarch64",
+            "Anolis OS 8:bind-utils-9.11.36-3.an8.x86_64",
+            "Anolis OS 8:python3-bind-9.11.36-3.an8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "LOW",
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-06-15 11:37:34",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2021-25219"
+    }
+  ]
+}
