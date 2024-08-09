@@ -1,0 +1,781 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0544",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "linux-firmware security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0544",
+    "tracking": {
+      "current_release_date": "2023-09-29 12:24:34",
+      "id": "ANSA-2023:0544",
+      "initial_release_date": "2023-09-29 12:24:34",
+      "revision_history": [
+        {
+          "date": "2023-09-29 12:24:34",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+                  "product_id": "iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+                  "product_id": "iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+                  "product_id": "iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+                  "product_id": "iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+                  "product_id": "iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+                  "product_id": "iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+                  "product_id": "iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+                  "product_id": "iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_id": "iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+                  "product_id": "iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+                "product": {
+                  "name": "iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+                  "product_id": "iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+                "product": {
+                  "name": "libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_id": "libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+                "product": {
+                  "name": "libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_id": "libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+                "product": {
+                  "name": "libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_id": "libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+                "product": {
+                  "name": "libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_id": "libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+                "product": {
+                  "name": "linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_id": "linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "linux-firmware-20230404-117.git2e92a49f.an8.src",
+                "product": {
+                  "name": "linux-firmware-20230404-117.git2e92a49f.an8.src",
+                  "product_id": "linux-firmware-20230404-117.git2e92a49f.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "linux-firmware-20230404-117.git2e92a49f.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.src"
+        },
+        "product_reference": "linux-firmware-20230404-117.git2e92a49f.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl100-firmware-39.31.5.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl100-firmware-39.31.5.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl1000-firmware-39.31.5.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl1000-firmware-39.31.5.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl105-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl105-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl135-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl135-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl2000-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl2000-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl2030-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl2030-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl3160-firmware-25.30.13.0-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl3160-firmware-25.30.13.0-117.an8.1.noarch"
+        },
+        "product_reference": "iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl3945-firmware-15.32.2.9-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl3945-firmware-15.32.2.9-117.an8.1.noarch"
+        },
+        "product_reference": "iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl4965-firmware-228.61.2.24-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl4965-firmware-228.61.2.24-117.an8.1.noarch"
+        },
+        "product_reference": "iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl5150-firmware-8.24.2.2-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl5150-firmware-8.24.2.2-117.an8.1.noarch"
+        },
+        "product_reference": "iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl6000-firmware-9.221.4.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl6000-firmware-9.221.4.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl6050-firmware-41.28.5.1-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl6050-firmware-41.28.5.1-117.an8.1.noarch"
+        },
+        "product_reference": "iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "iwl7260-firmware-25.30.13.0-117.an8.1.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:iwl7260-firmware-25.30.13.0-117.an8.1.noarch"
+        },
+        "product_reference": "iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch"
+        },
+        "product_reference": "libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch"
+        },
+        "product_reference": "libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch"
+        },
+        "product_reference": "libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch"
+        },
+        "product_reference": "libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "linux-firmware-20230404-117.git2e92a49f.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.noarch"
+        },
+        "product_reference": "linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-20593",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-20593"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "An issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+          "Anolis OS 8:iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+          "Anolis OS 8:iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+          "Anolis OS 8:iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+          "Anolis OS 8:iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+          "Anolis OS 8:iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+          "Anolis OS 8:iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+          "Anolis OS 8:libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+          "Anolis OS 8:libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+          "Anolis OS 8:libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+          "Anolis OS 8:libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+          "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+          "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:iwl100-firmware-39.31.5.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl1000-firmware-39.31.5.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl105-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl135-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl2000-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl2030-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl3160-firmware-25.30.13.0-117.an8.1.noarch",
+            "Anolis OS 8:iwl3945-firmware-15.32.2.9-117.an8.1.noarch",
+            "Anolis OS 8:iwl4965-firmware-228.61.2.24-117.an8.1.noarch",
+            "Anolis OS 8:iwl5000-firmware-8.83.5.1_1-117.an8.1.noarch",
+            "Anolis OS 8:iwl5150-firmware-8.24.2.2-117.an8.1.noarch",
+            "Anolis OS 8:iwl6000-firmware-9.221.4.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl6000g2a-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl6000g2b-firmware-18.168.6.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl6050-firmware-41.28.5.1-117.an8.1.noarch",
+            "Anolis OS 8:iwl7260-firmware-25.30.13.0-117.an8.1.noarch",
+            "Anolis OS 8:libertas-sd8686-firmware-20230404-117.git2e92a49f.an8.noarch",
+            "Anolis OS 8:libertas-sd8787-firmware-20230404-117.git2e92a49f.an8.noarch",
+            "Anolis OS 8:libertas-usb8388-firmware-20230404-117.git2e92a49f.an8.noarch",
+            "Anolis OS 8:libertas-usb8388-olpc-firmware-20230404-117.git2e92a49f.an8.noarch",
+            "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.noarch",
+            "Anolis OS 8:linux-firmware-20230404-117.git2e92a49f.an8.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-07-25 06:30:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-20593"
+    }
+  ]
+}
