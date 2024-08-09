@@ -1,0 +1,692 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0506",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "cups security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0506",
+    "tracking": {
+      "current_release_date": "2023-09-08 16:25:17",
+      "id": "ANSA-2023:0506",
+      "initial_release_date": "2023-09-08 16:25:17",
+      "revision_history": [
+        {
+          "date": "2023-09-08 16:25:17",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cups-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-client-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-client-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-client-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-devel-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-devel-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-devel-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-libs-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-libs-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-libs-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-lpd-2.2.6-52.0.1.an8.aarch64",
+                "product": {
+                  "name": "cups-lpd-2.2.6-52.0.1.an8.aarch64",
+                  "product_id": "cups-lpd-2.2.6-52.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cups-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-client-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-client-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-client-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-devel-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-devel-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-devel-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-libs-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-libs-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-libs-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+                "product": {
+                  "name": "cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+                  "product_id": "cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cups-doc-2.2.6-52.0.1.an8.noarch",
+                "product": {
+                  "name": "cups-doc-2.2.6-52.0.1.an8.noarch",
+                  "product_id": "cups-doc-2.2.6-52.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-filesystem-2.2.6-52.0.1.an8.noarch",
+                "product": {
+                  "name": "cups-filesystem-2.2.6-52.0.1.an8.noarch",
+                  "product_id": "cups-filesystem-2.2.6-52.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cups-2.2.6-52.0.1.an8.src",
+                "product": {
+                  "name": "cups-2.2.6-52.0.1.an8.src",
+                  "product_id": "cups-2.2.6-52.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "cups-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-client-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-client-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-client-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-devel-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-devel-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-devel-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-libs-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-libs-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-libs-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "cups-lpd-2.2.6-52.0.1.an8.x86_64",
+                "product": {
+                  "name": "cups-lpd-2.2.6-52.0.1.an8.x86_64",
+                  "product_id": "cups-lpd-2.2.6-52.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-client-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-client-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-devel-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-devel-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-ipptool-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-libs-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-libs-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-lpd-2.2.6-52.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.aarch64"
+        },
+        "product_reference": "cups-lpd-2.2.6-52.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-client-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-client-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-devel-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-devel-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-ipptool-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-libs-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-libs-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-lpd-2.2.6-52.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.x86_64"
+        },
+        "product_reference": "cups-lpd-2.2.6-52.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-2.2.6-52.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-2.2.6-52.0.1.an8.src"
+        },
+        "product_reference": "cups-2.2.6-52.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-doc-2.2.6-52.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-doc-2.2.6-52.0.1.an8.noarch"
+        },
+        "product_reference": "cups-doc-2.2.6-52.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-filesystem-2.2.6-52.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-filesystem-2.2.6-52.0.1.an8.noarch"
+        },
+        "product_reference": "cups-filesystem-2.2.6-52.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-client-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-client-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-devel-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-devel-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-ipptool-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-libs-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-libs-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "cups-lpd-2.2.6-52.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.loongarch64"
+        },
+        "product_reference": "cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-32360",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-32360"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "通过改进状态管理解决了身份验证问题。此问题已在macOSBigSur11.7.7、macOSMonterey12.6.6、macOSVentura13.4中修复。未经身份验证的用户可能能够访问最近打印的文档。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:cups-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-2.2.6-52.0.1.an8.src",
+          "Anolis OS 8:cups-2.2.6-52.0.1.an8.x86_64",
+          "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.x86_64",
+          "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.x86_64",
+          "Anolis OS 8:cups-doc-2.2.6-52.0.1.an8.noarch",
+          "Anolis OS 8:cups-filesystem-2.2.6-52.0.1.an8.noarch",
+          "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+          "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.x86_64",
+          "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.aarch64",
+          "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+          "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:cups-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-2.2.6-52.0.1.an8.src",
+            "Anolis OS 8:cups-2.2.6-52.0.1.an8.x86_64",
+            "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-client-2.2.6-52.0.1.an8.x86_64",
+            "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-devel-2.2.6-52.0.1.an8.x86_64",
+            "Anolis OS 8:cups-doc-2.2.6-52.0.1.an8.noarch",
+            "Anolis OS 8:cups-filesystem-2.2.6-52.0.1.an8.noarch",
+            "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-ipptool-2.2.6-52.0.1.an8.x86_64",
+            "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-libs-2.2.6-52.0.1.an8.x86_64",
+            "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.aarch64",
+            "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.loongarch64",
+            "Anolis OS 8:cups-lpd-2.2.6-52.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 5.5,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-23 10:15:11",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-32360"
+    }
+  ]
+}
