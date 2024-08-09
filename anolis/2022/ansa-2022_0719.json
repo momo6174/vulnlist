@@ -1,0 +1,1666 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2022:0719",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "ruby:2.7 security, bug fix, and enhancement update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2022:0719",
+    "tracking": {
+      "current_release_date": "2022-09-27 14:53:19",
+      "id": "ANSA-2022:0719",
+      "initial_release_date": "2022-09-27 14:53:19",
+      "revision_history": [
+        {
+          "date": "2022-09-27 14:53:19",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                "product": {
+                  "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_id": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                "product": {
+                  "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_id": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+                "product": {
+                  "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_id": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                "product": {
+                  "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_id": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+                "product": {
+                  "name": "rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_id": "rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                "product": {
+                  "name": "rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_id": "rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+                "product": {
+                  "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+                  "product_id": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+                "product": {
+                  "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_id": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+                "product": {
+                  "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_id": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+                "product": {
+                  "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_id": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+                "product": {
+                  "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_id": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+                "product": {
+                  "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_id": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                "product": {
+                  "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_id": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                "product": {
+                  "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_id": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+                "product": {
+                  "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_id": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                "product": {
+                  "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_id": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64"
+        },
+        "product_reference": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64"
+        },
+        "product_reference": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64"
+        },
+        "product_reference": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64"
+        },
+        "product_reference": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src"
+        },
+        "product_reference": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src"
+        },
+        "product_reference": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src"
+        },
+        "product_reference": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src"
+        },
+        "product_reference": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src"
+        },
+        "product_reference": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src"
+        },
+        "product_reference": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64"
+        },
+        "product_reference": "rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64"
+        },
+        "product_reference": "rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64"
+        },
+        "product_reference": "rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64"
+        },
+        "product_reference": "rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch"
+        },
+        "product_reference": "rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        },
+        "product_reference": "rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-41817",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-41817"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Date.parse in the date gem through 3.2.0 for Ruby allows ReDoS (regular expression Denial of Service) via a long string. The fixed versions are 3.2.1, 3.1.2, 3.0.2, and 2.0.1.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-02-18 18:12:33",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-41817"
+    },
+    {
+      "cve": "CVE-2021-41819",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-41819"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "CGI::Cookie.parse in Ruby through 2.6.8 mishandles security prefixes in cookie names. This also affects the CGI gem through 0.3.0 for Ruby.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-02-18 18:12:33",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-41819"
+    },
+    {
+      "cve": "CVE-2022-28739",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-28739"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "There is a buffer over-read in Ruby before 2.6.10, 2.7.x before 2.7.6, 3.x before 3.0.4, and 3.1.x before 3.1.2. It occurs in String-to-Float conversion, including Kernel#Float and String#to_f.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+          "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+          "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+          "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+          "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+          "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+          "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+          "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.src",
+            "Anolis OS 8:ruby-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-default-gems-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-devel-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:ruby-doc-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:ruby-libs-2.7.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-abrt-0.4.0-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-abrt-doc-0.4.0-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-bigdecimal-2.0.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-bson-4.8.1-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-bson-doc-4.8.1-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-bundler-2.2.24-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-io-console-0.5.6-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-irb-1.2.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-json-2.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-minitest-5.13.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mongo-2.11.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mongo-doc-2.11.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-mysql2-0.5.3-1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-mysql2-doc-0.5.3-1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-net-telnet-0.2.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-openssl-2.1.3-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.aarch64",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.src",
+            "Anolis OS 8:rubygem-pg-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.x86_64",
+            "Anolis OS 8:rubygem-pg-doc-1.2.3-1.0.1.module+an8.4.0+10363+e9c841ec.noarch",
+            "Anolis OS 8:rubygem-power_assert-1.1.7-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.aarch64",
+            "Anolis OS 8:rubygem-psych-3.1.0-138.0.1.module+an8.6.0+10839+3b95d6dc.x86_64",
+            "Anolis OS 8:rubygem-rake-13.0.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-rdoc-6.2.1.1-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-test-unit-3.3.4-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygem-xmlrpc-0.3.0-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch",
+            "Anolis OS 8:rubygems-devel-3.1.6-138.0.1.module+an8.6.0+10839+3b95d6dc.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.2,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-07-12 14:47:03",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2022-28739"
+    }
+  ]
+}
