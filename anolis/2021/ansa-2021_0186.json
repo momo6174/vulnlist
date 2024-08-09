@@ -1,0 +1,876 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0186",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "redis:6 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0186",
+    "tracking": {
+      "current_release_date": "2022-10-10 17:25:38",
+      "id": "ANSA-2021:0186",
+      "initial_release_date": "2022-03-28 18:50:05",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:50:05",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2022-10-10 17:25:38",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                "product": {
+                  "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                  "product_id": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                "product": {
+                  "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                  "product_id": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch",
+                "product": {
+                  "name": "redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch",
+                  "product_id": "redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+                "product": {
+                  "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+                  "product_id": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                "product": {
+                  "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                  "product_id": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                "product": {
+                  "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                  "product_id": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64"
+        },
+        "product_reference": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64"
+        },
+        "product_reference": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64"
+        },
+        "product_reference": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64"
+        },
+        "product_reference": "redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src"
+        },
+        "product_reference": "redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        },
+        "product_reference": "redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-32626",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-32626"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. In affected versions specially crafted Lua scripts executing in Redis can cause the heap-based Lua stack to be overflowed, due to incomplete checks for this condition. This can result with heap corruption and potentially remote code execution. This problem exists in all versions of Redis with Lua scripting support, starting from 2.6. The problem is fixed in versions 6.2.6, 6.0.16 and 5.0.14. For users unable to update an additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-32626"
+    },
+    {
+      "cve": "CVE-2021-32627",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-32627"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. In affected versions an integer overflow bug in Redis can be exploited to corrupt the heap and potentially result with remote code execution. The vulnerability involves changing the default proto-max-bulk-len and client-query-buffer-limit configuration parameters to very large values and constructing specially crafted very large stream elements. The problem is fixed in Redis 6.2.6, 6.0.16 and 5.0.14. For users unable to upgrade an additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from modifying the proto-max-bulk-len configuration parameter. This can be done using ACL to restrict unprivileged users from using the CONFIG SET command.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-32627"
+    },
+    {
+      "cve": "CVE-2021-32628",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-32628"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. An integer overflow bug in the ziplist data structure used by all versions of Redis can be exploited to corrupt the heap and potentially result with remote code execution. The vulnerability involves modifying the default ziplist configuration parameters (hash-max-ziplist-entries, hash-max-ziplist-value, zset-max-ziplist-entries or zset-max-ziplist-value) to a very large value, and then constructing specially crafted commands to create very large ziplists. The problem is fixed in Redis versions 6.2.6, 6.0.16, 5.0.14. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from modifying the above configuration parameters. This can be done using ACL to restrict unprivileged users from using the CONFIG SET command.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-32628"
+    },
+    {
+      "cve": "CVE-2021-32675",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-32675"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. When parsing an incoming Redis Standard Protocol (RESP) request, Redis allocates memory according to user-specified values which determine the number of elements (in the multi-bulk header) and size of each element (in the bulk header). An attacker delivering specially crafted requests over multiple connections can cause the server to allocate significant amount of memory. Because the same parsing mechanism is used to handle authentication requests, this vulnerability can also be exploited by unauthenticated users. The problem is fixed in Redis versions 6.2.6, 6.0.16 and 5.0.14. An additional workaround to mitigate this problem without patching the redis-server executable is to block access to prevent unauthenticated users from connecting to Redis. This can be done in different ways: Using network access control tools like firewalls, iptables, security groups, etc. or Enabling TLS and requiring users to authenticate using client side certificates.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-32675"
+    },
+    {
+      "cve": "CVE-2021-32687",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-32687"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. An integer overflow bug affecting all versions of Redis can be exploited to corrupt the heap and potentially be used to leak arbitrary contents of the heap or trigger remote code execution. The vulnerability involves changing the default set-max-intset-entries configuration parameter to a very large value and constructing specially crafted commands to manipulate sets. The problem is fixed in Redis versions 6.2.6, 6.0.16 and 5.0.14. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from modifying the set-max-intset-entries configuration parameter. This can be done using ACL to restrict unprivileged users from using the CONFIG SET command.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-32687"
+    },
+    {
+      "cve": "CVE-2021-41099",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2021-41099"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Redis is an open source, in-memory database that persists on disk. An integer overflow bug in the underlying string library can be used to corrupt the heap and potentially result with denial of service or remote code execution. The vulnerability involves changing the default proto-max-bulk-len configuration parameter to a very large value and constructing specially crafted network payloads or commands. The problem is fixed in Redis versions 6.2.6, 6.0.16 and 5.0.14. An additional workaround to mitigate the problem without patching the redis-server executable is to prevent users from modifying the proto-max-bulk-len configuration parameter. This can be done using ACL to restrict unprivileged users from using the CONFIG SET command.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+          "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+          "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+          "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.src",
+            "Anolis OS 8:redis-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.aarch64",
+            "Anolis OS 8:redis-devel-6.0.9-5.module+an8.4.0+10402+8261f840.x86_64",
+            "Anolis OS 8:redis-doc-6.0.9-5.module+an8.4.0+10402+8261f840.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2021-10-25 16:31:20",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2021-41099"
+    }
+  ]
+}
