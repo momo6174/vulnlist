@@ -1,0 +1,1028 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2021:0128",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "Moderate: perl security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2021:0128",
+    "tracking": {
+      "current_release_date": "2023-02-14 16:48:39",
+      "id": "ANSA-2021:0128",
+      "initial_release_date": "2022-03-28 18:48:18",
+      "revision_history": [
+        {
+          "date": "2022-03-28 18:48:18",
+          "number": "1",
+          "summary": "Initial version"
+        },
+        {
+          "date": "2023-02-14 16:48:39",
+          "number": "2",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "perl-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Devel-Peek-1.26-417.el8.aarch64",
+                "product": {
+                  "name": "perl-Devel-Peek-1.26-417.el8.aarch64",
+                  "product_id": "perl-Devel-Peek-1.26-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Errno-1.28-417.el8.aarch64",
+                "product": {
+                  "name": "perl-Errno-1.28-417.el8.aarch64",
+                  "product_id": "perl-Errno-1.28-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-IO-1.38-417.el8.aarch64",
+                "product": {
+                  "name": "perl-IO-1.38-417.el8.aarch64",
+                  "product_id": "perl-IO-1.38-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Time-Piece-1.31-417.el8.aarch64",
+                "product": {
+                  "name": "perl-Time-Piece-1.31-417.el8.aarch64",
+                  "product_id": "perl-Time-Piece-1.31-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-devel-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-devel-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-devel-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-interpreter-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-interpreter-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-interpreter-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-libs-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-libs-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-libs-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-macros-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-macros-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-macros-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-tests-5.26.3-417.el8.aarch64",
+                "product": {
+                  "name": "perl-tests-5.26.3-417.el8.aarch64",
+                  "product_id": "perl-tests-5.26.3-417.el8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "perl-Attribute-Handlers-0.99-417.el8.noarch",
+                "product": {
+                  "name": "perl-Attribute-Handlers-0.99-417.el8.noarch",
+                  "product_id": "perl-Attribute-Handlers-0.99-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Devel-SelfStubber-1.06-417.el8.noarch",
+                "product": {
+                  "name": "perl-Devel-SelfStubber-1.06-417.el8.noarch",
+                  "product_id": "perl-Devel-SelfStubber-1.06-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-ExtUtils-Embed-1.34-417.el8.noarch",
+                "product": {
+                  "name": "perl-ExtUtils-Embed-1.34-417.el8.noarch",
+                  "product_id": "perl-ExtUtils-Embed-1.34-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+                "product": {
+                  "name": "perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+                  "product_id": "perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-IO-Zlib-1.10-417.el8.noarch",
+                "product": {
+                  "name": "perl-IO-Zlib-1.10-417.el8.noarch",
+                  "product_id": "perl-IO-Zlib-1.10-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+                "product": {
+                  "name": "perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+                  "product_id": "perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Math-Complex-1.59-417.el8.noarch",
+                "product": {
+                  "name": "perl-Math-Complex-1.59-417.el8.noarch",
+                  "product_id": "perl-Math-Complex-1.59-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Memoize-1.03-417.el8.noarch",
+                "product": {
+                  "name": "perl-Memoize-1.03-417.el8.noarch",
+                  "product_id": "perl-Memoize-1.03-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Module-Loaded-0.08-417.el8.noarch",
+                "product": {
+                  "name": "perl-Module-Loaded-0.08-417.el8.noarch",
+                  "product_id": "perl-Module-Loaded-0.08-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Net-Ping-2.55-417.el8.noarch",
+                "product": {
+                  "name": "perl-Net-Ping-2.55-417.el8.noarch",
+                  "product_id": "perl-Net-Ping-2.55-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Pod-Html-1.22.02-417.el8.noarch",
+                "product": {
+                  "name": "perl-Pod-Html-1.22.02-417.el8.noarch",
+                  "product_id": "perl-Pod-Html-1.22.02-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-SelfLoader-1.23-417.el8.noarch",
+                "product": {
+                  "name": "perl-SelfLoader-1.23-417.el8.noarch",
+                  "product_id": "perl-SelfLoader-1.23-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Test-1.30-417.el8.noarch",
+                "product": {
+                  "name": "perl-Test-1.30-417.el8.noarch",
+                  "product_id": "perl-Test-1.30-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-libnetcfg-5.26.3-417.el8.noarch",
+                "product": {
+                  "name": "perl-libnetcfg-5.26.3-417.el8.noarch",
+                  "product_id": "perl-libnetcfg-5.26.3-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-open-1.11-417.el8.noarch",
+                "product": {
+                  "name": "perl-open-1.11-417.el8.noarch",
+                  "product_id": "perl-open-1.11-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-utils-5.26.3-417.el8.noarch",
+                "product": {
+                  "name": "perl-utils-5.26.3-417.el8.noarch",
+                  "product_id": "perl-utils-5.26.3-417.el8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "perl-5.26.3-417.el8.src",
+                "product": {
+                  "name": "perl-5.26.3-417.el8.src",
+                  "product_id": "perl-5.26.3-417.el8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "perl-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Devel-Peek-1.26-417.el8.x86_64",
+                "product": {
+                  "name": "perl-Devel-Peek-1.26-417.el8.x86_64",
+                  "product_id": "perl-Devel-Peek-1.26-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Errno-1.28-417.el8.x86_64",
+                "product": {
+                  "name": "perl-Errno-1.28-417.el8.x86_64",
+                  "product_id": "perl-Errno-1.28-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-IO-1.38-417.el8.x86_64",
+                "product": {
+                  "name": "perl-IO-1.38-417.el8.x86_64",
+                  "product_id": "perl-IO-1.38-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-Time-Piece-1.31-417.el8.x86_64",
+                "product": {
+                  "name": "perl-Time-Piece-1.31-417.el8.x86_64",
+                  "product_id": "perl-Time-Piece-1.31-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-devel-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-devel-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-devel-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-interpreter-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-interpreter-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-interpreter-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-libs-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-libs-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-libs-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-macros-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-macros-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-macros-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "perl-tests-5.26.3-417.el8.x86_64",
+                "product": {
+                  "name": "perl-tests-5.26.3-417.el8.x86_64",
+                  "product_id": "perl-tests-5.26.3-417.el8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Devel-Peek-1.26-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.aarch64"
+        },
+        "product_reference": "perl-Devel-Peek-1.26-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Errno-1.28-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Errno-1.28-417.el8.aarch64"
+        },
+        "product_reference": "perl-Errno-1.28-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-IO-1.38-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-IO-1.38-417.el8.aarch64"
+        },
+        "product_reference": "perl-IO-1.38-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Time-Piece-1.31-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Time-Piece-1.31-417.el8.aarch64"
+        },
+        "product_reference": "perl-Time-Piece-1.31-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-devel-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-devel-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-devel-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-interpreter-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-interpreter-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-interpreter-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-libs-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-libs-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-libs-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-macros-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-macros-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-macros-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-tests-5.26.3-417.el8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-tests-5.26.3-417.el8.aarch64"
+        },
+        "product_reference": "perl-tests-5.26.3-417.el8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Devel-Peek-1.26-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.x86_64"
+        },
+        "product_reference": "perl-Devel-Peek-1.26-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Errno-1.28-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Errno-1.28-417.el8.x86_64"
+        },
+        "product_reference": "perl-Errno-1.28-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-IO-1.38-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-IO-1.38-417.el8.x86_64"
+        },
+        "product_reference": "perl-IO-1.38-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Time-Piece-1.31-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Time-Piece-1.31-417.el8.x86_64"
+        },
+        "product_reference": "perl-Time-Piece-1.31-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-devel-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-devel-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-devel-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-interpreter-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-interpreter-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-interpreter-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-libs-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-libs-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-libs-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-macros-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-macros-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-macros-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-tests-5.26.3-417.el8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-tests-5.26.3-417.el8.x86_64"
+        },
+        "product_reference": "perl-tests-5.26.3-417.el8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-5.26.3-417.el8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-5.26.3-417.el8.src"
+        },
+        "product_reference": "perl-5.26.3-417.el8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Attribute-Handlers-0.99-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Attribute-Handlers-0.99-417.el8.noarch"
+        },
+        "product_reference": "perl-Attribute-Handlers-0.99-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Devel-SelfStubber-1.06-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Devel-SelfStubber-1.06-417.el8.noarch"
+        },
+        "product_reference": "perl-Devel-SelfStubber-1.06-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-ExtUtils-Embed-1.34-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-ExtUtils-Embed-1.34-417.el8.noarch"
+        },
+        "product_reference": "perl-ExtUtils-Embed-1.34-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-ExtUtils-Miniperl-1.06-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-ExtUtils-Miniperl-1.06-417.el8.noarch"
+        },
+        "product_reference": "perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-IO-Zlib-1.10-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-IO-Zlib-1.10-417.el8.noarch"
+        },
+        "product_reference": "perl-IO-Zlib-1.10-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Locale-Maketext-Simple-0.21-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Locale-Maketext-Simple-0.21-417.el8.noarch"
+        },
+        "product_reference": "perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Math-Complex-1.59-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Math-Complex-1.59-417.el8.noarch"
+        },
+        "product_reference": "perl-Math-Complex-1.59-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Memoize-1.03-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Memoize-1.03-417.el8.noarch"
+        },
+        "product_reference": "perl-Memoize-1.03-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Module-Loaded-0.08-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Module-Loaded-0.08-417.el8.noarch"
+        },
+        "product_reference": "perl-Module-Loaded-0.08-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Net-Ping-2.55-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Net-Ping-2.55-417.el8.noarch"
+        },
+        "product_reference": "perl-Net-Ping-2.55-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Pod-Html-1.22.02-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Pod-Html-1.22.02-417.el8.noarch"
+        },
+        "product_reference": "perl-Pod-Html-1.22.02-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-SelfLoader-1.23-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-SelfLoader-1.23-417.el8.noarch"
+        },
+        "product_reference": "perl-SelfLoader-1.23-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-Test-1.30-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-Test-1.30-417.el8.noarch"
+        },
+        "product_reference": "perl-Test-1.30-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-libnetcfg-5.26.3-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-libnetcfg-5.26.3-417.el8.noarch"
+        },
+        "product_reference": "perl-libnetcfg-5.26.3-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-open-1.11-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-open-1.11-417.el8.noarch"
+        },
+        "product_reference": "perl-open-1.11-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "perl-utils-5.26.3-417.el8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:perl-utils-5.26.3-417.el8.noarch"
+        },
+        "product_reference": "perl-utils-5.26.3-417.el8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-12723",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2020-12723"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "regcomp.c in Perl before 5.30.3 allows a buffer overflow via a crafted regular expression because of recursive S_study_chunk calls.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:perl-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-5.26.3-417.el8.src",
+          "Anolis OS 8:perl-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-Attribute-Handlers-0.99-417.el8.noarch",
+          "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.aarch64",
+          "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.x86_64",
+          "Anolis OS 8:perl-Devel-SelfStubber-1.06-417.el8.noarch",
+          "Anolis OS 8:perl-Errno-1.28-417.el8.aarch64",
+          "Anolis OS 8:perl-Errno-1.28-417.el8.x86_64",
+          "Anolis OS 8:perl-ExtUtils-Embed-1.34-417.el8.noarch",
+          "Anolis OS 8:perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+          "Anolis OS 8:perl-IO-1.38-417.el8.aarch64",
+          "Anolis OS 8:perl-IO-1.38-417.el8.x86_64",
+          "Anolis OS 8:perl-IO-Zlib-1.10-417.el8.noarch",
+          "Anolis OS 8:perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+          "Anolis OS 8:perl-Math-Complex-1.59-417.el8.noarch",
+          "Anolis OS 8:perl-Memoize-1.03-417.el8.noarch",
+          "Anolis OS 8:perl-Module-Loaded-0.08-417.el8.noarch",
+          "Anolis OS 8:perl-Net-Ping-2.55-417.el8.noarch",
+          "Anolis OS 8:perl-Pod-Html-1.22.02-417.el8.noarch",
+          "Anolis OS 8:perl-SelfLoader-1.23-417.el8.noarch",
+          "Anolis OS 8:perl-Test-1.30-417.el8.noarch",
+          "Anolis OS 8:perl-Time-Piece-1.31-417.el8.aarch64",
+          "Anolis OS 8:perl-Time-Piece-1.31-417.el8.x86_64",
+          "Anolis OS 8:perl-devel-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-devel-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-interpreter-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-interpreter-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-libnetcfg-5.26.3-417.el8.noarch",
+          "Anolis OS 8:perl-libs-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-libs-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-macros-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-macros-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-open-1.11-417.el8.noarch",
+          "Anolis OS 8:perl-tests-5.26.3-417.el8.aarch64",
+          "Anolis OS 8:perl-tests-5.26.3-417.el8.x86_64",
+          "Anolis OS 8:perl-utils-5.26.3-417.el8.noarch"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:perl-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-5.26.3-417.el8.src",
+            "Anolis OS 8:perl-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-Attribute-Handlers-0.99-417.el8.noarch",
+            "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.aarch64",
+            "Anolis OS 8:perl-Devel-Peek-1.26-417.el8.x86_64",
+            "Anolis OS 8:perl-Devel-SelfStubber-1.06-417.el8.noarch",
+            "Anolis OS 8:perl-Errno-1.28-417.el8.aarch64",
+            "Anolis OS 8:perl-Errno-1.28-417.el8.x86_64",
+            "Anolis OS 8:perl-ExtUtils-Embed-1.34-417.el8.noarch",
+            "Anolis OS 8:perl-ExtUtils-Miniperl-1.06-417.el8.noarch",
+            "Anolis OS 8:perl-IO-1.38-417.el8.aarch64",
+            "Anolis OS 8:perl-IO-1.38-417.el8.x86_64",
+            "Anolis OS 8:perl-IO-Zlib-1.10-417.el8.noarch",
+            "Anolis OS 8:perl-Locale-Maketext-Simple-0.21-417.el8.noarch",
+            "Anolis OS 8:perl-Math-Complex-1.59-417.el8.noarch",
+            "Anolis OS 8:perl-Memoize-1.03-417.el8.noarch",
+            "Anolis OS 8:perl-Module-Loaded-0.08-417.el8.noarch",
+            "Anolis OS 8:perl-Net-Ping-2.55-417.el8.noarch",
+            "Anolis OS 8:perl-Pod-Html-1.22.02-417.el8.noarch",
+            "Anolis OS 8:perl-SelfLoader-1.23-417.el8.noarch",
+            "Anolis OS 8:perl-Test-1.30-417.el8.noarch",
+            "Anolis OS 8:perl-Time-Piece-1.31-417.el8.aarch64",
+            "Anolis OS 8:perl-Time-Piece-1.31-417.el8.x86_64",
+            "Anolis OS 8:perl-devel-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-devel-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-interpreter-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-interpreter-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-libnetcfg-5.26.3-417.el8.noarch",
+            "Anolis OS 8:perl-libs-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-libs-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-macros-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-macros-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-open-1.11-417.el8.noarch",
+            "Anolis OS 8:perl-tests-5.26.3-417.el8.aarch64",
+            "Anolis OS 8:perl-tests-5.26.3-417.el8.x86_64",
+            "Anolis OS 8:perl-utils-5.26.3-417.el8.noarch"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2020-06-02 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2020-12723"
+    }
+  ]
+}
