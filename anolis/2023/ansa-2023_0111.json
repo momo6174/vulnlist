@@ -1,0 +1,1146 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0111",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "postgresql:13 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0111",
+    "tracking": {
+      "current_release_date": "2023-04-12 13:33:40",
+      "id": "ANSA-2023:0111",
+      "initial_release_date": "2023-04-12 13:33:40",
+      "revision_history": [
+        {
+          "date": "2023-04-12 13:33:40",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+                "product": {
+                  "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_id": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+                "product": {
+                  "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_id": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+                "product": {
+                  "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_id": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                "product": {
+                  "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_id": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+                "product": {
+                  "name": "postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+                  "product_id": "postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+                "product": {
+                  "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+                  "product_id": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+                "product": {
+                  "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+                  "product_id": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+                "product": {
+                  "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+                  "product_id": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+                "product": {
+                  "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+                  "product_id": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+                "product": {
+                  "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_id": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+                "product": {
+                  "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_id": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+                "product": {
+                  "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_id": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                "product": {
+                  "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_id": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64"
+        },
+        "product_reference": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64"
+        },
+        "product_reference": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64"
+        },
+        "product_reference": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64"
+        },
+        "product_reference": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64"
+        },
+        "product_reference": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64"
+        },
+        "product_reference": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64"
+        },
+        "product_reference": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        },
+        "product_reference": "postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src"
+        },
+        "product_reference": "pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src"
+        },
+        "product_reference": "pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src"
+        },
+        "product_reference": "postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src"
+        },
+        "product_reference": "postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch"
+        },
+        "product_reference": "postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-2625",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-2625"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A vulnerability was found in PostgreSQL. This attack requires permission to create non-temporary objects in at least one schema, the ability to lure or wait for an administrator to create or update an affected extension in that schema, and the ability to lure or wait for a victim to use the object targeted in CREATE OR REPLACE or CREATE IF NOT EXISTS. Given all three prerequisites, this flaw allows an attacker to run arbitrary code as the victim role, which may be a superuser.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+          "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+            "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.1,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2022-11-02 09:06:10",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-2625"
+    },
+    {
+      "cve": "CVE-2022-41862",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-41862"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found In PostgreSQL. A modified, unauthenticated server can send an unterminated string during the establishment of Kerberos transport encryption. In certain conditions, a server can cause a libpq client to over-read and report an error message containing uninitialized bytes.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+          "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+          "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+          "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+          "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+          "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:pg_repack-1.4.6-3.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:pgaudit-1.5.0-1.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.aarch64",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.src",
+            "Anolis OS 8:postgres-decoderbufs-0.10.0-2.module+an8.7.0+10999+939f2fc1.x86_64",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.src",
+            "Anolis OS 8:postgresql-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-contrib-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-docs-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-plperl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-plpython3-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-pltcl-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-server-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-server-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-static-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-test-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-test-rpm-macros-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.noarch",
+            "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-upgrade-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64",
+            "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.aarch64",
+            "Anolis OS 8:postgresql-upgrade-devel-13.10-1.0.1.module+an8.7.0+11027+0fed00d7.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "HIGH",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 3.7,
+            "baseSeverity": "LOW",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-03-04 00:15:00",
+          "details": "Low"
+        }
+      ],
+      "title": "CVE-2022-41862"
+    }
+  ]
+}
