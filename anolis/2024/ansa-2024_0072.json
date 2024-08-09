@@ -1,0 +1,1353 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Important"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2024:0072",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "gimp:2.8 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2024:0072",
+    "tracking": {
+      "current_release_date": "2024-03-01 18:22:14",
+      "id": "ANSA-2024:0072",
+      "initial_release_date": "2024-03-01 18:22:14",
+      "revision_history": [
+        {
+          "date": "2024-03-01 18:22:14",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                "product": {
+                  "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_id": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                "product": {
+                  "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_id": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+                "product": {
+                  "name": "pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+                  "product_id": "pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+                "product": {
+                  "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+                  "product_id": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+                "product": {
+                  "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+                  "product_id": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+                "product": {
+                  "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+                  "product_id": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src",
+                "product": {
+                  "name": "python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src",
+                  "product_id": "python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                "product": {
+                  "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_id": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64"
+        },
+        "product_reference": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64"
+        },
+        "product_reference": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src"
+        },
+        "product_reference": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src"
+        },
+        "product_reference": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src"
+        },
+        "product_reference": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src"
+        },
+        "product_reference": "python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch"
+        },
+        "product_reference": "pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64"
+        },
+        "product_reference": "python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-44442",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-44442"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A parsing vulnerability was found in the GNU Image Manipulation Program (GIMP). This flaw allows an unauthenticated, remote attacker to trick a GIMP user into opening a malicious PSD file, possibly enabling the execution of unauthorized code within the GIMP process.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-11-14 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-44442"
+    },
+    {
+      "cve": "CVE-2023-44444",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-44444"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A parsing vulnerability was found in the GNU Image Manipulation Program (GIMP). This flaw allows an unauthenticated, remote attacker to trick a GIMP user into opening a malicious PSP file, possibly enabling the execution of unauthorized code within the GIMP process.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+          "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+          "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+          "Anolis OS 8:python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:gimp-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-devel-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-devel-tools-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:gimp-libs-2.8.22-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:pygobject2-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-codegen-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-devel-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygobject2-doc-2.28.7-4.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.src",
+            "Anolis OS 8:pygtk2-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-codegen-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:pygtk2-devel-2.24.0-25.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:pygtk2-doc-2.24.0-25.module+an8.9.0+11175+3f45288f.noarch",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:python2-cairo-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.aarch64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.loongarch64",
+            "Anolis OS 8:python2-cairo-devel-1.16.3-6.module+an8.9.0+11175+3f45288f.x86_64",
+            "Anolis OS 8:python2-pycairo-1.16.3-6.module+an8.9.0+11175+3f45288f.src"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-11-14 00:00:00",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2023-44444"
+    }
+  ]
+}
