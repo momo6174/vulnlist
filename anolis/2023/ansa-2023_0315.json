@@ -1,0 +1,1413 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0315",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "freeradius:3.0 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0315",
+    "tracking": {
+      "current_release_date": "2023-06-26 14:27:47",
+      "id": "ANSA-2023:0315",
+      "initial_release_date": "2023-06-26 14:27:47",
+      "revision_history": [
+        {
+          "date": "2023-06-26 14:27:47",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                "product": {
+                  "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_id": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                "product": {
+                  "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_id": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+                "product": {
+                  "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+                  "product_id": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                "product": {
+                  "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_id": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64"
+        },
+        "product_reference": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        },
+        "product_reference": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src"
+        },
+        "product_reference": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64"
+        },
+        "product_reference": "python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-41859",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-41859"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In freeradius, the EAP-PWD function compute_password_element() leaks information about the password which allows an attacker to substantially reduce the size of an offline dictionary attack.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "NONE",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-25 15:58:18",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-41859"
+    },
+    {
+      "cve": "CVE-2022-41860",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-41860"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "In freeradius, when an EAP-SIM supplicant sends an unknown SIM option, the server will try to look that option up in the internal dictionaries. This lookup will fail, but the SIM code will not check for that failure. Instead, it will dereference a NULL pointer, and cause the server to crash.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-25 15:58:18",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-41860"
+    },
+    {
+      "cve": "CVE-2022-41861",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2022-41861"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "A flaw was found in freeradius. A malicious RADIUS client or home server can send a malformed abinary attribute which can cause the server to crash.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+          "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+          "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.src",
+            "Anolis OS 8:freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-devel-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-doc-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-krb5-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-ldap-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-mysql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-perl-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-postgresql-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-rest-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-sqlite-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-unixODBC-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:freeradius-utils-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.aarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.loongarch64",
+            "Anolis OS 8:python3-freeradius-3.0.20-14.module+an8.7.0+11040+9d74638a.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.5,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-25 15:58:18",
+          "details": "Important"
+        }
+      ],
+      "title": "CVE-2022-41861"
+    }
+  ]
+}
