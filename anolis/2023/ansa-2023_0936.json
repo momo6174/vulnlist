@@ -1,0 +1,457 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0936",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "libX11 security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0936",
+    "tracking": {
+      "current_release_date": "2023-12-21 16:22:02",
+      "id": "ANSA-2023:0936",
+      "initial_release_date": "2023-12-21 16:22:02",
+      "revision_history": [
+        {
+          "date": "2023-12-21 16:22:02",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libX11-1.7.0-8.an8.aarch64",
+                "product": {
+                  "name": "libX11-1.7.0-8.an8.aarch64",
+                  "product_id": "libX11-1.7.0-8.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-devel-1.7.0-8.an8.aarch64",
+                "product": {
+                  "name": "libX11-devel-1.7.0-8.an8.aarch64",
+                  "product_id": "libX11-devel-1.7.0-8.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-xcb-1.7.0-8.an8.aarch64",
+                "product": {
+                  "name": "libX11-xcb-1.7.0-8.an8.aarch64",
+                  "product_id": "libX11-xcb-1.7.0-8.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libX11-1.7.0-8.an8.loongarch64",
+                "product": {
+                  "name": "libX11-1.7.0-8.an8.loongarch64",
+                  "product_id": "libX11-1.7.0-8.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-devel-1.7.0-8.an8.loongarch64",
+                "product": {
+                  "name": "libX11-devel-1.7.0-8.an8.loongarch64",
+                  "product_id": "libX11-devel-1.7.0-8.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-xcb-1.7.0-8.an8.loongarch64",
+                "product": {
+                  "name": "libX11-xcb-1.7.0-8.an8.loongarch64",
+                  "product_id": "libX11-xcb-1.7.0-8.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libX11-common-1.7.0-8.an8.noarch",
+                "product": {
+                  "name": "libX11-common-1.7.0-8.an8.noarch",
+                  "product_id": "libX11-common-1.7.0-8.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libX11-1.7.0-8.an8.src",
+                "product": {
+                  "name": "libX11-1.7.0-8.an8.src",
+                  "product_id": "libX11-1.7.0-8.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "libX11-1.7.0-8.an8.x86_64",
+                "product": {
+                  "name": "libX11-1.7.0-8.an8.x86_64",
+                  "product_id": "libX11-1.7.0-8.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-devel-1.7.0-8.an8.x86_64",
+                "product": {
+                  "name": "libX11-devel-1.7.0-8.an8.x86_64",
+                  "product_id": "libX11-devel-1.7.0-8.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "libX11-xcb-1.7.0-8.an8.x86_64",
+                "product": {
+                  "name": "libX11-xcb-1.7.0-8.an8.x86_64",
+                  "product_id": "libX11-xcb-1.7.0-8.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-1.7.0-8.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-1.7.0-8.an8.aarch64"
+        },
+        "product_reference": "libX11-1.7.0-8.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-devel-1.7.0-8.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-devel-1.7.0-8.an8.aarch64"
+        },
+        "product_reference": "libX11-devel-1.7.0-8.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-xcb-1.7.0-8.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-xcb-1.7.0-8.an8.aarch64"
+        },
+        "product_reference": "libX11-xcb-1.7.0-8.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-1.7.0-8.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-1.7.0-8.an8.x86_64"
+        },
+        "product_reference": "libX11-1.7.0-8.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-devel-1.7.0-8.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-devel-1.7.0-8.an8.x86_64"
+        },
+        "product_reference": "libX11-devel-1.7.0-8.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-xcb-1.7.0-8.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-xcb-1.7.0-8.an8.x86_64"
+        },
+        "product_reference": "libX11-xcb-1.7.0-8.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-1.7.0-8.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-1.7.0-8.an8.src"
+        },
+        "product_reference": "libX11-1.7.0-8.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-common-1.7.0-8.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-common-1.7.0-8.an8.noarch"
+        },
+        "product_reference": "libX11-common-1.7.0-8.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-1.7.0-8.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-1.7.0-8.an8.loongarch64"
+        },
+        "product_reference": "libX11-1.7.0-8.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-devel-1.7.0-8.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-devel-1.7.0-8.an8.loongarch64"
+        },
+        "product_reference": "libX11-devel-1.7.0-8.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "libX11-xcb-1.7.0-8.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:libX11-xcb-1.7.0-8.an8.loongarch64"
+        },
+        "product_reference": "libX11-xcb-1.7.0-8.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-3138",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-3138"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "libX11中发现漏洞。出现安全漏洞的原因是libX11的src/InitExt.c中的函数不检查为请求、事件或错误ID提供的值是否在这些函数写入的数组的范围内，并使用这些ID作为数组索引。它们相信它们是用Xserver提供的值调用的，这些值遵守X11协议中指定的边界，就像X.Org提供的所有X服务器一样。由于协议仅为这些值指定单个字节，因此恶意服务器（或恶意中间代理）提供的越界值只能覆盖Display结构的其他部分，而不能写入Display结构之外显示结构本身的边界，可能会导致客户端因内存损坏而崩溃。",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:libX11-1.7.0-8.an8.aarch64",
+          "Anolis OS 8:libX11-1.7.0-8.an8.loongarch64",
+          "Anolis OS 8:libX11-1.7.0-8.an8.src",
+          "Anolis OS 8:libX11-1.7.0-8.an8.x86_64",
+          "Anolis OS 8:libX11-common-1.7.0-8.an8.noarch",
+          "Anolis OS 8:libX11-devel-1.7.0-8.an8.aarch64",
+          "Anolis OS 8:libX11-devel-1.7.0-8.an8.loongarch64",
+          "Anolis OS 8:libX11-devel-1.7.0-8.an8.x86_64",
+          "Anolis OS 8:libX11-xcb-1.7.0-8.an8.aarch64",
+          "Anolis OS 8:libX11-xcb-1.7.0-8.an8.loongarch64",
+          "Anolis OS 8:libX11-xcb-1.7.0-8.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:libX11-1.7.0-8.an8.aarch64",
+            "Anolis OS 8:libX11-1.7.0-8.an8.loongarch64",
+            "Anolis OS 8:libX11-1.7.0-8.an8.src",
+            "Anolis OS 8:libX11-1.7.0-8.an8.x86_64",
+            "Anolis OS 8:libX11-common-1.7.0-8.an8.noarch",
+            "Anolis OS 8:libX11-devel-1.7.0-8.an8.aarch64",
+            "Anolis OS 8:libX11-devel-1.7.0-8.an8.loongarch64",
+            "Anolis OS 8:libX11-devel-1.7.0-8.an8.x86_64",
+            "Anolis OS 8:libX11-xcb-1.7.0-8.an8.aarch64",
+            "Anolis OS 8:libX11-xcb-1.7.0-8.an8.loongarch64",
+            "Anolis OS 8:libX11-xcb-1.7.0-8.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.3,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-15 16:00:00",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-3138"
+    }
+  ]
+}
