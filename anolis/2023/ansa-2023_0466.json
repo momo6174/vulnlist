@@ -1,0 +1,687 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "namespace": "https://openanolis.cn/sig/SIG-Infra/doc/1014149186600348472",
+      "text": "Moderate"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "text": "Copyright © OpenAnolis.cn All rights reserved",
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en",
+    "notes": [
+      {
+        "category": "summary",
+        "text": "OpenAnolis ANSA-2023:0466",
+        "title": "Title"
+      },
+      {
+        "category": "description",
+        "text": "dbus security update",
+        "title": "Description of the Errata"
+      },
+      {
+        "category": "legal_disclaimer",
+        "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to OpenAnolis. and provide a link to the original.",
+        "title": "Terms of Use"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "contact_details": "https://openanolis.cn/page/contact",
+      "issuing_authority": "OpenAnolis Product Security is responsible for vulnerability handling across all OpenAnolis offerings.",
+      "name": "Anolis OS Product Security Team",
+      "namespace": "https://openanolis.cn/"
+    },
+    "references": [
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      },
+      {
+        "RefID": "",
+        "RefURL": "",
+        "Source": ""
+      }
+    ],
+    "title": "OpenAnolis Errata ANSA-2023:0466",
+    "tracking": {
+      "current_release_date": "2023-08-25 17:09:07",
+      "id": "ANSA-2023:0466",
+      "initial_release_date": "2023-08-25 17:09:07",
+      "revision_history": [
+        {
+          "date": "2023-08-25 17:09:07",
+          "number": "1",
+          "summary": "Current version"
+        }
+      ]
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_name",
+                "name": "Anolis OS 8",
+                "product": {
+                  "name": "Anolis OS 8",
+                  "product_id": "Anolis OS 8",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "product_family",
+            "name": "OpenAnolis Linux"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dbus-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-devel-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-devel-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-devel-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-libs-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-libs-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-libs-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-tools-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-tools-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-tools-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-x11-1.12.8-25.0.1.an8.aarch64",
+                "product": {
+                  "name": "dbus-x11-1.12.8-25.0.1.an8.aarch64",
+                  "product_id": "dbus-x11-1.12.8-25.0.1.an8.aarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "aarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dbus-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+                "product": {
+                  "name": "dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+                  "product_id": "dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "loongarch64"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dbus-common-1.12.8-25.0.1.an8.noarch",
+                "product": {
+                  "name": "dbus-common-1.12.8-25.0.1.an8.noarch",
+                  "product_id": "dbus-common-1.12.8-25.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-doc-1.12.8-25.0.1.an8.noarch",
+                "product": {
+                  "name": "dbus-doc-1.12.8-25.0.1.an8.noarch",
+                  "product_id": "dbus-doc-1.12.8-25.0.1.an8.noarch",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "noarch"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dbus-1.12.8-25.0.1.an8.src",
+                "product": {
+                  "name": "dbus-1.12.8-25.0.1.an8.src",
+                  "product_id": "dbus-1.12.8-25.0.1.an8.src",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "src"
+          },
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "dbus-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-devel-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-devel-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-devel-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-libs-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-libs-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-libs-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-tools-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-tools-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-tools-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "dbus-x11-1.12.8-25.0.1.an8.x86_64",
+                "product": {
+                  "name": "dbus-x11-1.12.8-25.0.1.an8.x86_64",
+                  "product_id": "dbus-x11-1.12.8-25.0.1.an8.x86_64",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:o:openanolis:anolis_os:8:*:*:*:*:*:*:*"
+                  }
+                }
+              }
+            ],
+            "category": "architecture",
+            "name": "x86_64"
+          }
+        ],
+        "category": "vendor",
+        "name": "OpenAnolis"
+      }
+    ],
+    "relationships": [
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-daemon-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-devel-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-devel-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-libs-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-libs-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-tools-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-tools-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-x11-1.12.8-25.0.1.an8.aarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.aarch64"
+        },
+        "product_reference": "dbus-x11-1.12.8-25.0.1.an8.aarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-daemon-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-devel-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-devel-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-libs-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-libs-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-tools-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-tools-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-x11-1.12.8-25.0.1.an8.x86_64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.x86_64"
+        },
+        "product_reference": "dbus-x11-1.12.8-25.0.1.an8.x86_64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-1.12.8-25.0.1.an8.src as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-1.12.8-25.0.1.an8.src"
+        },
+        "product_reference": "dbus-1.12.8-25.0.1.an8.src",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-common-1.12.8-25.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-common-1.12.8-25.0.1.an8.noarch"
+        },
+        "product_reference": "dbus-common-1.12.8-25.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-doc-1.12.8-25.0.1.an8.noarch as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-doc-1.12.8-25.0.1.an8.noarch"
+        },
+        "product_reference": "dbus-doc-1.12.8-25.0.1.an8.noarch",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-daemon-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-devel-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-libs-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-tools-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      },
+      {
+        "category": "default_component_of",
+        "full_product_name": {
+          "name": "dbus-x11-1.12.8-25.0.1.an8.loongarch64 as component of Anolis OS 8",
+          "product_id": "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.loongarch64"
+        },
+        "product_reference": "dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+        "relates_to_product_reference": "Anolis OS 8"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2023-34969",
+      "ids": [
+        {
+          "system_name": "OpenAnolis CVE Page",
+          "text": "https://anas.openanolis.cn/cves/detail/CVE-2023-34969"
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.",
+          "title": "Vulnerability description"
+        },
+        {
+          "category": "general",
+          "text": "The CVSS score(s) listed for this vulnerability do not reflect the associated product's status, and are included for informational purposes to better understand the severity of this vulnerability.",
+          "title": "CVSS score applicability"
+        }
+      ],
+      "product_status": {
+        "fixed": [
+          "Anolis OS 8:dbus-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-1.12.8-25.0.1.an8.src",
+          "Anolis OS 8:dbus-1.12.8-25.0.1.an8.x86_64",
+          "Anolis OS 8:dbus-common-1.12.8-25.0.1.an8.noarch",
+          "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+          "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.x86_64",
+          "Anolis OS 8:dbus-doc-1.12.8-25.0.1.an8.noarch",
+          "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.x86_64",
+          "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.x86_64",
+          "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.aarch64",
+          "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+          "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.x86_64"
+        ]
+      },
+      "references": [
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        },
+        {
+          "RefID": "",
+          "RefURL": "",
+          "Source": ""
+        }
+      ],
+      "remediations": [
+        {
+          "category": "vendor_fix",
+          "details": "To fix this cve, please use the installation method recommended by Anolis: find the corresponding system's errata on the cve page, and then use errata to fix it. For details, please refer to references. For example, to fix a cve on Anolis OS 23: yum update --advisory ANSA-2024: xxxx",
+          "product_ids": [
+            "Anolis OS 8:dbus-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-1.12.8-25.0.1.an8.src",
+            "Anolis OS 8:dbus-1.12.8-25.0.1.an8.x86_64",
+            "Anolis OS 8:dbus-common-1.12.8-25.0.1.an8.noarch",
+            "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-daemon-1.12.8-25.0.1.an8.x86_64",
+            "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-devel-1.12.8-25.0.1.an8.x86_64",
+            "Anolis OS 8:dbus-doc-1.12.8-25.0.1.an8.noarch",
+            "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-libs-1.12.8-25.0.1.an8.x86_64",
+            "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-tools-1.12.8-25.0.1.an8.x86_64",
+            "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.aarch64",
+            "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.loongarch64",
+            "Anolis OS 8:dbus-x11-1.12.8-25.0.1.an8.x86_64"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 6.2,
+            "baseSeverity": "MEDIUM",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "version": "3.1",
+            "products": null
+          }
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2023-06-07 19:15:08",
+          "details": "Moderate"
+        }
+      ],
+      "title": "CVE-2023-34969"
+    }
+  ]
+}
